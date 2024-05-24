@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     runtimeConfig: {
         public: {
             googleAPIKey: process.env.GOOGLE_API_KEY,
+            mapId: process.env.MAP_ID,
         }
     },
     app: {
