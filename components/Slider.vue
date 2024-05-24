@@ -26,6 +26,8 @@ onMounted(()=>{
       prevEl: '.btn-prev',
     },
 
+    allowTouchMove: false,
+
     breakpoints: {
       300: {
         direction: 'horizontal',
@@ -105,7 +107,7 @@ function sentenceToWords(str) {
 <template>
   <div class="location-slider relative md:h-full md:w-full w-auto md:max-w-full max-w-[300px] mx-auto z-0">
     <!-- Slider main container -->
-    <div class="swiper md:h-full ">
+    <div class="swiper md:h-full">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
         <!-- Slides -->
@@ -113,7 +115,6 @@ function sentenceToWords(str) {
             v-for="(item, index) in items"
             :key="item"
             class="swiper-slide md:block flex flex-col justify-end py-2"
-            :class="{'z-10' : index === 0}"
         >
 
           <div class="relative">
@@ -226,10 +227,24 @@ function sentenceToWords(str) {
               </div>
             </div>
 
+            <!--top arrow-->
             <button
-                v-if="index === 0"
+                v-if="index !== 0"
+                @click="prevSlide()"
+                class="absolute left-[50%] -ml-[23px] -top-[34px] z-[99] md:block hidden rotate-180"
+            >
+              <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="1.5" y="1.5" width="43" height="43" rx="21.5" fill="#0062E3"/>
+                <rect x="1.5" y="1.5" width="43" height="43" rx="21.5" stroke="white" stroke-width="3"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M22.3335 18.3334V25.7801L19.0801 22.5267C18.8201 22.2667 18.3935 22.2667 18.1335 22.5267C17.8735 22.7867 17.8735 23.2067 18.1335 23.4667L22.5268 27.8601C22.7868 28.1201 23.2068 28.1201 23.4668 27.8601L27.8601 23.4667C28.1201 23.2067 28.1201 22.7867 27.8601 22.5267C27.6001 22.2667 27.1801 22.2667 26.9201 22.5267L23.6668 25.7801V18.3334C23.6668 17.9667 23.3668 17.6667 23.0001 17.6667C22.6335 17.6667 22.3335 17.9667 22.3335 18.3334Z" fill="white"/>
+              </svg>
+            </button>
+
+            <!--bottom arrow-->
+            <button
+                v-if="index !== items.length - 1"
                 @click="nextSlide()"
-                class="absolute left-[50%] -ml-[23px] -bottom-[23px] z-[99] md:block hidden"
+                class="absolute left-[50%] -ml-[23px] -bottom-[28px] z-[99] md:block hidden"
             >
               <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="1.5" y="1.5" width="43" height="43" rx="21.5" fill="#0062E3"/>
@@ -271,6 +286,9 @@ function sentenceToWords(str) {
 <style scoped lang="scss">
 .swiper-slide {
   height: auto;
+  &.swiper-slide-active{
+    @apply z-10;
+  }
 }
 
 .location-slider{
