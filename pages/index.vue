@@ -6,7 +6,8 @@ import spain from '~/data/map/Spain.json'
 const config = useRuntimeConfig(),
     deviceSize = ref(window.innerWidth < 768 ? "mobile" : "desktop"),
     mapData = spain, // choose the country
-    points = ref([]);
+    activeSlide = ref(0),
+    loading = ref(false);
 
 
 const mapLoader = new Loader({apiKey: config.public.googleAPIKey, version: "weekly",});
@@ -17,6 +18,8 @@ mapLoader.load().then(async () => {
   );
   initMap();
 });
+
+const sliderRef = ref(null);
 
 
 function initMap() {
@@ -65,13 +68,14 @@ function drawMarkers(map) {
 
 
   mapData.points.forEach((point, index) => {
+    if (index === 0)
+      return;
     const pin = new google.maps.marker.PinElement({
       scale: .90,
       background: "#0062E3",
       borderColor: "#0062E3",
       glyphColor: "#fff",
-    });
-
+    })
 
     const marker = new google.maps.marker.AdvancedMarkerElement({
       map,
@@ -92,26 +96,50 @@ function drawMarkers(map) {
 }
 
 function changeSlide(index, markerSvg = null) {
-  if (markerSvg === null) {
-    markerSvg = document.querySelectorAll(".GMAMP-maps-pin-view")[index].querySelector("svg")
+  loading.value = true;
+  setTimeout(() => {
+    loading.value = false
+  }, 300)
+
+  if (index !== -1) {
+    if (sliderRef.value && markerSvg !== null) {
+      sliderRef.value.goToSlide(index);
+    }
+
+    if (markerSvg === null) {
+      markerSvg = document.querySelectorAll(".GMAMP-maps-pin-view")[index].querySelector("svg")
+    }
+    document.querySelectorAll('.active-marker').forEach((el) => {
+      el.classList.remove('active-marker');
+    })
+    markerSvg.classList.add('active-marker')
+  } else {
+    document.querySelectorAll('.active-marker').forEach((el) => {
+      el.classList.remove('active-marker');
+    })
   }
-  document.querySelectorAll('.active-marker').forEach((el) => {
-    el.classList.remove('active-marker');
-  })
-  markerSvg.style.transition = '.3s';
-  markerSvg.classList.add('active-marker')
+
+
 }
+
+
+watch(activeSlide, () => {
+  if (!loading.value) {
+    changeSlide(activeSlide.value - 1, null)
+  }
+
+})
 
 </script>
 
 
 <template>
   <div class="w-full h-full relative">
-    <div id="map" class="w-full h-full bg-blue-200"></div>
+    <div id="map" class="w-full h-full"></div>
 
-    <div class="absolute bg-red-400 left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-6 py-4">
+    <div class="absolute bg-overlay left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-6 py-4">
       <!--  Import the component here  -->
-      <Slider/>
+      <Slider v-model="activeSlide" :items="mapData.points" ref="sliderRef"/>
     </div>
   </div>
 
@@ -128,11 +156,23 @@ html, body, #__nuxt {
   overflow: hidden;
 }
 
-.GMAMP-maps-pin-view {
+.GMAMP-maps-pin-view svg {
   transition: .3s;
+
+  &:hover {
+    transform: scale(1.3);
+  }
 }
 
 .active-marker {
   transform: scale(1.3);
+}
+
+.bg-overlay {
+  background: linear-gradient(90deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);
+
+  @media screen and (max-width: 768px) {
+    background: linear-gradient(0deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);
+  }
 }
 </style>
