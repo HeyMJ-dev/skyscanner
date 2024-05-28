@@ -36,6 +36,7 @@ onMounted(() => {
     on: {
       slideChange: function (event) {
         activeSlide.value = event.activeIndex;
+        clickOutsideSlide();
       }
     }
   });
@@ -112,13 +113,11 @@ function sentenceToWords(str) {
 }
 
 function clickOutsideSlide() {
-  if (!loading.value && window.innerWidth < 768) {
-    document.querySelectorAll('.expand.location-description').forEach((el) => {
-      el.classList.add("overflow-hidden")
-      el.classList.remove("expand");
-      el.classList.remove("overflow-auto")
-    })
-  }
+  document.querySelectorAll('.expand.location-description').forEach((el) => {
+    el.classList.add("overflow-hidden")
+    el.classList.remove("expand");
+    el.classList.remove("overflow-auto")
+  })
 }
 
 </script>
@@ -133,7 +132,6 @@ function clickOutsideSlide() {
         <div
             v-for="(item, index) in items"
             :key="item"
-            v-click-outside="clickOutsideSlide"
             class="swiper-slide md:block flex flex-col justify-end py-2"
         >
 
@@ -242,13 +240,19 @@ function clickOutsideSlide() {
                   </div>
                 </div>
 
-                <div v-else class="md:flex hidden gap-2 justify-center text-xs">
-                  <button
-                      @click="nextSlide()"
-                      class="text-[#0062E3] font-bold"
-                  >
-                    Start roadtrip
-                  </button>
+                <div v-else class="md:block hidden  text-xs">
+                  <div class="mb-6 font-bold">
+                    <span>{{ item.steps }} stops . {{ item.duration }} travel</span>
+                  </div>
+                  <div class="md:flex gap-2 justify-center">
+                    <button
+                        @click="nextSlide()"
+                        class="text-[#0062E3] font-bold"
+                    >
+                      Start roadtrip
+                    </button>
+                  </div>
+
                 </div>
 
               </div>

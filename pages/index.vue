@@ -1,13 +1,17 @@
 <script setup>
-import {Loader} from "@googlemaps/js-api-loader"
 import spain from '~/data/map/Spain.json'
+import {Loader} from "@googlemaps/js-api-loader"
+import {gsap} from "gsap";
 
 
 const config = useRuntimeConfig(),
     deviceSize = ref(window.innerWidth < 768 ? "mobile" : "desktop"),
     mapData = spain, // choose the country
     activeSlide = ref(0),
+    markers = ref([]),
     loading = ref(false);
+
+let map = null;
 
 
 const mapLoader = new Loader({apiKey: config.public.googleAPIKey, version: "weekly",});
@@ -23,7 +27,7 @@ const sliderRef = ref(null);
 
 
 function initMap() {
-  const map = new google.maps.Map(
+  map = new google.maps.Map(
       document.getElementById("map"),
       {
         mapId: config.public.mapId,
@@ -38,8 +42,8 @@ function initMap() {
       }
   );
 
-  drawPath(map);
-  drawMarkers(map);
+  drawPath();
+  drawMarkers();
 
 
   // Helper
@@ -52,7 +56,7 @@ function initMap() {
 
 }
 
-function drawPath(map) {
+function drawPath() {
   const path = new google.maps.Polyline({
     path: mapData.route,
     geodesic: true,
@@ -64,9 +68,7 @@ function drawPath(map) {
   path.setMap(map, null);
 }
 
-function drawMarkers(map) {
-
-
+function drawMarkers() {
   mapData.points.forEach((point, index) => {
     if (index === 0)
       return;
@@ -82,7 +84,10 @@ function drawMarkers(map) {
       position: {lat: point.lat, lng: point.lng},
       content: pin.element,
       gmpClickable: true,
+      collisionBehavior: 'REQUIRED',
     })
+
+    markers.value.push(marker);
 
     marker.addListener("click", (e) => {
       let parent = e.domEvent.target;
@@ -101,31 +106,85 @@ function changeSlide(index, markerSvg = null) {
     loading.value = false
   }, 300)
 
-  if (index !== -1) {
+  if (index) {
     if (sliderRef.value && markerSvg !== null) {
       sliderRef.value.goToSlide(index);
     }
 
-    if (markerSvg === null) {
-      markerSvg = document.querySelectorAll(".GMAMP-maps-pin-view")[index].querySelector("svg")
+    /*if (markerSvg === null) {
+      markerSvg = document.querySelectorAll(".GMAMP-maps-pin-view")[index -1].querySelector("svg")
     }
     document.querySelectorAll('.active-marker').forEach((el) => {
       el.classList.remove('active-marker');
     })
-    markerSvg.classList.add('active-marker')
+    markerSvg.classList.add('active-marker');*/
+
+
+    changeCamer({
+      center: {
+        lat: mapData.points[index].lat,
+        lng: mapData.points[index].lng + (deviceSize.value === "desktop" ? -.2 : 0),
+      },
+      zoom: mapData.points[index].zoom
+    })
+
+
   } else {
     document.querySelectorAll('.active-marker').forEach((el) => {
       el.classList.remove('active-marker');
+    })
+
+    changeCamer({
+      center: {
+        lat: mapData.center[deviceSize.value].lat,
+        lng: mapData.center[deviceSize.value].lng,
+      },
+      zoom: mapData.center[deviceSize.value].zoom
     })
   }
 
 
 }
 
+function changeCamer(cameraOptions) {
+  let initCameraOption = {
+    center: {
+      lat: map.getCenter().lat(),
+      lng: map.getCenter().lng(),
+    },
+    zoom: map.getZoom(),
+  }
+
+  gsap.to(map, {
+    duration: .5,
+    ease: "ease",
+    onUpdate: function () {
+      map.moveCamera({
+        center: {
+          lat: initCameraOption.center.lat + ((cameraOptions.center.lat - initCameraOption.center.lat) * this.progress()),
+          lng: initCameraOption.center.lng + ((cameraOptions.center.lng - initCameraOption.center.lng) * this.progress()),
+        },
+        zoom: initCameraOption.zoom + ((cameraOptions.zoom - initCameraOption.zoom) * this.progress()),
+      });
+
+    }
+  })
+
+
+  /* new Tween(cameraOptions)
+       .to()
+       .easing(Easing.Quadratic.Out)
+       .onUpdate(() => {
+         console.log('eee')
+         map.moveCamera(cameraOptions);
+       })
+       .start();*/
+}
+
 
 watch(activeSlide, () => {
   if (!loading.value) {
-    changeSlide(activeSlide.value - 1, null)
+    changeSlide(activeSlide.value, null)
   }
 
 })
@@ -143,7 +202,7 @@ watch(activeSlide, () => {
     </div>
   </div>
 
-
+  <div class="test"></div>
 </template>
 
 
@@ -156,13 +215,17 @@ html, body, #__nuxt {
   overflow: hidden;
 }
 
-.GMAMP-maps-pin-view svg {
-  transition: .3s;
+.GMAMP-maps-pin-view {
+  svg {
+    transition: .3s;
 
-  &:hover {
-    transform: scale(1.3);
+
+    &:hover {
+      transform: scale(1.3);
+    }
   }
 }
+
 
 .active-marker {
   transform: scale(1.3);
