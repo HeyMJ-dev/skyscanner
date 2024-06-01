@@ -1,5 +1,6 @@
 {
   "name": "Spain",
+  "loaded": false,
   "center": {
     "desktop": {
       "lat": 42.12307422661098,

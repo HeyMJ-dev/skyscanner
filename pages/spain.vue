@@ -1,44 +1,43 @@
 <script setup>
+import spain from '~/data/map/Spain.json'
 import {Loader} from "@googlemaps/js-api-loader"
 import {gsap} from "gsap";
 
 
+
+
 const config = useRuntimeConfig(),
     deviceSize = ref(window.innerWidth < 768 ? "mobile" : "desktop"),
-    mapData = reactive({}),
-    sliderRef = ref(null),
+    mapData = spain, // choose the country
     activeSlide = ref(0),
-    loading = ref(false);
+    markers = ref([]),
+    loading = ref(false),
+    lang = inject('lang');
 
 let map = null;
 
-loadMap();
+console.log(lang)
 
 
-async function loadMap() {
-  const mapName = inject('mapName')
+const mapLoader = new Loader({apiKey: config.public.googleAPIKey, version: "weekly",});
+mapLoader.load().then(async () => {
+  const {Map, InfoWindow} = await google.maps.importLibrary("maps");
+  const {AdvancedMarkerElement, PinElement} = await google.maps.importLibrary(
+      "marker",
+  );
+  initMap();
+});
 
-  const jsonData = await import(`~/data/map/${mapName}.json`);
-  mapData.value = jsonData.default;
+const sliderRef = ref(null);
 
-
-  const mapLoader = new Loader({apiKey: config.public.googleAPIKey, version: "weekly",});
-  mapLoader.load().then(async () => {
-    const {Map, InfoWindow} = await google.maps.importLibrary("maps");
-    const {AdvancedMarkerElement, PinElement} = await google.maps.importLibrary(
-        "marker",
-    );
-    initMap();
-  });
-}
 
 function initMap() {
   map = new google.maps.Map(
       document.getElementById("map"),
       {
         mapId: config.public.mapId,
-        center: {lat: mapData.value.center[deviceSize.value].lat, lng: mapData.value.center[deviceSize.value].lng},
-        zoom: mapData.value.center[deviceSize.value].zoom,
+        center: {lat: mapData.center[deviceSize.value].lat, lng: mapData.center[deviceSize.value].lng},
+        zoom: mapData.center[deviceSize.value].zoom,
         zoomControl: true,
         mapTypeControl: false,
         scaleControl: false,
@@ -51,17 +50,20 @@ function initMap() {
   drawPath();
   drawMarkers();
 
+
   // Helper
   map.addListener("click", (e) => {
     var lat = e.latLng.lat();
     var lng = e.latLng.lng();
     console.log("Latitude: " + lat + ", Longitude: " + lng);
   });
+
+
 }
 
 function drawPath() {
   const path = new google.maps.Polyline({
-    path: mapData.value.route,
+    path: mapData.route,
     geodesic: true,
     strokeColor: "#0062E3",
     strokeOpacity: 1.0,
@@ -72,7 +74,7 @@ function drawPath() {
 }
 
 function drawMarkers() {
-  mapData.value.points.forEach((point, index) => {
+  mapData.points.forEach((point, index) => {
     if (index === 0)
       return;
     const pin = new google.maps.marker.PinElement({
@@ -90,40 +92,66 @@ function drawMarkers() {
       collisionBehavior: 'REQUIRED',
     })
 
+    markers.value.push(marker);
+
     marker.addListener("click", (e) => {
-      changeSlide(index);
+      let parent = e.domEvent.target;
+      while (parent.tagName !== "svg") {
+        parent = parent.parentNode;
+      }
+      changeSlide(index, parent);
     });
 
   })
 }
 
-function changeSlide(index) {
+function changeSlide(index, markerSvg = null) {
   loading.value = true;
   setTimeout(() => {
     loading.value = false
   }, 300)
 
   if (index) {
-    changeCamera({
+    if (sliderRef.value && markerSvg !== null) {
+      sliderRef.value.goToSlide(index);
+    }
+
+    /*if (markerSvg === null) {
+      markerSvg = document.querySelectorAll(".GMAMP-maps-pin-view")[index -1].querySelector("svg")
+    }
+    document.querySelectorAll('.active-marker').forEach((el) => {
+      el.classList.remove('active-marker');
+    })
+    markerSvg.classList.add('active-marker');*/
+
+
+    changeCamer({
       center: {
-        lat: mapData.value.points[index].lat,
-        lng: mapData.value.points[index].lng + (deviceSize.value === "desktop" ? -.2 : 0),
+        lat: mapData.points[index].lat,
+        lng: mapData.points[index].lng + (deviceSize.value === "desktop" ? -.2 : 0),
       },
-      zoom: mapData.value.points[index].zoom
+      zoom: mapData.points[index].zoom
     })
 
-  } else {  // First slide
-    changeCamera({
+
+  } else {
+    document.querySelectorAll('.active-marker').forEach((el) => {
+      el.classList.remove('active-marker');
+    })
+
+    changeCamer({
       center: {
-        lat: mapData.value.center[deviceSize.value].lat,
-        lng: mapData.value.center[deviceSize.value].lng,
+        lat: mapData.center[deviceSize.value].lat,
+        lng: mapData.center[deviceSize.value].lng,
       },
-      zoom: mapData.value.center[deviceSize.value].zoom
+      zoom: mapData.center[deviceSize.value].zoom
     })
   }
+
+
 }
 
-function changeCamera(cameraOptions) {
+function changeCamer(cameraOptions) {
   let initCameraOption = {
     center: {
       lat: map.getCenter().lat(),
@@ -143,15 +171,27 @@ function changeCamera(cameraOptions) {
         },
         zoom: initCameraOption.zoom + ((cameraOptions.zoom - initCameraOption.zoom) * this.progress()),
       });
+
     }
   })
+
+
+  /* new Tween(cameraOptions)
+       .to()
+       .easing(Easing.Quadratic.Out)
+       .onUpdate(() => {
+         console.log('eee')
+         map.moveCamera(cameraOptions);
+       })
+       .start();*/
 }
 
 
 watch(activeSlide, () => {
   if (!loading.value) {
-    changeSlide(activeSlide.value)
+    changeSlide(activeSlide.value, null)
   }
+
 })
 
 </script>
@@ -161,10 +201,13 @@ watch(activeSlide, () => {
   <div class="w-full h-full relative">
     <div id="map" class="w-full h-full"></div>
 
-    <div class="absolute bg-overlay left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-6 py-4" v-if="mapData.value">
-      <Slider v-model="activeSlide" :items="mapData.value.points" ref="sliderRef"/>
+    <div class="absolute bg-overlay left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-6 py-4">
+      <!--  Import the component here  -->
+      <Slider v-model="activeSlide" :items="mapData.points" ref="sliderRef"/>
     </div>
   </div>
+
+  <div class="test"></div>
 </template>
 
 

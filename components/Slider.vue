@@ -2,6 +2,7 @@
 const props = defineProps(["items"])
 const loading = ref(false);
 const activeSlide = defineModel()
+const lang = inject('lang');
 
 
 defineExpose({
