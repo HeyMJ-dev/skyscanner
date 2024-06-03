@@ -156,10 +156,91 @@ const countries = {
     travelMode: "DRIVING",
   },
 
+  "thailand": {
+    origin: "Bangkok, Thailand",
+    destination: "Bangkok, Thailand",
+    waypoints: [
+      {
+        location: 'Kanchanaburi, Thailand',
+        stopover: false
+      },
+      {
+        location: 'Phra Nakhon Si Ayutthaya, Phra Nakhon, Thailand',
+        stopover: false
+      }, {
+        location: 'Phitsanulok, Mueang Phitsanulok District, Thailand',
+        stopover: false
+      }, {
+        location: 'Sukhothai Historical Park, หมู่ที่ 3 498/12, Thailand',
+        stopover: false
+      }, {
+        location: 'Kamphaeng Phet, Thailand',
+        stopover: false
+      }, {
+        location: 'Nakhon Sawan, Mueang Nakhon Sawan , Thailand',
+        stopover: false
+      },
+      {
+        location: 'Lopburi, Thailand',
+        stopover: false
+      },
+      {
+        location: 'Saraburi, Thailand',
+        stopover: false
+      },
+    ],
+    optimizeWaypoints: false,
+    travelMode: "DRIVING",
+  },
+
+
+  "australia": {
+    origin: "Melbourne, Victoria, Australia",
+    destination: "Melbourne, Victoria, Australia",
+    waypoints: [
+      {
+        location: 'Torquay, Victoria 3228, Australia',
+        stopover: false
+      },
+      {
+        location: 'Lorne, Australia',
+        stopover: false
+      }, {
+        location: 'Apollo Bay, Victoria 3233, Australia',
+        stopover: false
+      }, {
+        location: 'Wattle Hill, Victoria 3237, Australia',
+        stopover: false
+      }, {
+        location: 'Warrnambool, Australia',
+        stopover: false
+      }, {
+        location: 'Grampians National Park, Victoria, Australia',
+        stopover: false
+      }, {
+        location: 'Halls Gap, Australia',
+        stopover: false
+      },{
+        location: 'Ararat, Australia',
+        stopover: false
+      },
+      {
+        location: 'Ballarat, Victoria, Australia',
+        stopover: false
+      },
+      {
+        location: 'Daylesford, Victoria 3460, Australia',
+        stopover: false
+      },
+    ],
+    optimizeWaypoints: false,
+    travelMode: "DRIVING",
+  },
+
 
 };
 
-const activeCountry = countries.portugal
+const activeCountry = countries.australia
 
 
 const config = useRuntimeConfig();
