@@ -5,7 +5,7 @@ const validLangs = ['en', 'fr', 'de', 'pt', 'sp']
 const lang = validLangs.includes(route.query.lang) ? route.query.lang : 'en';
 provide('lang', lang)
 
-const validMaps = ['spain']
+const validMaps = ['spain','morocco']
 if (validMaps.includes(route.query.map)) {
   provide('mapName', route.query.map)
 } else {

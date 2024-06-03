@@ -1,13 +1,17 @@
 <script setup>
 import {Loader} from "@googlemaps/js-api-loader"
 
+definePageMeta({
+  layout: 'admin'
+})
+
 const countries = {
   "spain": {
     origin: "Bilbao, Biscay, Spain",
     destination: "Bilbao, Biscay, Spain",
     waypoints: [
       {
-        location: 'Haro, 26200, La Rioja, Spain',
+        location: 'C. de la Vega, 31, 26200 Haro, La Rioja, Spain',
         stopover: false
       },
       {
@@ -41,10 +45,47 @@ const countries = {
     travelMode: "DRIVING",
   },
 
+  "morocco": {
+    origin: "Tangier, Morocco",
+    destination: "Tangier, Morocco",
+    waypoints: [
+      {
+        location: 'Chefchaouen, Morocco',
+        stopover: false
+      },
+      {
+        location: 'Fes, Morocco',
+        stopover: false
+      }, {
+        location: 'F23J+7XM, Douar Talat Ait Sedrat, Ait Sedrate Jbel El Soufla, Morocco',
+        stopover: false
+      }, {
+        location: 'Ouarzazate, 45000, Morocco',
+        stopover: false
+      }, {
+        location: 'Marrakesh, Morocco',
+        stopover: false
+      }, {
+        location: 'Settat, Morocco',
+        stopover: false
+      },
+      {
+        location: 'Casablanca, Morocco',
+        stopover: false
+      },
+      {
+        location: 'Rabat, Morocco',
+        stopover: false
+      },
+    ],
+    optimizeWaypoints: false,
+    travelMode: "DRIVING",
+  },
+
 
 };
 
-const activeCountry = countries.spain
+const activeCountry = countries.morocco
 
 
 const config = useRuntimeConfig();
@@ -84,7 +125,7 @@ function initMap() {
   map.addListener("click", (e) => {
     var lat = e.latLng.lat();
     var lng = e.latLng.lng();
-    console.log("Latitude: " + lat + ", Longitude: " + lng);
+    console.log("\"lat\": " + lat + ", \"lng\": " + lng + ',');
   });
 
 }

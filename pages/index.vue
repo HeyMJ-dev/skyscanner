@@ -57,7 +57,7 @@ function initMap() {
   map.addListener("click", (e) => {
     var lat = e.latLng.lat();
     var lng = e.latLng.lng();
-    console.log("Latitude: " + lat + ", Longitude: " + lng);
+    console.log("\"lat\": " + lat + ", \"lng\": " + lng + ',');
   });
 }
 
@@ -75,7 +75,7 @@ function drawPath() {
 
 function drawMarkers() {
   mapData.value.points.forEach((point, index) => {
-    if (index === 0)
+    if (index === 0 || index === mapData.value.points.length - 1)
       return;
     const pin = new google.maps.marker.PinElement({
       scale: .90,
@@ -215,7 +215,8 @@ watch(activeSlide, () => {
     </div>
 
     <div class="absolute bg-overlay left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-6 py-4" v-if="mapData.value">
-      <Slider v-model="activeSlide" :points="mapData.value.points" :translations="mapData.value.pointsWithTranslate[lang]" ref="sliderRef"/>
+      <Slider v-model="activeSlide" :points="mapData.value.points"
+              :translations="mapData.value.pointsWithTranslate[lang]" ref="sliderRef"/>
     </div>
   </div>
 </template>
