@@ -15,7 +15,8 @@
   "points": [
     {
       "image": "assets/image/1.png",
-      "steps": 10
+      "steps": 10,
+      "duration": "11hrs 30mins"
     },
     {
       "lat": 43.263031614151295,

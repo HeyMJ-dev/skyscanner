@@ -1,0 +1,1096 @@
+{
+  "name": "Portugal",
+  "center": {
+    "desktop": {
+      "lat": 39.3,
+      "lng": -9.5,
+      "zoom": 7.4
+    },
+    "mobile": {
+      "lat": 38,
+      "lng": -8.5,
+      "zoom": 6.8
+    }
+  },
+  "points": [
+    {
+      "image": "assets/image/1.png",
+      "steps": 10,
+      "duration": "14hrs"
+    },
+    {
+      "lat": 38.72224873609245,
+      "lng": -9.139300666886307,
+      "zoom": 10,
+      "image": "assets/image/2.png",
+      "restaurant": {
+        "name": "Pasteis De Nata",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "",
+        "duration": ""
+      }
+    },
+    {
+      "lat": 38.802869983295146,
+      "lng": -9.381659030914307,
+      "zoom": 10,
+      "image": "assets/image/2.png",
+      "restaurant": {
+        "name": "Travesseiros",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "30km",
+        "duration": "40mins"
+      }
+    },
+    {
+      "lat": 38.69671608862163,
+      "lng": -9.422123400173595,
+      "zoom": 10,
+      "image": "assets/image/3.png",
+      "restaurant": {
+        "name": "Arroz De Marisco",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "20km",
+        "duration": "30mins"
+      }
+    },
+    {
+      "lat": 38.57130410389502,
+      "lng": -7.913444722265255,
+      "zoom": 10,
+      "image": "assets/image/4.png",
+      "restaurant": {
+        "name": "Acorda",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "130km",
+        "duration": "1hrs 30mins"
+      }
+    },
+    {
+      "lat": 38.01518165632363,
+      "lng": -7.862651716519397,
+      "zoom": 10,
+      "image": "assets/image/5.png",
+      "restaurant": {
+        "name": "Migas",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "140km",
+        "duration": "2hrs"
+      }
+    },
+    {
+      "lat": 37.25375994473453,
+      "lng": -8.399492231940155,
+      "zoom": 10,
+      "image": "assets/image/6.png",
+      "restaurant": {
+        "name": "Cataplana",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "200km",
+        "duration": "2hrs 30mins"
+      }
+    },
+    {
+      "lat": 37.18881320390734,
+      "lng": -8.441417547262189,
+      "zoom": 10,
+      "image": "assets/image/7.png",
+      "restaurant": {
+        "name": "Figos Cheios",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "50km",
+        "duration": "1hr"
+      }
+    },
+    {
+      "lat": 40.20360570824986,
+      "lng": -8.410049805355339,
+      "zoom": 10,
+      "image": "assets/image/8.png",
+      "restaurant": {
+        "name": "Arroz Doce",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "280km",
+        "duration": "3hrs"
+      }
+    },
+    {
+      "lat": 41.15785812768526,
+      "lng": -8.628709875492737,
+      "zoom": 10,
+      "image": "assets/image/9.png",
+      "restaurant": {
+        "name": "Francesinha",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "120km",
+        "duration": "1hr 30mins"
+      }
+    },
+    {
+      "lat": 38.72224873609245,
+      "lng": -9.139300666886307,
+      "zoom": 10,
+      "image": "assets/image/2.png",
+      "restaurant": {
+        "name": "Queijo",
+        "url": "#"
+      },
+      "stats": {
+        "distance": "310km",
+        "duration": "3hrs 30mins"
+      }
+    }
+  ],
+  "pointsWithTranslate": {
+    "en": [
+      {
+        "title": "Portugal",
+        "subtitle": "Coasts and Cities",
+        "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars.",
+        "duration": "6hr 30m"
+      },
+      {
+        "title": "Lisbon",
+        "subtitle": "Coasts & Cities",
+        "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars."
+      },
+      {
+        "title": "Sintra",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "title": "Cascais",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "title": "Evora",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "title": "Beja",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "title": "Algarve",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "title": "Silves",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "title": "Coimbra",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "title": "Porto",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "title": "Lisbon",
+        "subtitle": "Coasts & Cities",
+        "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars."
+      }
+    ]
+  },
+  "route": [
+    {
+      "lat": 38.72232,
+      "lng": -9.139330000000001
+    },
+    {
+      "lat": 38.71837,
+      "lng": -9.270190000000001
+    },
+    {
+      "lat": 38.76832,
+      "lng": -9.266630000000001
+    },
+    {
+      "lat": 38.80178,
+      "lng": -9.306920000000002
+    },
+    {
+      "lat": 38.818470000000005,
+      "lng": -9.326970000000001
+    },
+    {
+      "lat": 38.80444000000001,
+      "lng": -9.364080000000001
+    },
+    {
+      "lat": 38.80232,
+      "lng": -9.37833
+    },
+    {
+      "lat": 38.79881,
+      "lng": -9.3633
+    },
+    {
+      "lat": 38.768190000000004,
+      "lng": -9.371160000000001
+    },
+    {
+      "lat": 38.72485,
+      "lng": -9.41732
+    },
+    {
+      "lat": 38.69982,
+      "lng": -9.42665
+    },
+    {
+      "lat": 38.71074,
+      "lng": -9.417810000000001
+    },
+    {
+      "lat": 38.726870000000005,
+      "lng": -9.40628
+    },
+    {
+      "lat": 38.710770000000004,
+      "lng": -9.3518
+    },
+    {
+      "lat": 38.7254,
+      "lng": -9.19134
+    },
+    {
+      "lat": 38.71876,
+      "lng": -9.17627
+    },
+    {
+      "lat": 38.685300000000005,
+      "lng": -9.176200000000001
+    },
+    {
+      "lat": 38.65384,
+      "lng": -9.16928
+    },
+    {
+      "lat": 38.62606,
+      "lng": -9.1378
+    },
+    {
+      "lat": 38.57721,
+      "lng": -9.031210000000002
+    },
+    {
+      "lat": 38.58578,
+      "lng": -8.90107
+    },
+    {
+      "lat": 38.58285,
+      "lng": -8.79592
+    },
+    {
+      "lat": 38.597710000000006,
+      "lng": -8.69542
+    },
+    {
+      "lat": 38.63313,
+      "lng": -8.53772
+    },
+    {
+      "lat": 38.645030000000006,
+      "lng": -8.37724
+    },
+    {
+      "lat": 38.641180000000006,
+      "lng": -8.275110000000002
+    },
+    {
+      "lat": 38.668620000000004,
+      "lng": -8.228110000000001
+    },
+    {
+      "lat": 38.6636,
+      "lng": -8.17181
+    },
+    {
+      "lat": 38.63844,
+      "lng": -8.129570000000001
+    },
+    {
+      "lat": 38.59429,
+      "lng": -8.02434
+    },
+    {
+      "lat": 38.5681,
+      "lng": -7.960840000000001
+    },
+    {
+      "lat": 38.571720000000006,
+      "lng": -7.9137200000000005
+    },
+    {
+      "lat": 38.49522,
+      "lng": -7.754690000000001
+    },
+    {
+      "lat": 38.45268,
+      "lng": -7.74403
+    },
+    {
+      "lat": 38.42385,
+      "lng": -7.716900000000001
+    },
+    {
+      "lat": 38.39105,
+      "lng": -7.716
+    },
+    {
+      "lat": 38.354850000000006,
+      "lng": -7.6839900000000005
+    },
+    {
+      "lat": 38.31344,
+      "lng": -7.708030000000001
+    },
+    {
+      "lat": 38.26552,
+      "lng": -7.769480000000001
+    },
+    {
+      "lat": 38.23500000000001,
+      "lng": -7.798420000000001
+    },
+    {
+      "lat": 38.20492,
+      "lng": -7.7946100000000005
+    },
+    {
+      "lat": 38.12803,
+      "lng": -7.844990000000001
+    },
+    {
+      "lat": 38.063190000000006,
+      "lng": -7.872370000000001
+    },
+    {
+      "lat": 38.023140000000005,
+      "lng": -7.875900000000001
+    },
+    {
+      "lat": 38.001810000000006,
+      "lng": -7.86636
+    },
+    {
+      "lat": 37.94948,
+      "lng": -7.879550000000001
+    },
+    {
+      "lat": 37.911880000000004,
+      "lng": -7.870850000000001
+    },
+    {
+      "lat": 37.88083,
+      "lng": -7.918500000000001
+    },
+    {
+      "lat": 37.855470000000004,
+      "lng": -7.9562800000000005
+    },
+    {
+      "lat": 37.79981,
+      "lng": -7.9846200000000005
+    },
+    {
+      "lat": 37.731680000000004,
+      "lng": -8.058100000000001
+    },
+    {
+      "lat": 37.6903,
+      "lng": -8.10575
+    },
+    {
+      "lat": 37.66423,
+      "lng": -8.158840000000001
+    },
+    {
+      "lat": 37.61139,
+      "lng": -8.165610000000001
+    },
+    {
+      "lat": 37.564890000000005,
+      "lng": -8.19201
+    },
+    {
+      "lat": 37.526920000000004,
+      "lng": -8.181700000000001
+    },
+    {
+      "lat": 37.49242,
+      "lng": -8.205490000000001
+    },
+    {
+      "lat": 37.43515,
+      "lng": -8.23159
+    },
+    {
+      "lat": 37.385670000000005,
+      "lng": -8.262210000000001
+    },
+    {
+      "lat": 37.3342,
+      "lng": -8.26332
+    },
+    {
+      "lat": 37.307430000000004,
+      "lng": -8.25427
+    },
+    {
+      "lat": 37.277930000000005,
+      "lng": -8.262880000000001
+    },
+    {
+      "lat": 37.25376,
+      "lng": -8.256160000000001
+    },
+    {
+      "lat": 37.25059,
+      "lng": -8.271360000000001
+    },
+    {
+      "lat": 37.25786,
+      "lng": -8.300600000000001
+    },
+    {
+      "lat": 37.21613,
+      "lng": -8.37791
+    },
+    {
+      "lat": 37.2387,
+      "lng": -8.378820000000001
+    },
+    {
+      "lat": 37.243230000000004,
+      "lng": -8.39639
+    },
+    {
+      "lat": 37.24672,
+      "lng": -8.40615
+    },
+    {
+      "lat": 37.234910000000006,
+      "lng": -8.421140000000001
+    },
+    {
+      "lat": 37.22742,
+      "lng": -8.430390000000001
+    },
+    {
+      "lat": 37.2066,
+      "lng": -8.434410000000002
+    },
+    {
+      "lat": 37.189170000000004,
+      "lng": -8.441320000000001
+    },
+    {
+      "lat": 37.19386,
+      "lng": -8.43257
+    },
+    {
+      "lat": 37.21567,
+      "lng": -8.3763
+    },
+    {
+      "lat": 37.25499000000001,
+      "lng": -8.29326
+    },
+    {
+      "lat": 37.25056,
+      "lng": -8.27067
+    },
+    {
+      "lat": 37.25354,
+      "lng": -8.25482
+    },
+    {
+      "lat": 37.272330000000004,
+      "lng": -8.25979
+    },
+    {
+      "lat": 37.32341,
+      "lng": -8.25679
+    },
+    {
+      "lat": 37.37127,
+      "lng": -8.256920000000001
+    },
+    {
+      "lat": 37.40247,
+      "lng": -8.26185
+    },
+    {
+      "lat": 37.421290000000006,
+      "lng": -8.24526
+    },
+    {
+      "lat": 37.482960000000006,
+      "lng": -8.21001
+    },
+    {
+      "lat": 37.516380000000005,
+      "lng": -8.18295
+    },
+    {
+      "lat": 37.554260000000006,
+      "lng": -8.19124
+    },
+    {
+      "lat": 37.595650000000006,
+      "lng": -8.175370000000001
+    },
+    {
+      "lat": 37.66823,
+      "lng": -8.15839
+    },
+    {
+      "lat": 37.803290000000004,
+      "lng": -8.22719
+    },
+    {
+      "lat": 37.9284,
+      "lng": -8.242510000000001
+    },
+    {
+      "lat": 38.030170000000005,
+      "lng": -8.29015
+    },
+    {
+      "lat": 38.08388,
+      "lng": -8.37781
+    },
+    {
+      "lat": 38.13008000000001,
+      "lng": -8.423
+    },
+    {
+      "lat": 38.1893,
+      "lng": -8.508460000000001
+    },
+    {
+      "lat": 38.266200000000005,
+      "lng": -8.51674
+    },
+    {
+      "lat": 38.38326,
+      "lng": -8.486790000000001
+    },
+    {
+      "lat": 38.48353,
+      "lng": -8.546470000000001
+    },
+    {
+      "lat": 38.53087,
+      "lng": -8.597750000000001
+    },
+    {
+      "lat": 38.58744,
+      "lng": -8.622390000000001
+    },
+    {
+      "lat": 38.60645,
+      "lng": -8.64644
+    },
+    {
+      "lat": 38.65354000000001,
+      "lng": -8.664340000000001
+    },
+    {
+      "lat": 38.6921,
+      "lng": -8.63856
+    },
+    {
+      "lat": 38.72986,
+      "lng": -8.673620000000001
+    },
+    {
+      "lat": 38.775960000000005,
+      "lng": -8.68342
+    },
+    {
+      "lat": 38.83746,
+      "lng": -8.726740000000001
+    },
+    {
+      "lat": 38.88013,
+      "lng": -8.79399
+    },
+    {
+      "lat": 38.91678,
+      "lng": -8.763100000000001
+    },
+    {
+      "lat": 39.01095,
+      "lng": -8.701740000000001
+    },
+    {
+      "lat": 39.066990000000004,
+      "lng": -8.66642
+    },
+    {
+      "lat": 39.090210000000006,
+      "lng": -8.67224
+    },
+    {
+      "lat": 39.10898,
+      "lng": -8.64108
+    },
+    {
+      "lat": 39.141980000000004,
+      "lng": -8.622200000000001
+    },
+    {
+      "lat": 39.17515,
+      "lng": -8.62686
+    },
+    {
+      "lat": 39.203540000000004,
+      "lng": -8.69088
+    },
+    {
+      "lat": 39.22545,
+      "lng": -8.71359
+    },
+    {
+      "lat": 39.236320000000006,
+      "lng": -8.70409
+    },
+    {
+      "lat": 39.257310000000004,
+      "lng": -8.701500000000001
+    },
+    {
+      "lat": 39.26274,
+      "lng": -8.72958
+    },
+    {
+      "lat": 39.274330000000006,
+      "lng": -8.70973
+    },
+    {
+      "lat": 39.34946,
+      "lng": -8.64779
+    },
+    {
+      "lat": 39.385600000000004,
+      "lng": -8.634580000000001
+    },
+    {
+      "lat": 39.42846,
+      "lng": -8.62922
+    },
+    {
+      "lat": 39.47278,
+      "lng": -8.62893
+    },
+    {
+      "lat": 39.499120000000005,
+      "lng": -8.65536
+    },
+    {
+      "lat": 39.52019000000001,
+      "lng": -8.675790000000001
+    },
+    {
+      "lat": 39.539750000000005,
+      "lng": -8.661890000000001
+    },
+    {
+      "lat": 39.578140000000005,
+      "lng": -8.65497
+    },
+    {
+      "lat": 39.6094,
+      "lng": -8.67913
+    },
+    {
+      "lat": 39.640330000000006,
+      "lng": -8.69903
+    },
+    {
+      "lat": 39.668730000000004,
+      "lng": -8.686810000000001
+    },
+    {
+      "lat": 39.715500000000006,
+      "lng": -8.712110000000001
+    },
+    {
+      "lat": 39.73875,
+      "lng": -8.733970000000001
+    },
+    {
+      "lat": 39.76249000000001,
+      "lng": -8.744940000000001
+    },
+    {
+      "lat": 39.800290000000004,
+      "lng": -8.72662
+    },
+    {
+      "lat": 39.84801,
+      "lng": -8.717400000000001
+    },
+    {
+      "lat": 39.94661,
+      "lng": -8.67167
+    },
+    {
+      "lat": 39.97887,
+      "lng": -8.628860000000001
+    },
+    {
+      "lat": 40.014990000000004,
+      "lng": -8.59929
+    },
+    {
+      "lat": 40.063880000000005,
+      "lng": -8.54626
+    },
+    {
+      "lat": 40.122690000000006,
+      "lng": -8.51518
+    },
+    {
+      "lat": 40.139010000000006,
+      "lng": -8.46781
+    },
+    {
+      "lat": 40.18634,
+      "lng": -8.429910000000001
+    },
+    {
+      "lat": 40.20203,
+      "lng": -8.410210000000001
+    },
+    {
+      "lat": 40.20763,
+      "lng": -8.437140000000001
+    },
+    {
+      "lat": 40.237700000000004,
+      "lng": -8.43654
+    },
+    {
+      "lat": 40.2631,
+      "lng": -8.442680000000001
+    },
+    {
+      "lat": 40.27013,
+      "lng": -8.46209
+    },
+    {
+      "lat": 40.28475,
+      "lng": -8.47816
+    },
+    {
+      "lat": 40.31767000000001,
+      "lng": -8.4901
+    },
+    {
+      "lat": 40.384800000000006,
+      "lng": -8.489780000000001
+    },
+    {
+      "lat": 40.4769,
+      "lng": -8.52149
+    },
+    {
+      "lat": 40.55163,
+      "lng": -8.55983
+    },
+    {
+      "lat": 40.5852,
+      "lng": -8.560020000000002
+    },
+    {
+      "lat": 40.613440000000004,
+      "lng": -8.54484
+    },
+    {
+      "lat": 40.64518,
+      "lng": -8.52086
+    },
+    {
+      "lat": 40.67521,
+      "lng": -8.51952
+    },
+    {
+      "lat": 40.76256,
+      "lng": -8.54049
+    },
+    {
+      "lat": 40.9217,
+      "lng": -8.56752
+    },
+    {
+      "lat": 41.01937,
+      "lng": -8.580770000000001
+    },
+    {
+      "lat": 41.04196,
+      "lng": -8.569880000000001
+    },
+    {
+      "lat": 41.0638,
+      "lng": -8.58014
+    },
+    {
+      "lat": 41.10282,
+      "lng": -8.60073
+    },
+    {
+      "lat": 41.115190000000005,
+      "lng": -8.626100000000001
+    },
+    {
+      "lat": 41.142590000000006,
+      "lng": -8.639040000000001
+    },
+    {
+      "lat": 41.157520000000005,
+      "lng": -8.63025
+    },
+    {
+      "lat": 41.141890000000004,
+      "lng": -8.63894
+    },
+    {
+      "lat": 41.114610000000006,
+      "lng": -8.62411
+    },
+    {
+      "lat": 41.099030000000006,
+      "lng": -8.59542
+    },
+    {
+      "lat": 41.056520000000006,
+      "lng": -8.57768
+    },
+    {
+      "lat": 41.01277,
+      "lng": -8.58295
+    },
+    {
+      "lat": 40.93468,
+      "lng": -8.572090000000001
+    },
+    {
+      "lat": 40.78596,
+      "lng": -8.54664
+    },
+    {
+      "lat": 40.69548,
+      "lng": -8.52307
+    },
+    {
+      "lat": 40.661010000000005,
+      "lng": -8.514750000000001
+    },
+    {
+      "lat": 40.626650000000005,
+      "lng": -8.535630000000001
+    },
+    {
+      "lat": 40.564910000000005,
+      "lng": -8.561100000000001
+    },
+    {
+      "lat": 40.529880000000006,
+      "lng": -8.55485
+    },
+    {
+      "lat": 40.49445,
+      "lng": -8.5296
+    },
+    {
+      "lat": 40.40921,
+      "lng": -8.4924
+    },
+    {
+      "lat": 40.336090000000006,
+      "lng": -8.49431
+    },
+    {
+      "lat": 40.263380000000005,
+      "lng": -8.483220000000001
+    },
+    {
+      "lat": 40.197030000000005,
+      "lng": -8.487440000000001
+    },
+    {
+      "lat": 40.13644,
+      "lng": -8.49609
+    },
+    {
+      "lat": 40.111140000000006,
+      "lng": -8.527090000000001
+    },
+    {
+      "lat": 40.07701,
+      "lng": -8.53733
+    },
+    {
+      "lat": 40.0272,
+      "lng": -8.58854
+    },
+    {
+      "lat": 39.98798,
+      "lng": -8.61917
+    },
+    {
+      "lat": 39.95329,
+      "lng": -8.669450000000001
+    },
+    {
+      "lat": 39.91311,
+      "lng": -8.68457
+    },
+    {
+      "lat": 39.869490000000006,
+      "lng": -8.704170000000001
+    },
+    {
+      "lat": 39.809610000000006,
+      "lng": -8.72235
+    },
+    {
+      "lat": 39.778380000000006,
+      "lng": -8.740300000000001
+    },
+    {
+      "lat": 39.7539,
+      "lng": -8.749130000000001
+    },
+    {
+      "lat": 39.73051,
+      "lng": -8.72292
+    },
+    {
+      "lat": 39.680440000000004,
+      "lng": -8.68396
+    },
+    {
+      "lat": 39.6434,
+      "lng": -8.6989
+    },
+    {
+      "lat": 39.605630000000005,
+      "lng": -8.67487
+    },
+    {
+      "lat": 39.55915,
+      "lng": -8.65109
+    },
+    {
+      "lat": 39.529300000000006,
+      "lng": -8.66512
+    },
+    {
+      "lat": 39.511700000000005,
+      "lng": -8.67669
+    },
+    {
+      "lat": 39.49667,
+      "lng": -8.65249
+    },
+    {
+      "lat": 39.462900000000005,
+      "lng": -8.62979
+    },
+    {
+      "lat": 39.41848,
+      "lng": -8.632850000000001
+    },
+    {
+      "lat": 39.38232,
+      "lng": -8.63209
+    },
+    {
+      "lat": 39.34353,
+      "lng": -8.65272
+    },
+    {
+      "lat": 39.275560000000006,
+      "lng": -8.70735
+    },
+    {
+      "lat": 39.206340000000004,
+      "lng": -8.787040000000001
+    },
+    {
+      "lat": 39.16035,
+      "lng": -8.863370000000002
+    },
+    {
+      "lat": 39.09825,
+      "lng": -8.933810000000001
+    },
+    {
+      "lat": 39.060050000000004,
+      "lng": -8.94144
+    },
+    {
+      "lat": 39.02394,
+      "lng": -8.96363
+    },
+    {
+      "lat": 38.96293,
+      "lng": -8.9853
+    },
+    {
+      "lat": 38.9125,
+      "lng": -9.02899
+    },
+    {
+      "lat": 38.84904,
+      "lng": -9.0888
+    },
+    {
+      "lat": 38.78309,
+      "lng": -9.122300000000001
+    },
+    {
+      "lat": 38.76324,
+      "lng": -9.13179
+    },
+    {
+      "lat": 38.756280000000004,
+      "lng": -9.15414
+    },
+    {
+      "lat": 38.72232,
+      "lng": -9.139330000000001
+    }
+  ]
+}

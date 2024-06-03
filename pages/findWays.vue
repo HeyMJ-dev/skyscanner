@@ -119,10 +119,47 @@ const countries = {
     travelMode: "DRIVING",
   },
 
+  "portugal": {
+    origin: "Lisbon, Portugal",
+    destination: "Lisbon, Portugal",
+    waypoints: [
+      {
+        location: 'N249, 2710-573 Sintra, Portugal',
+        stopover: false
+      },
+      {
+        location: 'Cascais, Portugal',
+        stopover: false
+      }, {
+        location: 'Evora, Portugal',
+        stopover: false
+      }, {
+        location: 'Beja, Portugal',
+        stopover: false
+      }, {
+        location: 'Faro District, Portugal',
+        stopover: false
+      }, {
+        location: 'Silves, Portugal',
+        stopover: false
+      },
+      {
+        location: 'Coimbra, Portugal',
+        stopover: false
+      },
+      {
+        location: 'Porto, Portugal',
+        stopover: false
+      },
+    ],
+    optimizeWaypoints: false,
+    travelMode: "DRIVING",
+  },
+
 
 };
 
-const activeCountry = countries.turkey
+const activeCountry = countries.portugal
 
 
 const config = useRuntimeConfig();
