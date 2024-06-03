@@ -136,7 +136,7 @@ function changeCamera(cameraOptions) {
   }
 
   gsap.to(map, {
-    duration: .5,
+    duration: .8,
     ease: "ease",
     onUpdate: function () {
       map.moveCamera({

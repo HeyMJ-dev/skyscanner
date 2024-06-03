@@ -82,10 +82,47 @@ const countries = {
     travelMode: "DRIVING",
   },
 
+  "turkey": {
+    origin: "Istanbul, Türkiye",
+    destination: "Istanbul, Türkiye",
+    waypoints: [
+      {
+        location: 'Bursa, Turkiye',
+        stopover: false
+      },
+      {
+        location: 'Izmir, Türkiye',
+        stopover: false
+      }, {
+        location: 'Pamukkale, 20190 Pamukkale/Denizli,Türkiye',
+        stopover: false
+      }, {
+        location: 'Fethiye, Mugla, Türkiye',
+        stopover: false
+      }, {
+        location: 'Antalya, Türkiye',
+        stopover: false
+      }, {
+        location: 'Konya, Türkiye',
+        stopover: false
+      },
+      {
+        location: 'Karaseki, Kapadokya Yürüyüş Yolu, 50180 Çavuşin/Avanos/Nevşehir, Türkiye',
+        stopover: false
+      },
+      {
+        location: 'Ankara, Türkiye',
+        stopover: false
+      },
+    ],
+    optimizeWaypoints: false,
+    travelMode: "DRIVING",
+  },
+
 
 };
 
-const activeCountry = countries.morocco
+const activeCountry = countries.turkey
 
 
 const config = useRuntimeConfig();
