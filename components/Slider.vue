@@ -1,25 +1,22 @@
 <script setup>
-const props = defineProps(["items"])
-const loading = ref(false);
-const activeSlide = defineModel()
-const lang = inject('lang');
+const props = defineProps(["points", "translations"],),
+    swiper = ref(null),
+    loading = ref(false),
+    activeSlide = defineModel();
 
 
 defineExpose({
   goToSlide
 });
 
-//slider -----
-let swiper = ref(null);
 onMounted(() => {
-  swiper = new Swiper('.swiper', {
+  swiper.value = new Swiper('.swiper', {
     navigation: {
       nextEl: '.btn-next',
       prevEl: '.btn-prev',
     },
-
+    speed: 1000,
     allowTouchMove: false,
-
     breakpoints: {
       300: {
         direction: 'horizontal',
@@ -33,7 +30,6 @@ onMounted(() => {
         centeredSlides: true,
       }
     },
-
     on: {
       slideChange: function (event) {
         activeSlide.value = event.activeIndex;
@@ -43,26 +39,25 @@ onMounted(() => {
   });
 
   window.addEventListener('resize', () => {
-    swiper.update()
+    swiper.value.update()
   });
 
 })
 
 function nextSlide() {
-  swiper.slideNext();
+  swiper.value.slideNext();
 }
 
 function prevSlide() {
-  swiper.slidePrev();
+  swiper.value.slidePrev();
 }
 
 function goToSlide(index) {
-  swiper.slideTo(index)
+  swiper.value.slideTo(index)
 }
 
 //functions ------
 function readMore(event) {
-  console.log(event.target.parentNode)
   const parentEl = event.target.parentNode.parentNode;
   parentEl.querySelector(".second-part-text")?.classList.remove("hidden")
   parentEl.querySelector(".read-more")?.classList.add("hidden")
@@ -131,7 +126,7 @@ function clickOutsideSlide() {
       <div class="swiper-wrapper">
         <!-- Slides -->
         <div
-            v-for="(item, index) in items"
+            v-for="(item, index) in points"
             :key="item"
             class="swiper-slide md:block flex flex-col justify-end py-2"
         >
@@ -153,10 +148,10 @@ function clickOutsideSlide() {
                 <div class="relative pr-6 md:mb-3 mb-2">
                   <div class="text-[#05203C]">
                     <div class="md:text-xs text-[10px] mb-[0.5px]">
-                      {{ item.subtitle }}
+                      {{ translations[index].subtitle }}
                     </div>
                     <div class="md:text-4xl texy-2xl font-black">
-                      {{ item.title }}
+                      {{ translations[index].title }}
                     </div>
                   </div>
 
@@ -177,7 +172,7 @@ function clickOutsideSlide() {
                     <button
                         @click="nextSlide()"
                         class="text-[#05203C] hover:text-black disabled:opacity-50"
-                        :disabled="index === items.length - 1"
+                        :disabled="index === points.length - 1"
                     >
                       <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -194,9 +189,9 @@ function clickOutsideSlide() {
                 <div
                     class="location-description md:text-sm text-xs md:leading-6 leading-5 text-[#545860] relative overflow-auto custom-scrollbar md:mb-3">
 
-                  {{ sentenceToWords(items[index].description).firstPart }}
+                  {{ sentenceToWords(translations[index].description).firstPart }}
 
-                  <template v-if="sentenceToWords(items[index].description).secondPart.length">
+                  <template v-if="sentenceToWords(translations[index].description).secondPart.length">
                   <span class="read-more">
                     ...
                     <span
@@ -207,7 +202,7 @@ function clickOutsideSlide() {
                   </span>
 
                     <span class="hidden second-part-text">
-                    {{ sentenceToWords(items[index].description).secondPart }}
+                    {{ sentenceToWords(translations[index].description).secondPart }}
                   </span>
                   </template>
 
@@ -276,7 +271,7 @@ function clickOutsideSlide() {
 
             <!--bottom arrow-->
             <button
-                v-if="index !== items.length - 1"
+                v-if="index !== points.length - 1"
                 @click="nextSlide()"
                 class="absolute left-[50%] -ml-[23px] -bottom-[28px] z-[99] md:block hidden"
             >

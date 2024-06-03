@@ -15,21 +15,13 @@
   },
   "points": [
     {
-      "title": "Spain",
-      "subtitle": "Coasts & Cities",
-      "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars.",
       "image": "assets/image/1.png",
-      "steps": 9,
-      "duration": "6hr 30m"
+      "steps": 9
     },
     {
-      "name": "Bilbao, Biscay, Spain",
       "lat": 43.263031614151295,
       "lng": -2.9339239812012807,
       "zoom": 10,
-      "title": "Bilbao",
-      "subtitle": "Coasts & Cities",
-      "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars.",
       "image": "assets/image/2.png",
       "restaurant": {
         "name": "Pasteis De Nata",
@@ -41,122 +33,94 @@
       }
     },
     {
-      "name": "Haro, 26200, La Rioja, Spain",
       "lat": 42.573072002123425,
       "lng": -2.852729731900965,
       "zoom": 10,
-      "title": "Haro",
-      "subtitle": "Coasts & Cities",
-      "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv ",
-      "image": "/assets/image/3.png",
+      "image": "assets/image/3.png",
       "restaurant": {
         "name": "Pasteis De Nata",
         "url": "google.com"
       },
       "stats": {
-        "distance": "22km",
-        "duration": "31 mins"
+        "distance": "40km",
+        "duration": "50 mins"
       }
     },
     {
-      "name": "Santo Domingo de la Calzada, La Rioja, Spain",
       "lat": 42.43983253304751,
       "lng": -2.9577255249023438,
       "zoom": 10,
-      "title": "Santo Domingo",
-      "subtitle": "Coasts & Cities",
-      "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv ",
-      "image": "assets/image/10.png",
-      "restaurant": {
-        "name": "Pasteis De Nata",
-        "url": "google.com"
-      },
-      "stats": {
-        "distance": "20km",
-        "duration": "30 mins"
-      }
-    },
-    {
-      "name": "Burgos, Spain",
-      "lat": 42.346943583973946,
-      "lng": -3.687921892979069,
-      "zoom": 10,
-      "title": "Burgos",
-      "subtitle": "Coasts & Cities",
-      "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv ",
       "image": "assets/image/4.png",
       "restaurant": {
         "name": "Pasteis De Nata",
         "url": "google.com"
       },
       "stats": {
-        "distance": "20km",
-        "duration": "30 mins"
+        "distance": "40km",
+        "duration": "50 mins"
       }
     },
     {
-      "name": "Segovia, Spain",
-      "lat": 40.942746049599926,
-      "lng": -4.108849380084281,
+      "lat": 42.346943583973946,
+      "lng": -3.687921892979069,
       "zoom": 10,
-      "title": "Segovia",
-      "subtitle": "Coasts & Cities",
-      "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv ",
       "image": "assets/image/5.png",
       "restaurant": {
         "name": "Pasteis De Nata",
         "url": "google.com"
       },
       "stats": {
-        "distance": "20km",
-        "duration": "30 mins"
+        "distance": "40km",
+        "duration": "50 mins"
       }
     },
     {
-      "name": "Ávila, Ávila, Spain",
-      "lat": 40.6625522764429,
-      "lng": -4.681300433607302,
+      "lat": 40.942746049599926,
+      "lng": -4.108849380084281,
       "zoom": 10,
-      "title": "Ávila",
-      "subtitle": "Coasts & Cities",
-      "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv ",
       "image": "assets/image/6.png",
       "restaurant": {
         "name": "Pasteis De Nata",
         "url": "google.com"
       },
       "stats": {
-        "distance": "20km",
-        "duration": "30 mins"
+        "distance": "40km",
+        "duration": "50 mins"
       }
     },
     {
-      "name": "Salamanca, Spain",
-      "lat": 40.969415287005056,
-      "lng": -5.663924485932636,
+      "lat": 40.6625522764429,
+      "lng": -4.681300433607302,
       "zoom": 10,
-      "title": "Salamanca",
-      "subtitle": "Coasts & Cities",
-      "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv ",
       "image": "assets/image/7.png",
       "restaurant": {
         "name": "Pasteis De Nata",
         "url": "google.com"
       },
       "stats": {
-        "distance": "20km",
-        "duration": "30 mins"
+        "distance": "40km",
+        "duration": "50 mins"
       }
     },
     {
-      "name": "Valladolid, Spain",
+      "lat": 40.969415287005056,
+      "lng": -5.663924485932636,
+      "zoom": 10,
+      "image": "assets/image/8.png",
+      "restaurant": {
+        "name": "Pasteis De Nata",
+        "url": "google.com"
+      },
+      "stats": {
+        "distance": "40km",
+        "duration": "50 mins"
+      }
+    },
+    {
       "lat": 41.642426375079566,
       "lng": -4.755153945170127,
       "zoom": 10,
-      "title": "Valladolid",
-      "subtitle": "Coasts & Cities",
-      "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv ",
-      "image": "assets/image/8.png",
+      "image": "assets/image/9.png",
       "restaurant": {
         "name": "Pasteis De Nata",
         "url": "google.com"
@@ -167,14 +131,10 @@
       }
     },
     {
-      "name": "Aguilar de Campoo, 34800, Palencia, Spain",
       "lat": 42.79263006898168,
       "lng": -4.259248398992859,
       "zoom": 10,
-      "title": "Aguilar de Campoo",
-      "subtitle": "Coasts & Cities",
-      "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv ",
-      "image": "assets/image/9.png",
+      "image": "assets/image/10.png",
       "restaurant": {
         "name": "Pasteis De Nata",
         "url": "google.com"
@@ -185,6 +145,70 @@
       }
     }
   ],
+  "pointsWithTranslate": {
+    "en": [
+      {
+        "title": "Spain",
+        "subtitle": "Coasts & Cities",
+        "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars.",
+        "duration": "6hr 30m"
+      },
+      {
+        "name": "Bilbao, Biscay, Spain",
+        "title": "Bilbao",
+        "subtitle": "Coasts & Cities",
+        "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars."
+      },
+      {
+        "name": "Haro, 26200, La Rioja, Spain",
+        "title": "Haro",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "name": "Santo Domingo de la Calzada, La Rioja, Spain",
+        "title": "Santo Domingo",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "name": "Burgos, Spain",
+        "title": "Burgos",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "name": "Segovia, Spain",
+        "title": "Segovia",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "name": "Ávila, Ávila, Spain",
+        "title": "Ávila",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "name": "Salamanca, Spain",
+        "title": "Salamanca",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "name": "Valladolid, Spain",
+        "title": "Valladolid",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      },
+      {
+        "name": "Aguilar de Campoo, 34800, Palencia, Spain",
+        "title": "Aguilar de Campoo",
+        "subtitle": "Coasts & Cities",
+        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+      }
+    ]
+  },
   "route": [
     {
       "lat": 43.262660000000004,
