@@ -16,7 +16,7 @@
     {
       "image": "assets/image/1.png",
       "steps": 10,
-      "duration": "28hrs"
+      "duration": "28hr"
     },
     {
       "lat": 41.00793537853425,
@@ -43,7 +43,7 @@
       },
       "stats": {
         "distance": "150km",
-        "duration": "2hrs 30mins"
+        "duration": "2hr 30m"
       }
     },
     {
@@ -57,7 +57,7 @@
       },
       "stats": {
         "distance": "330km",
-        "duration": "5hrs"
+        "duration": "5hr"
       }
     },
     {
@@ -71,7 +71,7 @@
       },
       "stats": {
         "distance": "200km",
-        "duration": "3hrs"
+        "duration": "3hr"
       }
     },
     {
@@ -85,7 +85,7 @@
       },
       "stats": {
         "distance": "150km",
-        "duration": "2hrs 30mins"
+        "duration": "2hr 30m"
       }
     },
     {
@@ -99,7 +99,7 @@
       },
       "stats": {
         "distance": "200km",
-        "duration": "3hrs"
+        "duration": "3hr"
       }
     },
     {
@@ -113,7 +113,7 @@
       },
       "stats": {
         "distance": "250km",
-        "duration": "4hrs"
+        "duration": "4hr"
       }
     },
     {
@@ -127,7 +127,7 @@
       },
       "stats": {
         "distance": "280km",
-        "duration": "4hrs 30mins"
+        "duration": "4hr 30m"
       }
     },
     {
@@ -141,7 +141,7 @@
       },
       "stats": {
         "distance": "250km",
-        "duration": "3hrs 30mins"
+        "duration": "3hr 30m"
       }
     },
     {
@@ -155,7 +155,7 @@
       },
       "stats": {
         "distance": "450km",
-        "duration": "6hrs"
+        "duration": "6hr"
       }
     }
   ],
@@ -164,7 +164,7 @@
       {
         "title": "Turkey",
         "subtitle": "Tour of Turkey",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       },
       {
         "title": "Istanbul",

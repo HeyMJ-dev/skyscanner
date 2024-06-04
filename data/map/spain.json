@@ -16,7 +16,7 @@
     {
       "image": "assets/image/1.png",
       "steps": 10,
-      "duration": "11hrs 30mins"
+      "duration": "11hr 30m"
     },
     {
       "lat": 43.263031614151295,
@@ -43,7 +43,7 @@
       },
       "stats": {
         "distance": "110km",
-        "duration": "1hr 30mins"
+        "duration": "1hr 30m"
       }
     },
     {
@@ -57,7 +57,7 @@
       },
       "stats": {
         "distance": "50km",
-        "duration": "45mins"
+        "duration": "45m"
       }
     },
     {
@@ -85,7 +85,7 @@
       },
       "stats": {
         "distance": "199km",
-        "duration": "1hr 55mins"
+        "duration": "1hr 55m"
       }
     },
     {
@@ -99,7 +99,7 @@
       },
       "stats": {
         "distance": "60km",
-        "duration": "45mins"
+        "duration": "45m"
       }
     },
     {
@@ -113,7 +113,7 @@
       },
       "stats": {
         "distance": "120km",
-        "duration": "1hr 30mins"
+        "duration": "1hr 30m"
       }
     },
     {
@@ -127,7 +127,7 @@
       },
       "stats": {
         "distance": "119km",
-        "duration": "1hr 15mins"
+        "duration": "1hr 15m"
       }
     },
     {
@@ -141,7 +141,7 @@
       },
       "stats": {
         "distance": "142km",
-        "duration": "1hr 28mins"
+        "duration": "1hr 28m"
       }
     },
     {
@@ -155,7 +155,7 @@
       },
       "stats": {
         "distance": "189.2km",
-        "duration": "2hrs"
+        "duration": "2hr"
       }
     }
   ],
@@ -164,7 +164,7 @@
       {
         "title": "Spain",
         "subtitle": "Bilbao and Back Again",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
       },
       {
         "title": "Bilbao",

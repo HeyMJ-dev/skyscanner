@@ -16,7 +16,7 @@
     {
       "image": "assets/image/1.png",
       "steps": 10,
-      "duration": "13hrs 45mins"
+      "duration": "13hr 45m"
     },
     {
       "lat": 38.72224873609245,
@@ -43,7 +43,7 @@
       },
       "stats": {
         "distance": "30km",
-        "duration": "40mins"
+        "duration": "40m"
       }
     },
     {
@@ -57,7 +57,7 @@
       },
       "stats": {
         "distance": "20km",
-        "duration": "30mins"
+        "duration": "30m"
       }
     },
     {
@@ -71,7 +71,7 @@
       },
       "stats": {
         "distance": "130km",
-        "duration": "1hr 30mins"
+        "duration": "1hr 30m"
       }
     },
     {
@@ -85,7 +85,7 @@
       },
       "stats": {
         "distance": "140km",
-        "duration": "2hrs"
+        "duration": "2hr"
       }
     },
     {
@@ -99,7 +99,7 @@
       },
       "stats": {
         "distance": "200km",
-        "duration": "2hrs 30mins"
+        "duration": "2hr 30m"
       }
     },
     {
@@ -127,7 +127,7 @@
       },
       "stats": {
         "distance": "280km",
-        "duration": "3hrs"
+        "duration": "3hr"
       }
     },
     {
@@ -141,7 +141,7 @@
       },
       "stats": {
         "distance": "120km",
-        "duration": "1hr 30mins"
+        "duration": "1hr 30m"
       }
     },
     {
@@ -155,7 +155,7 @@
       },
       "stats": {
         "distance": "310km",
-        "duration": "3hrs 30mins"
+        "duration": "3hr 30m"
       }
     }
   ],
