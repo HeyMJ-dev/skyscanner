@@ -1,16 +1,28 @@
 <script async setup>
 const route = useRoute();
 
-const validLangs = ['en', 'fr', 'de', 'pt', 'sp']
-const lang = validLangs.includes(route.query.lang) ? route.query.lang : 'en';
-provide('lang', lang)
-
 const validMaps = ['spain', 'morocco', 'turkey', 'thailand', 'australia', 'portugal']
-if (validMaps.includes(route.query.map)) {
-  provide('mapName', route.query.map)
+const inputMapName = route.query.map ? route.query.map.toLowerCase() : '';
+if (validMaps.includes(inputMapName)) {
+  provide('mapName', inputMapName)
 } else {
   navigateTo('/404');
 }
+
+
+const validLangs = {
+  spain: ['en'],
+  morocco: ['en', 'fr', 'de'],
+  turkey: ['en', 'es', 'it', 'de'],
+  thailand: ['en', 'kr'],
+  australia: ['en'],
+  portugal: ['en'],
+}
+
+const inputLangName = route.query.lang ? route.query.lang.toLowerCase() : 'en';
+const lang = validLangs[inputMapName].includes(inputLangName) ? inputLangName : 'en';
+provide('lang', lang)
+
 
 </script>
 

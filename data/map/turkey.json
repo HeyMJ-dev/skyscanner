@@ -164,58 +164,231 @@
       {
         "title": "Turkey",
         "subtitle": "Tour of Turkey",
-        "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars.",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      },
+      {
+        "title": "Istanbul",
+        "subtitle": "",
+        "description": "Straddling Europe and Asia across the Bosphorus Strait, Istanbul is one of the most iconic cities in the world. Take in sights including the Blue Mosque, Hagia Sophia, Topkapi Palace and the Grand Bazaar. Party in Taksim Square and indulge in local food. Top street food highlights include Simit (Turkish bagel), Doner Kebab and Katmer (delicious dessert)."
+      },
+      {
+        "title": "Bursa",
+        "subtitle": "",
+        "description": "This large city in northwest Turkey lies at the foothills of Mount Uludağ near the Sea of Marmara. Known as the first capital of the Ottoman Empire and with a special place in the Silk Road, history is everywhere. When it comes to pleasing your stomach, enjoy Iskender Kebab – sliced doner meat topped with hot tomato sauce served over pita."
+      },
+      {
+        "title": "Izmir",
+        "subtitle": "",
+        "description": "Lying on the Aegean coast, Izmir is Turkey’s third largest city. And what a beautiful place to stop off on your foodie road trip. Stroll around the city to spot elegant mosques, traditional bazaars, palm-lined boulevards and hilltop ruins. Seek out Izmir’s famous delicacy, Boyoz – a simple, small round pastry made of thin layers of dough."
+      },
+      {
+        "title": "Pamukkale",
+        "subtitle": "",
+        "description": "Camera at the ready you’ve landed in Pamukkale. This town in western Turkey is known for its mineral-rich thermal waters which flow down white travertine terraces on a nearby hillside. It’s a sight to behold. Stomach at the ready for Gozleme – a savoury Turkish pancake stuffed with a choice of fillings. Spinach, herbs and cheese is always a favourite."
+      },
+      {
+        "title": "Fethiye",
+        "subtitle": "",
+        "description": "This port city on the Turquoise Coast promises golden sands, forested mountains and azure waters. Stop off in the old town, spend some time shopping, and take in historical sights including Amyntas Rock Tombs and Tlos Ruins. And don’t forget to try Pide – the Turkish flatbread version of pizza."
+      },
+      {
+        "title": "Antalya",
+        "subtitle": "",
+        "description": "Make the trip down the coast and you’ll land in Antalya. The fifth largest city in Turkey was once a major Roman port – check out the historical sights including Hadrian’s Gate. Today, you’ll find a yacht-filled harbour and beaches flanked by epic 5-star resorts. While you’re here sample Piyaz – a white bean salad with raw onion, parsley and sumac."
+      },
+      {
+        "title": "Konya",
+        "subtitle": "",
+        "description": "Just south of Ankara in the Central Anatolian region, Konya offers a real taste of Turkish life. With deep historical and religious significance, it’s the home town of the whirling dervish orders and a bastion of Seljuk culture. It’s also a booming modern city. Don’t miss the city’s famous flatbread pizza, Etli Ekmek."
+      },
+      {
+        "title": "Cappadocia",
+        "subtitle": "",
+        "description": "The land of fairy chimneys, caves and underground cities. This world-famous region was formed by volcanic activity and has an otherworldly feel. Don’t miss a sunrise or sunset hot air balloon ride or a night in a cave hotel. Satisfy your tastebuds with Testi Kebab – the region’s famous clay pot kebab."
+      },
+      {
+        "title": "Ankara",
+        "subtitle": "",
+        "description": "Turkey’s cosmopolitan capital sits in the central Anatolia region and is a centre for performing arts, including the State Opera and Ballet and the Presidential Symphony Orchestra. Overlooking the city is Anitkabir - the hilltop mausoleum of Kemal Atatürk, the founder of modern Turkey. In Ankara, make sure you dig into Kuzu Tandir – Turkish roasted lamb."
+      },
+      {
+        "title": "Istanbul",
+        "subtitle": "",
+        "description": "Straddling Europe and Asia across the Bosphorus Strait, Istanbul is one of the most iconic cities in the world. Take in sights including the Blue Mosque, Hagia Sophia, Topkapi Palace and the Grand Bazaar. Party in Taksim Square and indulge in local food. Top street food highlights include Simit (Turkish bagel), Doner Kebab and Katmer (delicious dessert)."
+      }
+    ],
+    "es": [
+      {
+        "title": "Turkey",
+        "subtitle": "Tour of Turkey",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "duration": "6hr 30m"
+      },
+      {
+        "title": "Estambul",
+        "subtitle": "",
+        "description": "Situada a caballo entre Europa y Asia, y a lo largo del estrecho del Bósforo, Estambul es una de las ciudades más emblemáticas del mundo. Entre los lugares de visita obligada se encuentran la Mezquita Azul, Santa Sofía, el Palacio de Topkapi y el Gran Bazar. Para saborear la gastronomía local y disfrutar de un poco de diversión, dirígete a la plaza Taksim. Los grandes protagonistas de la comida en la calle con el simit (bagel turco), el döner kebab y el katmer (un postre delicioso)."
+      },
+      {
+        "title": "Bursa",
+        "subtitle": "",
+        "description": "Esta gran ciudad del norte de Turquía está situada al pie de las colinas del monte Ulu Dag, cerca del mar de Mármara. Conocida por ser la primera capital del Imperio Otomano y escala destacada en la Ruta de la Seda, Bursa está repleta de historia. Cuando llegue el momento de aplacar el hambre, no dudes en pedir un iskender kebab (tiras de carne döner aderezada con salsa de tomate picante y servida en pan pita)."
+      },
+      {
+        "title": "Esmirna",
+        "subtitle": "",
+        "description": "Situada en la costa del Egeo, Esmirna es la tercera ciudad más grande de Turquía, además de un hermoso lugar en el que recalar durante tu viaje gastronómico por carretera. Date un paseo por la ciudad para admirar las elegantes mezquitas, los bazares típicos, los bulevares de palmeras y las ruinas de la colina. No olvides saborear una de las delicias más famosas de Esmirna, el boyoz, un sencillo panecillo redondo compuesto por finas capas de masa."
+      },
+      {
+        "title": "Pamukkale",
+        "subtitle": "",
+        "description": "Ahora sí, prepara tu cámara de fotos. Esta ciudad del este de Turquía es conocida por sus aguas termales ricas en minerales, que bañan las blancas terrazas colgantes de travertino. Todo un espectáculo para la vista. Cuando empiece a apretar el hambre, ve a por un gözleme, un sabroso gofre turco que podrás rellenar con diferentes ingredientes a tu gusto. El de espinacas, queso y especias es todo un clásico."
+      },
+      {
+        "title": "Fethiye",
+        "subtitle": "",
+        "description": "Esta ciudad portuaria de la Costa Turquesa formula una promesa de arenas doradas, montañas de exuberante vegetación y aguas cristalinas. Haz una parada en el caso antiguo para disfrutar de un día de compras y aprovecha para visitar algunos monumentos históricos, como las tumbas de roca de Amyntas y las ruinas de Tlos. Y no olvides probar el pide, la versión turca de la pizza elaborada con pan plano."
+      },
+      {
+        "title": "Antalya",
+        "subtitle": "",
+        "description": "Tras recorrer la ruta de descenso hasta la costa, llegarás a Antalya. Quinta ciudad del país en extensión, Antalya fue en otro tiempo un importante puerto romano. No olvides visitar sus lugares de interés histórico, como la puerta de Adriano. En la actualidad, alberga un puerto deportivo y playas flanqueadas por lujosos resorts de 5 estrellas. Durante tu visita, no olvides degustar el piyaz, una ensalada de alubias blancas con cebolla cruda, perejil y sumac."
+      },
+      {
+        "title": "Konya",
+        "subtitle": "",
+        "description": "Situada justo al sur de Ankara, en la región de Anatolia central, se encuentra Konya, con su ritmo de vida moderno y actual. Esta ciudad de profundo simbolismo histórico y religioso es hogar de la orden de los derviches giróvagos y un bastión de la cultura Seljuk. Es también una ciudad moderna y floreciente. No te pierdas su etli ekmek, la famosa pizza de pan plano."
+      },
+      {
+        "title": "Cappadocia",
+        "subtitle": "",
+        "description": "Tierra de las chimeneas de hadas, las casas cueva y las ciudades subterráneas. Esta región de fama mundial, cuya formación se debe a la actividad volcánica, ofrece una estética de otro mundo. No olvides admirar el amanecer o la puesta de sol mientras disfrutas de un paseo en globo aerostático o alojarte en un hotel cueva. Deleita tu paladar con un testi kebab, el plato típico de la región elaborado en cazuela de barro."
+      },
+      {
+        "title": "Ankara",
+        "subtitle": "",
+        "description": "La cosmopolita capital turca, situada en la región de Anatolia central, es famosa por su dedicación a las artes escénicas. No te pierdas la Ópera y Ballet Estatal o la Orquesta Sinfónica Presidencial. Sobre las colinas de la ciudad se encuentra Anitkabir, el mausoleo de Kemal Atatürk, fundador de la Turquía moderna. En Ankara, asegúrate de saborear el kuzu tandir, una especialidad turca de cordero asado. "
+      },
+      {
+        "title": "Istanbul",
+        "subtitle": "",
+        "description": "Situada a caballo entre Europa y Asia, y a lo largo del estrecho del Bósforo, Estambul es una de las ciudades más emblemáticas del mundo. Entre los lugares de visita obligada se encuentran la Mezquita Azul, Santa Sofía, el Palacio de Topkapi y el Gran Bazar. Para saborear la gastronomía local y disfrutar de un poco de diversión, dirígete a la plaza Taksim. Los grandes protagonistas de la comida en la calle con el simit (bagel turco), el döner kebab y el katmer (un postre delicioso)."
+      }
+    ],
+    "it": [
+      {
+        "title": "Turkey",
+        "subtitle": "Tour of Turkey",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         "duration": "6hr 30m"
       },
       {
         "title": "Istanbul",
-        "subtitle": "Coasts & Cities",
-        "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars."
+        "subtitle": "",
+        "description": "A cavallo tra Europa e Asia, al di là dello stretto del Bosforo, Istanbul è una delle città più iconiche del mondo. Ammira attrazioni come la Moschea Blu, la Basilica di Santa Sofia, il Palazzo Topkapi e il Gran Bazar. Festeggia in piazza Taksim e goditi il\u200B cibo locale. Le principali specialità dello street food sono il Simit (bagel turco), il Doner Kebab e il Katmer (un delizioso dessert)."
       },
       {
         "title": "Bursa",
-        "subtitle": "Coasts & Cities",
-        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+        "subtitle": "",
+        "description": "Questa grande città nel nord-ovest della Turchia si trova ai piedi del monte Uludağ, vicino al Mar di Marmara. Prima capitale dell'Impero Ottomano e luogo privilegiato sulla Via della Seta, racchiude la storia un po’ ovunque. Se vuoi deliziare le tue papille, prova l'Iskender Kebab: carne allo spiedo affettata condita con salsa di pomodoro calda servita su pita."
       },
       {
-        "title": "Izmir",
-        "subtitle": "Coasts & Cities",
-        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+        "title": "Smirne",
+        "subtitle": "",
+        "description": "Situata sulla costa dell’Egeo, Smirne (Izmir in turco) è la terza città più grande della Turchia. E anche un posto perfetto per una sosta durante il tuo viaggio gastronomico on the road. Passeggia per la città e ammira le eleganti moschee, i bazar tradizionali, i viali fiancheggiati da palme e le rovine in cima alle colline. Prova la famosa prelibatezza di Izmir, il Boyoz, una semplice e piccola pasta rotonda composta da sottili strati di sfoglia."
       },
       {
         "title": "Pamukkale",
-        "subtitle": "Coasts & Cities",
-        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+        "subtitle": "",
+        "description": "Tieni pronta la fotocamera! Sei a Pamukkale. Questa città della Turchia occidentale è nota per le sue acque termali ricche di minerali, che scendono lungo le terrazze di travertino bianco su una collina vicina. È uno spettacolo da non perdere. Prepara lo stomaco per il Gozleme: una gustosa frittella turca con varie farciture. Spinaci, erbe aromatiche e formaggio vanno per la maggiore."
       },
       {
         "title": "Fethiye",
-        "subtitle": "Coasts & Cities",
-        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+        "subtitle": "",
+        "description": "Questa città portuale sulla Costa turchese offre spiagge dorate, montagne boscose e acque azzurre. Fermati nella città vecchia, trascorri un po' di tempo facendo shopping e ammira i siti storici, tra cui le tombe rupestri di Amyntas e le rovine di Tlos. E non dimenticare di provare il Pide, la versione turca della pizza. "
       },
       {
         "title": "Antalya",
-        "subtitle": "Coasts & Cities",
-        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+        "subtitle": "",
+        "description": "Lungo la costa troverai Antalya. Quinta città più grande della Turchia, un tempo era un importante porto romano: scopri i siti storici, tra cui la Porta di Adriano. Oggi il porto è pieno di yacht e le spiagge sono fiancheggiate da meravigliosi resort a 5 stelle. Approfitta della tua visita per assaggiare il Piyaz, un'insalata di fagioli bianchi con cipolla cruda, prezzemolo e sommacco. "
       },
       {
-        "title": "Konya",
-        "subtitle": "Coasts & Cities",
-        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+        "title": "Konja",
+        "subtitle": "",
+        "description": "Appena a sud di Ankara, nella regione dell'Anatolia centrale, Konya offre un assaggio della vera vita turca. Molto importante da un punto di vista storico e religioso, è la città natale degli ordini dei dervisci rotanti e un bastione della cultura selgiuchide. È anche una città moderna in forte espansione. Da non perdere la famosa pizza della città, Etli Ekmek. "
       },
       {
         "title": "Cappadocia",
-        "subtitle": "Coasts & Cities",
-        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+        "subtitle": "",
+        "description": "La terra dei camini delle fate, delle grotte e delle città sotterranee. Questa regione, famosa in tutto il mondo, è stata formata dall'attività vulcanica e ha un'atmosfera surreale. Da non perdere un giro in mongolfiera all'alba o al tramonto o una notte in un hotel in una grotta. Soddisfa le tue papille gustative con il Testi Kebab, il famoso kebab in pentola di terracotta della regione. "
       },
       {
         "title": "Ankara",
-        "subtitle": "Coasts & Cities",
-        "description": "Lisbon, Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv live Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv Portugal’s coastal capital, blends rich history with vibrant modern culture. Known for its iconic yellow trams, Fado music, and stunning hilltop views, Lisbon boasts architectural marv "
+        "subtitle": "",
+        "description": "La capitale cosmopolita della Turchia si trova nella regione centrale dell'Anatolia ed è un centro delle arti dello spettacolo; da citare, lo State Opera And Ballet e l'Orchestra Sinfonica Presidenziale. A dominare la città, in cima alla collina, c'è l'Anitkabir, il mausoleo di Kemal Atatürk, il fondatore della Turchia moderna. Ad Ankara, assicurati di assaggiare il Kuzu Tandir, l'agnello arrosto turco. "
       },
       {
         "title": "Istanbul",
-        "subtitle": "Coasts & Cities",
-        "description": "Embark on a captivating road trip from Lisbon, exploring Portugal's diverse charms. Start in vibrant Lisbon, then head to Sintra’s fairy-tale palaces, Cascais' coastal beauty, and Coimbra's historic university. Discover Porto’s wine cellars."
+        "subtitle": "",
+        "description": "A cavallo tra Europa e Asia, al di là dello stretto del Bosforo, Istanbul è una delle città più iconiche del mondo. Ammira attrazioni come la Moschea Blu, la Basilica di Santa Sofia, il Palazzo Topkapi e il Gran Bazar. Festeggia in piazza Taksim e goditi il\u200B cibo locale. Le principali specialità dello street food sono il Simit (bagel turco), il Doner Kebab e il Katmer (un delizioso dessert)."
+      }
+    ],
+    "de": [
+      {
+        "title": "Turkey",
+        "subtitle": "Tour of Turkey",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "duration": "6hr 30m"
+      },
+      {
+        "title": "Istanbul",
+        "subtitle": "",
+        "description": "Die größte und bekannteste türkische Stadt verbindet Europa und Asien über die Meerenge des Bosporus hinweg. Besucht die bekanntesten Sehenswürdigkeiten der Stadt: die Blaue Moschee, die Hagia Sophia, den Topkapi-Palast und den Großen Basar. Abends könnt ihr auf dem Taksim-Platz feiern und all die leckeren lokalen Gerichte probieren. Das beste Streetfood sind zweifellos Simit (türkische Sesamringe), Kebab und Katmer (ein köstliches Dessert)."
+      },
+      {
+        "title": "Bursa",
+        "subtitle": "",
+        "description": "Die Großstadt im Nordwesten der Türkei liegt an den Ausläufern der Uludağ-Bergkette in der Nähe des Marmarameeres. Man kann die Geschichte hier förmlich einatmen: Bursa war die erste Hauptstadt des Osmanischen Reiches und eine wichtige Station auf der Seidenstraße. Euren Gaumen könnt ihr hier mit Iskender Kebab verwöhnen – Dönerfleisch mit scharfer Tomatensauce, auf Pita serviert."
+      },
+      {
+        "title": "Izmir",
+        "subtitle": "",
+        "description": "Die Perle an der Ägäis ist die drittgrößte Stadt der Türkei und ein wunderbarer Zwischenstopp auf eurem Foodie-Roadtrip. Schlendert entlang eleganter Moscheen, traditioneller Basare und palmengesäumter Boulevards bis zu den Ruinen in den Hügeln. Probiert die berühmte Delikatesse von Izmir: Boyoz ist ein einfaches, rundes Gebäck aus dünnem Blätterteig."
+      },
+      {
+        "title": "Pamukkale",
+        "subtitle": "",
+        "description": "Haltet eure Kameras bereit. Ihr seid in Pamukkale. Die westtürkische Stadt ist weltbekannt für ihr mineralhaltiges Thermalwasser, das über weiße Sinterterrassen an einem nahe gelegenen Hügels herabfließt. Solch einen schönen und ungewöhnlichen Anblick werdet ihr nicht so schnell vergessen. Euren Hunger stillt ihr hier am besten mit Gözleme, einem würzigen Fladenbrot mit verschiedenen Füllungen. Unsere Favoriten sind Spinat, Kräuter und Käse."
+      },
+      {
+        "title": "Fethiye",
+        "subtitle": "",
+        "description": "Die Hafenstadt an der Türkischen Riviera bezaubert mit goldenem Sand, waldigen Bergen und azurblauem Wasser. Seht euch unbedingt die Altstadt an, nutzt den Besuch zum Shoppen und besichtigt historische Sehenswürdigkeiten wie das Felsengrab von Amyntas und die Ruinen von Tlos. Ihr müsst unbedingt das hiesige Pide probieren, die türkische Pizza aus Fladenbrot."
+      },
+      {
+        "title": "Antalya",
+        "subtitle": "",
+        "description": "Fahrt direkt nach Osten, um nach Antalya zu kommen. Die fünftgrößte Stadt der Türkei war einst ein bedeutender römischer Hafen, es gibt daher Unmengen an historischen Sehenswürdigkeiten. Zumindest das Hadrianstor solltet ihr euch nicht entgehen lassen. Heute gibt es in der Stadt einen geschäftigen Yachthafen und herrliche Strände, die von luxuriösen 5-Sterne-Resorts gesäumt sind. Probiert auf eurer Erkundungstour Piyaz, einen Salat aus weißen Bohnen mit rohen Zwiebeln, Petersilie und Sumach (einem orientalischen Gewürz)."
+      },
+      {
+        "title": "Konya",
+        "subtitle": "",
+        "description": "Auf halber Strecke zwischen Antalya und Ankara liegt die zentralanatolische Stadt Konya, in der ihr türkische Kultur in unverfälschter Form erleben könnt. Als Heimatstadt des Ordens der wirbelnden Derwische und Zentrum der seldschukischen Kultur ist sie von großer historischer und religiöser Bedeutung Gleichzeitig ist Konya eine boomende moderne Stadt. Probiert hier das berühmte Fladenbrot der Stadt, Etli Ekmek."
+      },
+      {
+        "title": "Kappadokien",
+        "subtitle": "",
+        "description": "Das Land der Feenkamine, Höhlen und unterirdischen Städte. Diese weltberühmte Region ist durch vulkanische Aktivität entstanden und wirkt, als sei sie von einer anderen Welt. Ihr könnt hier viele besondere Dinge erleben: eine Heißluftballonfahrt zum Sonnenauf- oder -untergang oder eine Übernachtung in einem Höhlenhotel. Stillt eure kulinarische Neugier mit Testi Kebab, dem berühmten regionalen Kebab aus dem Tontopf."
+      },
+      {
+        "title": "Ankara",
+        "subtitle": "",
+        "description": "Die kosmopolitische Hauptstadt der Türkei liegt im Herzen von Anatolien und ist eine Hochburg der darstellenden Künste. Ihr könnt hier die Staatsoper, das Staatsballett oder das Präsidiale-Sinfonieorchester besuchen. Auf einer Anhöhe über der Stadt befindet sich Anitkabir, das Mausoleum von Kemal Atatürk, dem Gründer der heutigen Türkei. In Ankara solltet ihr auf jeden Fall das köstlich gebratene Lammfleisch Kuzu Tandir probieren. "
+      },
+      {
+        "title": "Istanbul",
+        "subtitle": "",
+        "description": "Die größte und bekannteste türkische Stadt verbindet Europa und Asien über die Meerenge des Bosporus hinweg. Besucht die bekanntesten Sehenswürdigkeiten der Stadt: die Blaue Moschee, die Hagia Sophia, den Topkapi-Palast und den Großen Basar. Abends könnt ihr auf dem Taksim-Platz feiern und all die leckeren lokalen Gerichte probieren. Das beste Streetfood sind zweifellos Simit (türkische Sesamringe), Kebab und Katmer (ein köstliches Dessert)."
       }
     ]
   },

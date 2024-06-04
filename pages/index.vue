@@ -214,7 +214,7 @@ watch(activeSlide, () => {
       </svg>
     </div>
 
-    <div class="absolute bg-overlay left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-6 py-4" v-if="mapData.value">
+    <div class="absolute bg-overlay left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-4 py-4" v-if="mapData.value">
       <Slider v-model="activeSlide" :points="mapData.value.points"
               :translations="mapData.value.pointsWithTranslate[lang]" ref="sliderRef"/>
     </div>
@@ -248,10 +248,13 @@ html, body, #__nuxt {
 }
 
 .bg-overlay {
-  background: linear-gradient(90deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);
+ /* background: linear-gradient(90deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);*/
+
+  background: #0062E3;
 
   @media screen and (max-width: 768px) {
-    background: linear-gradient(0deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);
+   /* background: linear-gradient(0deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);*/
+    background: #0062E3;
   }
 }
 </style>
