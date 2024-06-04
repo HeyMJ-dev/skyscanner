@@ -10,9 +10,14 @@ const config = useRuntimeConfig(),
     sliderRef = ref(null),
     activeSlide = ref(0),
     isFullScreen = ref(false),
+    isMobile = ref(window.innerWidth <= 768),
     loading = ref(false);
 
 let map = null;
+
+window.addEventListener("resize", () => {
+  isMobile.value = window.innerWidth <= 768;
+});
 
 loadMap();
 
@@ -106,22 +111,29 @@ function changeSlide(index) {
     loading.value = false
   }, 300)
 
-  if (index) {
-    changeCamera({
-      center: {
-        lat: mapData.value.points[index].lat,
-        lng: mapData.value.points[index].lng + (deviceSize.value === "desktop" ? -.2 : 0),
-      },
-      zoom: mapData.value.points[index].zoom
-    })
-
-  } else {  // First slide
+  if (index === 0) { // First slide
     changeCamera({
       center: {
         lat: mapData.value.center[deviceSize.value].lat,
         lng: mapData.value.center[deviceSize.value].lng,
       },
       zoom: mapData.value.center[deviceSize.value].zoom
+    })
+  } else if (index >= mapData.value.points.length) { // last Slide
+    changeCamera({
+      center: {
+        lat: mapData.value.center[deviceSize.value].lat,
+        lng: mapData.value.center[deviceSize.value].lng,
+      },
+      zoom: mapData.value.center[deviceSize.value].zoom
+    })
+  } else {
+    changeCamera({
+      center: {
+        lat: mapData.value.points[index].lat,
+        lng: mapData.value.points[index].lng + (deviceSize.value === "desktop" ? -.2 : 0),
+      },
+      zoom: mapData.value.points[index].zoom
     })
   }
 }
@@ -214,7 +226,9 @@ watch(activeSlide, () => {
       </svg>
     </div>
 
-    <div class="absolute bg-overlay left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-4 py-4" v-if="mapData.value">
+    <div class="absolute left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-4 md:py-2 duration-1000"
+         :class="{'bg-overlay' : !isMobile || activeSlide !== 0}"
+         v-if="mapData.value">
       <Slider v-model="activeSlide" :points="mapData.value.points"
               :translations="mapData.value.pointsWithTranslate[lang]" ref="sliderRef"/>
     </div>
@@ -248,12 +262,12 @@ html, body, #__nuxt {
 }
 
 .bg-overlay {
- /* background: linear-gradient(90deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);*/
+  /* background: linear-gradient(90deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);*/
 
   background: #0062E3;
 
   @media screen and (max-width: 768px) {
-   /* background: linear-gradient(0deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);*/
+    /* background: linear-gradient(0deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);*/
     background: #0062E3;
   }
 }
