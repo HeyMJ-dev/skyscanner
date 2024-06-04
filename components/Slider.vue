@@ -78,19 +78,22 @@ onMounted(() => {
         direction: 'horizontal',
         slidesPerView: 1,
         spaceBetween: 10,
+        autoHeight: true,
       },
       768: {
         direction: 'vertical',
         slidesPerView: "auto",
         spaceBetween: 0,
         centeredSlides: true,
+        autoHeight: false,
       }
     },
     on: {
       slideChange: function (event) {
         activeSlide.value = event.activeIndex;
         sliderIndex.value = event.activeIndex;
-        clickOutsideSlide();
+
+        // clickOutsideSlide();
       }
     }
   });
@@ -117,52 +120,14 @@ function goToSlide(index) {
 //functions ------
 function readMore(event) {
   const parentEl = event.target.parentNode.parentNode;
-  parentEl.querySelector(".second-part-text")?.classList.remove("hidden")
-  parentEl.querySelector(".read-more")?.classList.add("hidden")
+  parentEl.classList.add("expand")
 }
 
-function expandCard(event) {
-  loading.value = true;
-  setTimeout(() => {
-    loading.value = false;
-  }, 200)
-
-  let parentEl = event.target;
-
-  if (!isMobile.value) { //check is mobile
-    return;
-  }
-
-  while (parentEl) {
-    if (parentEl.classList.contains("card-location")) {
-      break;
-    }
-
-    parentEl = parentEl.parentNode;
-  }
-
-  if (!parentEl) {
-    return;
-  }
-
-  const childEl = parentEl.querySelector(".location-description")
-
-  if (childEl.classList.contains("expand")) {
-    return;
-  }
-  childEl.classList.remove("overflow-auto")
-  childEl.classList.add("expand");
-  setTimeout(() => {
-    childEl.classList.add("overflow-auto")
-  }, 300)
-
-}
 
 function sentenceToWords(str) {
-  const array = str.trim().split(/\s+/);
   return {
-    firstPart: array.slice(0, 25).join(" "),
-    secondPart: array.slice(25, array.length).join(" "),
+    firstPart: str.slice(0, 160),
+    secondPart: str.slice(160, str.length),
   };
 }
 
@@ -181,7 +146,7 @@ function clickOutsideSlide() {
     <!-- Slider main container -->
     <div class="swiper md:h-full">
       <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
+      <div class="swiper-wrapper !items-center">
         <!-- Slides -->
         <div
             v-for="(item, index) in points"
@@ -194,7 +159,6 @@ function clickOutsideSlide() {
 
           <div class="relative">
             <div
-                @click="expandCard($event)"
                 class="card-location"
                 :class="{'md:w-full px-10 py-4 md:px-0 md:py-0' :  index !== 0}"
             >
@@ -240,59 +204,18 @@ function clickOutsideSlide() {
                           {{ translations[index].title }}
                         </div>
                       </div>
-
-                      <!--                  <div v-if="index !== 0" class="absolute top-0 right-0 md:flex hidden gap-1 flex-col">
-                                          <button
-                                              @click="prevSlide()"
-                                              class="text-[#05203C] hover:text-black"
-                                          >
-                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M8.00486 11.2187C8.2739 11.2187 8.49201 11.0006 8.49201 10.7316L8.49201 7.03619L10.0961 8.64031C10.2864 8.83055 10.5948 8.83055 10.7851 8.64031C10.9753 8.45007 10.9753 8.14163 10.7851 7.95138L8.34933 5.51566C8.15908 5.32541 7.85064 5.32541 7.6604 5.51566L5.22467 7.95138C5.03443 8.14162 5.03443 8.45007 5.22467 8.64031C5.41491 8.83055 5.72336 8.83055 5.9136 8.64031L7.51772 7.03619L7.51772 10.7316C7.51772 11.0006 7.73582 11.2187 8.00486 11.2187Z"
-                                                    fill="currentColor"
-                                              />
-                                              <rect x="0.216575" y="16.0254" width="15.5668" height="15.5668" rx="7.78342"
-                                                    transform="rotate(-90 0.216575 16.0254)" stroke="currentColor" stroke-width="0.43315"/>
-                                            </svg>
-                                          </button>
-                                          <button
-                                              @click="nextSlide()"
-                                              class="text-[#05203C] hover:text-black disabled:opacity-50"
-                                              :disabled="index === points.length - 1"
-                                          >
-                                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                              <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M8.00197 5.26579C7.73293 5.26579 7.51483 5.4839 7.51483 5.75294L7.51483 9.44832L5.91071 7.8442C5.72047 7.65396 5.41203 7.65396 5.22178 7.8442C5.03154 8.03444 5.03154 8.34289 5.22178 8.53313L7.65751 10.9689C7.84775 11.1591 8.1562 11.1591 8.34644 10.9689L10.7822 8.53313C10.9724 8.34289 10.9724 8.03444 10.7822 7.8442C10.5919 7.65396 10.2835 7.65396 10.0932 7.8442L8.48912 9.44832L8.48912 5.75294C8.48912 5.4839 8.27102 5.26579 8.00197 5.26579Z"
-                                                    fill="currentColor"
-                                              />
-                                              <rect x="15.7834" y="0.458518" width="15.5668" height="15.5668" rx="7.78342"
-                                                    transform="rotate(90 15.7834 0.458518)" stroke="currentColor" stroke-width="0.43315"/>
-                                            </svg>
-                                          </button>
-                                        </div>-->
                     </div>
 
                     <div
-                        class="location-description md:text-sm text-xs md:leading-6 leading-5 text-[#545860] relative overflow-auto custom-scrollbar md:mb-3">
+                        class="location-description md:text-sm text-xs md:leading-6 leading-5 text-[#545860] custom-scrollbar md:mb-3 relative">
+                      {{ translations[index].description }}
 
-                      {{ sentenceToWords(translations[index].description).firstPart }}
-
-                      <template v-if="sentenceToWords(translations[index].description).secondPart.length">
-                  <span class="read-more">
-                    ...
-                    <span
-                        @click="readMore($event)"
-                        class="btn-read-more text-[#0062E3] underline cursor-pointer whitespace-nowrap"
-                    >{{ words[lang]["Read more"] }}</span>
-                    &nbsp;
-                  </span>
-
-                        <span class="hidden second-part-text">
-                    {{ sentenceToWords(translations[index].description).secondPart }}
-                  </span>
-                      </template>
-
-
+                      <span
+                          class="read-more hidden absolute right-0 top-24 md:inline-block  whitespace-nowrap bg-white">
+                          &nbsp;... &nbsp;
+                          <span @click="readMore($event)" class="underline  text-[#0062E3] cursor-pointer">
+                          {{ words[lang]["Read more"] }} </span>&nbsp;&nbsp;
+                    </span>
                     </div>
 
                     <div class="flex gap-2 justify-between text-xs">
@@ -326,20 +249,15 @@ function clickOutsideSlide() {
 
                   <template v-else>
                     <div
-                        class="location-description md:text-sm text-xs md:leading-6 leading-5 text-[#545860] relative overflow-auto custom-scrollbar md:mb-3">
-                      {{ sentenceToWords(translations[index].description).firstPart }}
-                      <template v-if="sentenceToWords(translations[index].description).secondPart.length">
-                      <span class="read-more">...<span
-                          @click="readMore($event)"
-                          class="btn-read-more text-[#0062E3] underline cursor-pointer whitespace-nowrap"
-                      >{{ words[lang]["Read more"] }}</span>&nbsp;</span>
+                        class="location-description md:text-sm text-xs md:leading-6 leading-5 text-[#545860] custom-scrollbar md:mb-3 relative">
+                      {{ translations[index].description }}
 
-                        <span class="hidden second-part-text">{{
-                            sentenceToWords(translations[index].description).secondPart
-                          }}</span>
-                      </template>
-
-
+                      <span
+                          class="read-more hidden absolute right-0 top-24 md:inline-block  whitespace-nowrap bg-white">
+                          &nbsp;... &nbsp;
+                          <span @click="readMore($event)" class="underline  text-[#0062E3] cursor-pointer">
+                          {{ words[lang]["Read more"] }} </span>&nbsp;&nbsp;
+                    </span>
                     </div>
 
                     <div class="md:block hidden text-xs">
@@ -435,7 +353,6 @@ function clickOutsideSlide() {
 
           <div class="relative">
             <div
-                @click="expandCard($event)"
                 class="card-location md:w-full px-10 py-4 md:px-0 md:py-0"
             >
 
@@ -450,22 +367,15 @@ function clickOutsideSlide() {
                 <div class="bg-white md:px-4 md:pt-4 md:pb-6 p-3">
 
                   <div
-                      class="location-description expand md:text-sm text-xs md:leading-6 leading-5 text-[#545860] relative overflow-auto custom-scrollbar md:mb-3">
+                      class="location-description md:text-sm text-xs md:leading-6 leading-5 text-[#545860] custom-scrollbar md:mb-3 relative">
+                    {{ translations[0].description }}
 
-                    {{ sentenceToWords(translations[0].description).firstPart }}
-
-                    <template v-if="sentenceToWords(translations[0].description).secondPart.length">
-                      <span class="read-more">...
-                        <span @click="readMore($event)"
-                              class="btn-read-more text-[#0062E3] underline cursor-pointer whitespace-nowrap">
-                          {{ words[lang]["Read more"] }}
-                        </span>&nbsp;
-                      </span>
-                      <span class="hidden second-part-text">
-                        {{ sentenceToWords(translations[0].description).secondPart }}
-                      </span>
-                    </template>
-
+                    <span
+                        class="read-more hidden absolute right-0 top-24 md:inline-block whitespace-nowrap bg-white">
+                          &nbsp;... &nbsp;
+                          <span @click="readMore($event)" class="underline  text-[#0062E3] cursor-pointer">
+                          {{ words[lang]["Read more"] }} </span>&nbsp;&nbsp;
+                    </span>
                   </div>
 
                   <div class="flex justify-between items-center text-[#0062E3] font-bold text-xs">
@@ -483,7 +393,9 @@ function clickOutsideSlide() {
                       {{ words[lang]["Download road trip"] }}
                     </div>
 
-                    <div class="md:absolute md:-bottom-12 md:left-0 md:text-white md:w-full md:text-center cursor-pointer" @click="goToSlide(0)">
+                    <div
+                        class="md:absolute md:-bottom-12 md:left-0 md:text-white md:w-full md:text-center cursor-pointer"
+                        @click="goToSlide(0)">
                       {{ words[lang]["Re-start road trip"] }}
                     </div>
                   </div>
@@ -558,16 +470,18 @@ function clickOutsideSlide() {
   box-shadow: 0px 2px 4px 0px #05203C26;
 
   .location-description {
-    @apply md:max-h-[135px] max-h-0 duration-300;
+    @apply md:h-[125px] md:max-h-[125px] h-[70px] md:overflow-hidden overflow-auto mb-3 duration-300;
 
-    @media screen and (max-width: 768px) {
-      &.expand {
-        @apply mb-3;
-        max-height: 135px !important;
+    &.expand {
+      @apply overflow-auto;
+
+      .read-more {
+        display: none;
       }
     }
 
   }
+
 
 }
 </style>

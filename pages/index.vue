@@ -226,7 +226,7 @@ watch(activeSlide, () => {
       </svg>
     </div>
 
-    <div class="absolute left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-4 md:py-2 duration-1000"
+    <div class="absolute left-0 bottom-0 md:h-full md:w-[350px] w-full md:px-4 md:py-2 duration-500"
          :class="{'bg-overlay' : !isMobile || activeSlide !== 0}"
          v-if="mapData.value">
       <Slider v-model="activeSlide" :points="mapData.value.points"
