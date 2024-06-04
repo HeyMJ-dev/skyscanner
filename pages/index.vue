@@ -147,13 +147,14 @@ function changeCamera(cameraOptions) {
     zoom: map.getZoom(),
   }
 
+  let threshold  = isMobile.value ? -.1 : 0;
   gsap.to(map, {
     duration: .8,
-    ease: "ease",
+    ease: "power2.inOut",
     onUpdate: function () {
       map.moveCamera({
         center: {
-          lat: initCameraOption.center.lat + ((cameraOptions.center.lat - initCameraOption.center.lat) * this.progress()),
+          lat: initCameraOption.center.lat + (((cameraOptions.center.lat + threshold) - initCameraOption.center.lat) * this.progress()),
           lng: initCameraOption.center.lng + ((cameraOptions.center.lng - initCameraOption.center.lng) * this.progress()),
         },
         zoom: initCameraOption.zoom + ((cameraOptions.zoom - initCameraOption.zoom) * this.progress()),
@@ -209,7 +210,7 @@ watch(activeSlide, () => {
   <div class="w-full h-full relative">
     <div id="map" class="w-full h-full"></div>
 
-    <div class="absolute right-8 top-8 w-14 h-14 bg-white shadow-xl cursor-pointer rounded-2xl p-3"
+    <div class="hidden md:block absolute right-8 top-8 w-14 h-14 bg-white shadow-xl cursor-pointer rounded-2xl p-3"
          @click="toggleFullScreen">
       <svg class="w-full" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path v-show="!isFullScreen"

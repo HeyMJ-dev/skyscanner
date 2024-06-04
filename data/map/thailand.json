@@ -80,7 +80,7 @@
       "zoom": 10,
       "image": "assets/image/5.png",
       "restaurant": {
-        "name": "Sukhothai noodles at Jae Hae Sukhothai Noodles restaurant",
+        "name": "Sukhothai noodles",
         "url": "#"
       },
       "stats": {
@@ -150,7 +150,7 @@
       "zoom": 10,
       "image": "assets/image/2.png",
       "restaurant": {
-        "name": "Thai green curry",
+        "name": "Khanom bueang",
         "url": "#"
       },
       "stats": {

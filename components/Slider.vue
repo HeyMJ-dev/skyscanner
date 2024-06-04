@@ -79,6 +79,7 @@ onMounted(() => {
         slidesPerView: 1,
         spaceBetween: 10,
         autoHeight: true,
+        allowTouchMove: true,
       },
       768: {
         direction: 'vertical',
@@ -86,6 +87,7 @@ onMounted(() => {
         spaceBetween: 0,
         centeredSlides: true,
         autoHeight: false,
+        allowTouchMove: false,
       }
     },
     on: {
@@ -219,7 +221,7 @@ function clickOutsideSlide() {
                     </div>
 
                     <div class="flex gap-2 justify-between text-xs">
-                      <div class="flex items-center gap-1">
+                      <div class="flex items-center gap-1 truncate">
                         <template v-if="item.restaurant.name">
                           <svg class="md:h-4 h-3 shrink-0" viewBox="0 0 12 16" fill="none"
                                xmlns="http://www.w3.org/2000/svg">
@@ -460,14 +462,8 @@ function clickOutsideSlide() {
   }
 }
 
-.location-slider {
-  @media screen and (max-width: 360px) {
-    max-width: 250px !important;
-  }
-}
 
 .card-location {
-  box-shadow: 0px 2px 4px 0px #05203C26;
 
   .location-description {
     @apply md:h-[125px] md:max-h-[125px] h-[70px] md:overflow-hidden overflow-auto mb-3 duration-300;
