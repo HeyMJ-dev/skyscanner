@@ -179,7 +179,12 @@
       {
         "title": "Lorne ",
         "subtitle": "",
-        "description": "Head along the Great Ocean Road and stop in Lorne, a pretty beach town with an arty community and sculpture park. Stretch your legs and watch the surfers on Lorne Beach (or catch a wave yourself) and head up to Teddy’s Lookout for incredible views. And when you get hungry? Sample some super fresh calamari at IPSOS Restaurant and Bar."
+        "description": "Head along the Great Ocean Road and stop in Lorne, a pretty beach town with an arty community and sculpture park. Stretch your legs and watch the surfers on Lorne Beach (or catch a wave yourself) and head up to Teddy’s Lookout for incredible views. And when you get hungry? Sample some super fresh calamari at IPSOS Restaurant and Bar.",
+        "bubble": {
+          "text": "Tanlines encouraged",
+          "left": "30%",
+          "top": "20%"
+        }
       },
       {
         "title": "Apollo Bay ",
@@ -194,7 +199,12 @@
       {
         "title": "Warrmambool",
         "subtitle": "",
-        "description": "On the drive from Wattle Hill to Warrnambool, you’ll pass the Twelve Apostles National Marine Park. Make sure you get out and snap pictures of the incredible limestone stacks jutting up out of the sea. In your time in the city, check out Thunder Point Coastal Reserve, Warrnambool Wildlife Encounters wildlife park and the botanical gardens. And don’t miss the fresh crayfish."
+        "description": "On the drive from Wattle Hill to Warrnambool, you’ll pass the Twelve Apostles National Marine Park. Make sure you get out and snap pictures of the incredible limestone stacks jutting up out of the sea. In your time in the city, check out Thunder Point Coastal Reserve, Warrnambool Wildlife Encounters wildlife park and the botanical gardens. And don’t miss the fresh crayfish.",
+        "bubble": {
+          "text": "Take a walk on the wild side",
+          "left": "45%",
+          "top": "35%"
+        }
       },
       {
         "title": "Grampians National Park",

@@ -165,9 +165,9 @@ function clickOutsideSlide() {
                 :class="{'md:w-full px-10 py-4 md:px-0 md:py-0' :  index !== 0}"
             >
 
-              <div class="rounded-[10px] overflow-hidden "
+              <div class="rounded-[10px] overflow-hidden relative "
                    :class="{'rounded-none' : (index === 0 && isMobile) }">
-                <div class="md:h-56 h-32">
+                <div class="md:h-56 h-32 relative">
                   <img v-if="index !== 0"
                        class="h-full w-full object-cover object-center"
                        :src="item.image"
@@ -175,9 +175,11 @@ function clickOutsideSlide() {
                   >
                   <div v-else
                        class="flex flex-col relative justify-center md:px-4 pl-4 pr-16 w-full h-full bg-cover bg-center before:block before:w-full before:h-full before:bg-[#05203C] before:absolute before:left-0 before:top-0 before:opacity-70 "
-                  :style="{backgroundImage: `url(${item.image})` }">
+                       :style="{backgroundImage: `url(${item.image})` }">
                     <h2 class="z-10 text-white font-normal text-sm md:text-md">{{ translations[0].subtitle }}</h2>
-                    <h1 class="z-10 text-white font-bold text-4xl md:text-[58px] leading-1">{{ translations[0].title }}</h1>
+                    <h1 class="z-10 text-white font-bold text-4xl md:text-[58px] leading-1">{{
+                        translations[0].title
+                      }}</h1>
 
                     <div class="md:hidden absolute right-4 top-1/2 -translate-y-1/2 cursor-pointer" @click="nextSlide">
                       <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -193,6 +195,13 @@ function clickOutsideSlide() {
                       </svg>
                     </div>
                   </div>
+
+                  <template v-if="translations[index].bubble">
+                    <div class="bubble absolute text-[#0062E3] bg-white p-3 rounded-lg z-10 text-xs -translate-y-1/2 -translate-x-1/2 text-nowrap"
+                    :style="{left:  translations[index].bubble.left,  top: translations[index].bubble.top }">
+                      {{ translations[index].bubble.text }}
+                    </div>
+                  </template>
                 </div>
                 <div class="bg-white md:px-4 md:pt-4 md:pb-6 p-3"
                      :class="{'hidden md:block' : index === 0}">
@@ -363,10 +372,12 @@ function clickOutsideSlide() {
                 <div class="md:h-56 h-32">
 
                   <div
-                       class="flex flex-col relative justify-center md:px-4 pl-4 pr-16 w-full h-full bg-cover bg-center before:block before:w-full before:h-full before:bg-[#05203C] before:absolute before:left-0 before:top-0 before:opacity-70 "
-                       :style="{backgroundImage: `url(${points[0].image})` }">
+                      class="flex flex-col relative justify-center md:px-4 pl-4 pr-16 w-full h-full bg-cover bg-center before:block before:w-full before:h-full before:bg-[#05203C] before:absolute before:left-0 before:top-0 before:opacity-70 "
+                      :style="{backgroundImage: `url(${points[0].image})` }">
                     <h2 class="z-10 text-white font-normal text-sm md:text-md">{{ translations[0].subtitle }}</h2>
-                    <h1 class="z-10 text-white font-bold text-4xl md:text-[58px] leading-1">{{ translations[0].title }}</h1>
+                    <h1 class="z-10 text-white font-bold text-4xl md:text-[58px] leading-1">{{
+                        translations[0].title
+                      }}</h1>
                   </div>
                 </div>
                 <div class="bg-white md:px-4 md:pt-4 md:pb-6 p-3">
@@ -480,7 +491,21 @@ function clickOutsideSlide() {
     }
 
   }
+}
 
-
+.bubble {
+  &:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 10px solid white;
+    clear: both;
+  }
 }
 </style>

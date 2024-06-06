@@ -169,7 +169,12 @@
       {
         "title": "Tangier",
         "subtitle": "",
-        "description": "Begin in this Moroccan port city on the Strait of Gibraltar. Head to its whitewashed hillside Medina to explore the Dar el Makhzen – a former sultan palace that’s now a museum – and the American Legation Museum. Relax on Tangier Beach and take in the Grand Mosque. In your time in the city, don’t miss Calentita – a simple unleavened bread."
+        "description": "Begin in this Moroccan port city on the Strait of Gibraltar. Head to its whitewashed hillside Medina to explore the Dar el Makhzen – a former sultan palace that’s now a museum – and the American Legation Museum. Relax on Tangier Beach and take in the Grand Mosque. In your time in the city, don’t miss Calentita – a simple unleavened bread.",
+        "bubble": {
+          "text": "Relax and recharge",
+          "left": "70%",
+          "top": "25%"
+        }
       },
       {
         "title": "Chefchaouen",
@@ -184,7 +189,12 @@
       {
         "title": "Dades Valley",
         "subtitle": "",
-        "description": "High in the Atlas Mountains around 100km south of Marrakech, the Dades Valley (or Dades Gorge) is the ultimate road trip location. The series of rugged wadi gorges are carved out of the Dades River. Along the way you’ll see oases and mudbrick palaces that give it its name – Valley of a Thousand Kasbahs. Sample Tagine Kefta (meatball tagine) and Chebakia (sesame and honey cookies)."
+        "description": "High in the Atlas Mountains around 100km south of Marrakech, the Dades Valley (or Dades Gorge) is the ultimate road trip location. The series of rugged wadi gorges are carved out of the Dades River. Along the way you’ll see oases and mudbrick palaces that give it its name – Valley of a Thousand Kasbahs. Sample Tagine Kefta (meatball tagine) and Chebakia (sesame and honey cookies).",
+        "bubble": {
+          "text": "Take the scenic route",
+          "left": "70%",
+          "top": "25%"
+        }
       },
       {
         "title": "Ouarzazate",

@@ -174,7 +174,12 @@
       {
         "title": "Kanchanaburi",
         "subtitle": "",
-        "description": "This spot in west Thailand is famous for the River Khwae Bridge, built by Japanese prisoners of war in World War II, but there’s much more to see. Head to the Erawan National Park with its epic waterfalls and go deep underground to see nine separate Buddhas in caves at Wat Tham Khao Pun. Feast on Gaeng Som (sour curry with shrimp)."
+        "description": "This spot in west Thailand is famous for the River Khwae Bridge, built by Japanese prisoners of war in World War II, but there’s much more to see. Head to the Erawan National Park with its epic waterfalls and go deep underground to see nine separate Buddhas in caves at Wat Tham Khao Pun. Feast on Gaeng Som (sour curry with shrimp).",
+        "bubble": {
+          "text": "On cloud nine",
+          "left": "50%",
+          "top": "30%"
+        }
       },
       {
         "title": "Ayutthaya ",
@@ -204,7 +209,12 @@
       {
         "title": "Lopburi",
         "subtitle": "",
-        "description": "The capital city of the Lopburi province in central Thailand is diverse and beautiful. Famous for its resident monkeys and Khmer-era temples, it’s a uniquely Thai experience. Visit Phra Prang Sam Yot and King Narai’s Palace for ancient architecture and the scenic Sub Lek Reservoir. Once night falls head to the Lopburi Night Market for Paid Thai, papaya salad, and chicken and pork skewers."
+        "description": "The capital city of the Lopburi province in central Thailand is diverse and beautiful. Famous for its resident monkeys and Khmer-era temples, it’s a uniquely Thai experience. Visit Phra Prang Sam Yot and King Narai’s Palace for ancient architecture and the scenic Sub Lek Reservoir. Once night falls head to the Lopburi Night Market for Paid Thai, papaya salad, and chicken and pork skewers.",
+        "bubble": {
+          "text": "Monkeying around optional",
+          "left": "35%",
+          "top": "75%"
+        }
       },
       {
         "title": "Saraburi",

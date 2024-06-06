@@ -174,7 +174,12 @@
       {
         "title": "Sintra",
         "subtitle": "",
-        "description": "This resort town in the foothills of the Sintra Mountains is breathtakingly beautiful. Look out for the pastel-colored villas and palaces dotted throughout its forested terrain. Don’t miss the Moorish- and Manueline-style Sintra National Palace and the hilltop 19th-century Pena National Palace. Food wise, tuck into Travesseiros – Sintra’s famous puff pastry is filled with sweet eggy almond cream and dusted with sugar."
+        "description": "This resort town in the foothills of the Sintra Mountains is breathtakingly beautiful. Look out for the pastel-colored villas and palaces dotted throughout its forested terrain. Don’t miss the Moorish- and Manueline-style Sintra National Palace and the hilltop 19th-century Pena National Palace. Food wise, tuck into Travesseiros – Sintra’s famous puff pastry is filled with sweet eggy almond cream and dusted with sugar.",
+        "bubble": {
+          "text": "Off the beaten track",
+          "left": "70%",
+          "top": "25%"
+        }
       },
       {
         "title": "Cascais",
@@ -194,7 +199,12 @@
       {
         "title": "Algarve",
         "subtitle": "",
-        "description": "Portugal’s southernmost region, the Algarve, is known for its beautiful beaches and impeccable golf courses. Whether you’re looking to relax on the sand, surf in Lagos or hit the fairways of Quinta do Lago, you’ll find it all here. And when your day is done, unwind with a glass of wine and Cataplana – a traditional fish stew hailing from the region."
+        "description": "Portugal’s southernmost region, the Algarve, is known for its beautiful beaches and impeccable golf courses. Whether you’re looking to relax on the sand, surf in Lagos or hit the fairways of Quinta do Lago, you’ll find it all here. And when your day is done, unwind with a glass of wine and Cataplana – a traditional fish stew hailing from the region.",
+        "bubble": {
+          "text": "Your place in the sun",
+          "left": "30%",
+          "top": "75%"
+        }
       },
       {
         "title": "Silves",

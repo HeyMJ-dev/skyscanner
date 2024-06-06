@@ -174,7 +174,12 @@
       {
         "title": "Haro",
         "subtitle": "",
-        "description": "This town in the La Rioja province of Spain is synonymous with wine bars, bodegas, and vineyards all selling the world-renowned Rioja wine. Wander the town’s narrow streets to find hidden squares and churches with tapas spots everywhere. Tuck into lamb chops roasted over vine cuttings washed down with a glass of locally produced vino."
+        "description": "This town in the La Rioja province of Spain is synonymous with wine bars, bodegas, and vineyards all selling the world-renowned Rioja wine. Wander the town’s narrow streets to find hidden squares and churches with tapas spots everywhere. Tuck into lamb chops roasted over vine cuttings washed down with a glass of locally produced vino.",
+        "bubble": {
+          "text": "Wine. Dine. and sunshine",
+          "left": "30%",
+          "top": "25%"
+        }
       },
       {
         "title": "Santo Domingo de la Calzada",
@@ -194,7 +199,12 @@
       {
         "title": "Ávila",
         "subtitle": "",
-        "description": "The capital of the Ávila province, the city is renowned for its intact medieval walls, among the best preserved and most complete in Europe. Visible from far away, they’re a sight to behold close up with over 80 towers and nine gates. And what a spectacle when they’re lit up at night. You can’t leave Ávila without trying Yemas de Santa Teresa – this sweet egg yolk dessert is famous here."
+        "description": "The capital of the Ávila province, the city is renowned for its intact medieval walls, among the best preserved and most complete in Europe. Visible from far away, they’re a sight to behold close up with over 80 towers and nine gates. And what a spectacle when they’re lit up at night. You can’t leave Ávila without trying Yemas de Santa Teresa – this sweet egg yolk dessert is famous here.",
+        "bubble": {
+          "text": "Adventure awaits",
+          "left": "30%",
+          "top": "70%"
+        }
       },
       {
         "title": "Salamanca",

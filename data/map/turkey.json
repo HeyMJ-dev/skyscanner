@@ -194,7 +194,12 @@
       {
         "title": "Antalya",
         "subtitle": "",
-        "description": "Make the trip down the coast and you’ll land in Antalya. The fifth largest city in Turkey was once a major Roman port – check out the historical sights including Hadrian’s Gate. Today, you’ll find a yacht-filled harbour and beaches flanked by epic 5-star resorts. While you’re here sample Piyaz – a white bean salad with raw onion, parsley and sumac."
+        "description": "Make the trip down the coast and you’ll land in Antalya. The fifth largest city in Turkey was once a major Roman port – check out the historical sights including Hadrian’s Gate. Today, you’ll find a yacht-filled harbour and beaches flanked by epic 5-star resorts. While you’re here sample Piyaz – a white bean salad with raw onion, parsley and sumac.",
+        "bubble": {
+          "text": "Adventure awaits",
+          "left": "70%",
+          "top": "20%"
+        }
       },
       {
         "title": "Konya",
