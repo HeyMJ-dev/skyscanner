@@ -14,7 +14,7 @@
   },
   "points": [
     {
-      "image": "assets/image/1.png",
+      "image": "assets/image/portugal/0.jpg",
       "steps": 10,
       "duration": "13hr 45m"
     },
@@ -22,7 +22,7 @@
       "lat": 38.72224873609245,
       "lng": -9.139300666886307,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/portugal/1.jpg",
       "restaurant": {
         "name": "Pasteis De Nata",
         "url": "#"
@@ -36,7 +36,7 @@
       "lat": 38.802869983295146,
       "lng": -9.381659030914307,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/portugal/2.jpg",
       "restaurant": {
         "name": "Travesseiros",
         "url": "#"
@@ -50,7 +50,7 @@
       "lat": 38.69671608862163,
       "lng": -9.422123400173595,
       "zoom": 10,
-      "image": "assets/image/3.png",
+      "image": "assets/image/portugal/3.jpg",
       "restaurant": {
         "name": "Arroz De Marisco",
         "url": "#"
@@ -64,7 +64,7 @@
       "lat": 38.57130410389502,
       "lng": -7.913444722265255,
       "zoom": 10,
-      "image": "assets/image/4.png",
+      "image": "assets/image/portugal/4.jpg",
       "restaurant": {
         "name": "Acorda",
         "url": "#"
@@ -78,7 +78,7 @@
       "lat": 38.01518165632363,
       "lng": -7.862651716519397,
       "zoom": 10,
-      "image": "assets/image/5.png",
+      "image": "assets/image/portugal/5.jpg",
       "restaurant": {
         "name": "Migas",
         "url": "#"
@@ -92,7 +92,7 @@
       "lat": 37.25375994473453,
       "lng": -8.399492231940155,
       "zoom": 10,
-      "image": "assets/image/6.png",
+      "image": "assets/image/portugal/6.jpg",
       "restaurant": {
         "name": "Cataplana",
         "url": "#"
@@ -106,7 +106,7 @@
       "lat": 37.18881320390734,
       "lng": -8.441417547262189,
       "zoom": 10,
-      "image": "assets/image/7.png",
+      "image": "assets/image/portugal/7.jpg",
       "restaurant": {
         "name": "Figos Cheios",
         "url": "#"
@@ -120,7 +120,7 @@
       "lat": 40.20360570824986,
       "lng": -8.410049805355339,
       "zoom": 10,
-      "image": "assets/image/8.png",
+      "image": "assets/image/portugal/8.jpg",
       "restaurant": {
         "name": "Arroz Doce",
         "url": "#"
@@ -134,7 +134,7 @@
       "lat": 41.15785812768526,
       "lng": -8.628709875492737,
       "zoom": 10,
-      "image": "assets/image/9.png",
+      "image": "assets/image/portugal/9.jpg",
       "restaurant": {
         "name": "Francesinha",
         "url": "#"
@@ -148,7 +148,7 @@
       "lat": 38.72224873609245,
       "lng": -9.139300666886307,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/portugal/10.jpg",
       "restaurant": {
         "name": "Queijo",
         "url": "#"

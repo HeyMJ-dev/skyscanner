@@ -14,7 +14,7 @@
   },
   "points": [
     {
-      "image": "assets/image/1.png",
+      "image": "assets/image/thailand/0.jpg",
       "steps": 10,
       "duration": "18hr 15m"
     },
@@ -22,7 +22,7 @@
       "lat": 13.75555672915064,
       "lng": 100.50163740301785,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/thailand/1.jpg",
       "restaurant": {
         "name": "Yaowarat Chinatown Market",
         "url": "#"
@@ -36,7 +36,7 @@
       "lat": 14.022708150674466,
       "lng": 99.531765044647,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/thailand/2.jpg",
       "restaurant": {
         "name": "Geang Som",
         "url": "#"
@@ -50,7 +50,7 @@
       "lat": 14.330356649702205,
       "lng": 100.52870205647042,
       "zoom": 10,
-      "image": "assets/image/3.png",
+      "image": "assets/image/thailand/3.jpg",
       "restaurant": {
         "name": "Kuay Teow Ruea ",
         "url": "#"
@@ -64,7 +64,7 @@
       "lat": 16.821124928814676,
       "lng": 100.26585191488266,
       "zoom": 10,
-      "image": "assets/image/4.png",
+      "image": "assets/image/thailand/4.jpg",
       "restaurant": {
         "name": "Khao Pad Sapparot at Nan River Night Market",
         "url": "#"
@@ -78,7 +78,7 @@
       "lat": 17.242999801668066,
       "lng": 99.72462015764627,
       "zoom": 10,
-      "image": "assets/image/5.png",
+      "image": "assets/image/thailand/5.jpg",
       "restaurant": {
         "name": "Sukhothai noodles",
         "url": "#"
@@ -92,7 +92,7 @@
       "lat": 16.48086860772478,
       "lng": 99.54949832177417,
       "zoom": 10,
-      "image": "assets/image/6.png",
+      "image": "assets/image/thailand/6.jpg",
       "restaurant": {
         "name": "Khao kriap waan",
         "url": "#"
@@ -106,7 +106,7 @@
       "lat": 15.69873228736055,
       "lng": 100.12014589453105,
       "zoom": 10,
-      "image": "assets/image/7.png",
+      "image": "assets/image/thailand/7.jpg",
       "restaurant": {
         "name": "Khao Man Gai",
         "url": "#"
@@ -120,7 +120,7 @@
       "lat": 15.050514318962502,
       "lng": 100.89301827187367,
       "zoom": 10,
-      "image": "assets/image/8.png",
+      "image": "assets/image/thailand/8.jpg",
       "restaurant": {
         "name": "Khao Chae",
         "url": "#"
@@ -134,7 +134,7 @@
       "lat": 14.527147330284805,
       "lng": 100.9134459684761,
       "zoom": 10,
-      "image": "assets/image/9.png",
+      "image": "assets/image/thailand/9.jpg",
       "restaurant": {
         "name": "Saraburi ice cream",
         "url": "#"
@@ -148,7 +148,7 @@
       "lat": 13.75555672915064,
       "lng": 100.50163740301785,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/thailand/10.jpg",
       "restaurant": {
         "name": "Khanom bueang",
         "url": "#"

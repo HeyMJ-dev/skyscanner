@@ -14,7 +14,7 @@
   },
   "points": [
     {
-      "image": "assets/image/1.png",
+      "image": "assets/image/morocco/0.jpg",
       "steps": 10,
       "duration": "26hr"
     },
@@ -22,7 +22,7 @@
       "lat": 35.759407121683964,
       "lng": -5.834463460033401,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/morocco/1.jpg",
       "restaurant": {
         "name": "Calentita",
         "url": "#"
@@ -36,7 +36,7 @@
       "lat": 35.1687312267223,
       "lng": -5.268340405461038,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/morocco/2.jpg",
       "restaurant": {
         "name": "tagine djaj mqualli",
         "url": "#"
@@ -50,7 +50,7 @@
       "lat": 34.01782819340704,
       "lng": -5.007068113446551,
       "zoom": 10,
-      "image": "assets/image/3.png",
+      "image": "assets/image/morocco/3.jpg",
       "restaurant": {
         "name": "Pastilla, Snail Soup",
         "url": "#"
@@ -64,7 +64,7 @@
       "lat": 31.44974079640109,
       "lng": -5.965347001392309,
       "zoom": 10,
-      "image": "assets/image/4.png",
+      "image": "assets/image/morocco/4.jpg",
       "restaurant": {
         "name": "Tagine Kefta, Chebakia",
         "url": "#"
@@ -78,7 +78,7 @@
       "lat": 30.933542394892296,
       "lng": -6.937018632888794,
       "zoom": 10,
-      "image": "assets/image/5.png",
+      "image": "assets/image/morocco/5.jpg",
       "restaurant": {
         "name": "mrouzia, briouats",
         "url": "#"
@@ -92,7 +92,7 @@
       "lat": 31.622254035951208,
       "lng": -7.990580930706265,
       "zoom": 10,
-      "image": "assets/image/6.png",
+      "image": "assets/image/morocco/6.jpg",
       "restaurant": {
         "name": "Rfissa, khobz",
         "url": "#"
@@ -106,7 +106,7 @@
       "lat": 32.98989332320715,
       "lng": -7.614933301088593,
       "zoom": 10,
-      "image": "assets/image/7.png",
+      "image": "assets/image/morocco/7.jpg",
       "restaurant": {
         "name": "Brochettes",
         "url": "#"
@@ -120,7 +120,7 @@
       "lat": 33.573378344891154,
       "lng": -7.590691399762846,
       "zoom": 10,
-      "image": "assets/image/8.png",
+      "image": "assets/image/morocco/8.jpg",
       "restaurant": {
         "name": "tagine de poisson, harira",
         "url": "#"
@@ -134,7 +134,7 @@
       "lat": 34.008682978754535,
       "lng": -6.854147779213943,
       "zoom": 10,
-      "image": "assets/image/9.png",
+      "image": "assets/image/morocco/9.jpg",
       "restaurant": {
         "name": "Zaalouk",
         "url": "#"
@@ -148,7 +148,7 @@
       "lat": 35.759407121683964,
       "lng": -5.834463460033401,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/morocco/10.jpg",
       "restaurant": {
         "name": "Briouats",
         "url": "#"

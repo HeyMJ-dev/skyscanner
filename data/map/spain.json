@@ -14,7 +14,7 @@
   },
   "points": [
     {
-      "image": "assets/image/1.png",
+      "image": "assets/image/spain/0.jpg",
       "steps": 10,
       "duration": "11hr 30m"
     },
@@ -22,7 +22,7 @@
       "lat": 43.263031614151295,
       "lng": -2.9339239812012807,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/spain/1.jpg",
       "restaurant": {
         "name": "Pintxos (Basque Tapas)",
         "url": "#"
@@ -36,7 +36,7 @@
       "lat": 42.573072002123425,
       "lng": -2.852729731900965,
       "zoom": 10,
-      "image": "assets/image/3.png",
+      "image": "assets/image/spain/2.jpg",
       "restaurant": {
         "name": "Lamb chops roasted over vine cuttings",
         "url": "#"
@@ -50,7 +50,7 @@
       "lat": 42.43983253304751,
       "lng": -2.9577255249023438,
       "zoom": 10,
-      "image": "assets/image/4.png",
+      "image": "assets/image/spain/3.jpg",
       "restaurant": {
         "name": "Chorizo al Vino",
         "url": "#"
@@ -64,7 +64,7 @@
       "lat": 42.346943583973946,
       "lng": -3.687921892979069,
       "zoom": 10,
-      "image": "assets/image/5.png",
+      "image": "assets/image/spain/4.jpg",
       "restaurant": {
         "name": "Morcilla de Burgos",
         "url": "#"
@@ -78,7 +78,7 @@
       "lat": 40.942746049599926,
       "lng": -4.108849380084281,
       "zoom": 10,
-      "image": "assets/image/6.png",
+      "image": "assets/image/spain/5.jpg",
       "restaurant": {
         "name": "Cochinillo Asado",
         "url": "#"
@@ -92,7 +92,7 @@
       "lat": 40.6625522764429,
       "lng": -4.681300433607302,
       "zoom": 10,
-      "image": "assets/image/7.png",
+      "image": "assets/image/spain/6.jpg",
       "restaurant": {
         "name": "Yemas de Santa Teresa",
         "url": "#"
@@ -106,7 +106,7 @@
       "lat": 40.969415287005056,
       "lng": -5.663924485932636,
       "zoom": 10,
-      "image": "assets/image/8.png",
+      "image": "assets/image/spain/7.jpg",
       "restaurant": {
         "name": "Hornazo",
         "url": "#"
@@ -120,7 +120,7 @@
       "lat": 41.642426375079566,
       "lng": -4.755153945170127,
       "zoom": 10,
-      "image": "assets/image/9.png",
+      "image": "assets/image/spain/8.jpg",
       "restaurant": {
         "name": "Ensalada de Escarola ",
         "url": "#"
@@ -134,7 +134,7 @@
       "lat": 42.79263006898168,
       "lng": -4.259248398992859,
       "zoom": 10,
-      "image": "assets/image/10.png",
+      "image": "assets/image/spain/9.jpg",
       "restaurant": {
         "name": "Chuletón de Ávila",
         "url": "#"
@@ -148,7 +148,7 @@
       "lat": 43.263031614151295,
       "lng": -2.9339239812012807,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/spain/10.jpg",
       "restaurant": {
         "name": "Bacalao",
         "url": "#"

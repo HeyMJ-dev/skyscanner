@@ -14,14 +14,15 @@
   },
   "points": [
     {
-      "image": "assets/image/1.png",
+      "image": "assets/image/australia/0.jpg",
       "steps": 10,
       "duration": "10hr"
     },
     {
-      "lat": -37.81347126002954, "lng": 144.96322006926366,
+      "lat": -37.81347126002954,
+      "lng": 144.96322006926366,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/australia/1.jpg",
       "restaurant": {
         "name": "Queen Victoria Market",
         "url": "#"
@@ -32,9 +33,10 @@
       }
     },
     {
-      "lat": -38.314776119903215, "lng": 144.3183508515358,
+      "lat": -38.314776119903215,
+      "lng": 144.3183508515358,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/australia/2.jpg",
       "restaurant": {
         "name": "Fish and chips at Bell Street Fish and Chips",
         "url": "#"
@@ -45,9 +47,10 @@
       }
     },
     {
-      "lat": -38.53679820252299, "lng": 143.97315205990535,
+      "lat": -38.53679820252299,
+      "lng": 143.97315205990535,
       "zoom": 10,
-      "image": "assets/image/3.png",
+      "image": "assets/image/australia/3.jpg",
       "restaurant": {
         "name": "Calamari at IPOS Restaurant and Bar",
         "url": "#"
@@ -58,9 +61,10 @@
       }
     },
     {
-      "lat": -38.75519727657059, "lng": 143.66742681662814,
+      "lat": -38.75519727657059,
+      "lng": 143.66742681662814,
       "zoom": 10,
-      "image": "assets/image/4.png",
+      "image": "assets/image/australia/4.jpg",
       "restaurant": {
         "name": "",
         "url": "#"
@@ -71,9 +75,10 @@
       }
     },
     {
-      "lat": -38.74817335067343, "lng": 143.25647406243175,
+      "lat": -38.74817335067343,
+      "lng": 143.25647406243175,
       "zoom": 10,
-      "image": "assets/image/5.png",
+      "image": "assets/image/australia/5.jpg",
       "restaurant": {
         "name": "",
         "url": "#"
@@ -84,9 +89,10 @@
       }
     },
     {
-      "lat": -38.3721332202156, "lng": 142.47802594152787,
+      "lat": -38.3721332202156,
+      "lng": 142.47802594152787,
       "zoom": 10,
-      "image": "assets/image/6.png",
+      "image": "assets/image/australia/6.jpg",
       "restaurant": {
         "name": "",
         "url": "#"
@@ -97,9 +103,10 @@
       }
     },
     {
-      "lat": -37.141417956798826, "lng": 142.5189185142517,
+      "lat": -37.141417956798826,
+      "lng": 142.5189185142517,
       "zoom": 10,
-      "image": "assets/image/7.png",
+      "image": "assets/image/australia/7.jpg",
       "restaurant": {
         "name": "",
         "url": "#"
@@ -110,9 +117,10 @@
       }
     },
     {
-      "lat": -37.5631674129331, "lng": 143.8492164646172,
+      "lat": -37.5631674129331,
+      "lng": 143.8492164646172,
       "zoom": 10,
-      "image": "assets/image/8.png",
+      "image": "assets/image/australia/8.jpg",
       "restaurant": {
         "name": "",
         "url": "#"
@@ -123,9 +131,10 @@
       }
     },
     {
-      "lat": -37.34081979734841, "lng": 144.14264278827812,
+      "lat": -37.34081979734841,
+      "lng": 144.14264278827812,
       "zoom": 10,
-      "image": "assets/image/9.png",
+      "image": "assets/image/australia/9.jpg",
       "restaurant": {
         "name": "",
         "url": "#"
@@ -136,9 +145,10 @@
       }
     },
     {
-      "lat": -37.81347126002954, "lng": 144.96322006926366,
+      "lat": -37.81347126002954,
+      "lng": 144.96322006926366,
       "zoom": 10,
-      "image": "assets/image/2.png",
+      "image": "assets/image/australia/10.jpg",
       "restaurant": {
         "name": "South Melbourne Market ",
         "url": "#"
