@@ -1,0 +1,52 @@
+<gpx version="1.1" creator="Sky Scanner">
+    <wpt lat="41.00793537853425" lon="28.97801550891782">
+        <name>Istanbul</name>
+        <cmt/>
+        <desc/>
+    </wpt>
+    <wpt lat="40.187864327622776" lon="29.061161826248657">
+        <name>Bursa</name>
+        <cmt>150km</cmt>
+        <desc>2hr 30m</desc>
+    </wpt>
+    <wpt lat="38.423628359893144" lon="27.142763828583057">
+        <name>Izmir</name>
+        <cmt>330km</cmt>
+        <desc>5hr</desc>
+    </wpt>
+    <wpt lat="37.9552517990387" lon="29.07807877072671">
+        <name>Pamukkale</name>
+        <cmt>200km</cmt>
+        <desc>3hr</desc>
+    </wpt>
+    <wpt lat="36.65914007174209" lon="29.12616988889943">
+        <name>Fethiye</name>
+        <cmt>150km</cmt>
+        <desc>2hr 30m</desc>
+    </wpt>
+    <wpt lat="36.89657712271203" lon="30.713574433021396">
+        <name>Antalya</name>
+        <cmt>200km</cmt>
+        <desc>3hr</desc>
+    </wpt>
+    <wpt lat="37.874462866944754" lon="32.49289362022981">
+        <name>Konya</name>
+        <cmt>250km</cmt>
+        <desc>4hr</desc>
+    </wpt>
+    <wpt lat="38.649410658427534" lon="34.85204493298723">
+        <name>Cappadocia</name>
+        <cmt>280km</cmt>
+        <desc>4hr 30m</desc>
+    </wpt>
+    <wpt lat="39.93314919184197" lon="32.86050513836794">
+        <name>Ankara</name>
+        <cmt>250km</cmt>
+        <desc>3hr 30m</desc>
+    </wpt>
+    <wpt lat="41.00793537853425" lon="28.97801550891782">
+        <name>Istanbul</name>
+        <cmt>450km</cmt>
+        <desc>6hr</desc>
+    </wpt>
+</gpx>

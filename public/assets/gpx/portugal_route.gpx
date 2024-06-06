@@ -1,0 +1,52 @@
+<gpx version="1.1" creator="Sky Scanner">
+    <wpt lat="38.72224873609245" lon="-9.139300666886307">
+        <name>Lisbon</name>
+        <cmt/>
+        <desc/>
+    </wpt>
+    <wpt lat="38.802869983295146" lon="-9.381659030914307">
+        <name>Sintra</name>
+        <cmt>30km</cmt>
+        <desc>40m</desc>
+    </wpt>
+    <wpt lat="38.69671608862163" lon="-9.422123400173595">
+        <name>Cascais</name>
+        <cmt>20km</cmt>
+        <desc>30m</desc>
+    </wpt>
+    <wpt lat="38.57130410389502" lon="-7.913444722265255">
+        <name>Evora</name>
+        <cmt>130km</cmt>
+        <desc>1hr 30m</desc>
+    </wpt>
+    <wpt lat="38.01518165632363" lon="-7.862651716519397">
+        <name>Beja</name>
+        <cmt>140km</cmt>
+        <desc>2hr</desc>
+    </wpt>
+    <wpt lat="37.25375994473453" lon="-8.399492231940155">
+        <name>Algarve</name>
+        <cmt>200km</cmt>
+        <desc>2hr 30m</desc>
+    </wpt>
+    <wpt lat="37.18881320390734" lon="-8.441417547262189">
+        <name>Silves</name>
+        <cmt>50km</cmt>
+        <desc>1hr</desc>
+    </wpt>
+    <wpt lat="40.20360570824986" lon="-8.410049805355339">
+        <name>Coimbra</name>
+        <cmt>280km</cmt>
+        <desc>3hr</desc>
+    </wpt>
+    <wpt lat="41.15785812768526" lon="-8.628709875492737">
+        <name>Porto</name>
+        <cmt>120km</cmt>
+        <desc>1hr 30m</desc>
+    </wpt>
+    <wpt lat="38.72224873609245" lon="-9.139300666886307">
+        <name>Lisbon</name>
+        <cmt>310km</cmt>
+        <desc>3hr 30m</desc>
+    </wpt>
+</gpx>

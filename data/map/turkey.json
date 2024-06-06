@@ -1239,5 +1239,7 @@
       "lat": 41.008230000000005,
       "lng": 28.97838
     }
-  ]
+  ],
+  "gpx": "assets/gpx/turkey_route.gpx"
+
 }

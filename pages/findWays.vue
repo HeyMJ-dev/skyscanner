@@ -1,4 +1,5 @@
 <script setup>
+/*
 import {Loader} from "@googlemaps/js-api-loader"
 
 definePageMeta({
@@ -296,14 +297,17 @@ function calculateAndDisplayRoute(directionsService, directionsRenderer) {
       .catch((e) => window.alert("Directions request failed due to " + status));
 }
 
+*/
 
 </script>
 
 
 <template>
+<!--
   <div class="w-full h-full relative">
     <div id="map" class="w-full h-full bg-blue-200"></div>
   </div>
+-->
 
 
 </template>

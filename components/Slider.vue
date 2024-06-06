@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps(["points", "translations"],),
+const props = defineProps(["points", "translations", "gpx"]),
     swiper = ref(null),
     loading = ref(false),
     sliderIndex = ref(0),
@@ -191,7 +191,7 @@ function clickOutsideSlide() {
                   <div v-else
                        class="flex flex-col relative justify-center md:px-4 pl-4 pr-16 w-full h-full bg-cover bg-center before:block before:w-full before:h-full before:bg-[#05203C] before:absolute before:left-0 before:top-0 before:opacity-70 "
                        :style="{backgroundImage: `url(${item.image})` }">
-                    <h2 class="z-10 text-white font-normal text-sm md:text-md">{{ translations[0].subtitle }}</h2>
+                    <h2 class="z-10 text-white font-normal text-sm md:text-md larken">{{ translations[0].subtitle }}</h2>
                     <h1 class="z-10 text-white font-bold text-4xl md:text-[58px] leading-1">{{
                         translations[0].title
                       }}</h1>
@@ -212,7 +212,7 @@ function clickOutsideSlide() {
                   </div>
 
                   <template v-if="translations[index].bubble">
-                    <div class="bubble absolute text-[#0062E3] bg-white p-3 rounded-lg z-10 text-xs -translate-y-1/2 -translate-x-1/2 text-nowrap"
+                    <div class="bubble absolute text-[#0062E3] bg-white p-3 rounded-lg z-10 text-xs -translate-y-1/2 -translate-x-1/2 text-nowrap larken"
                     :style="{left:  translations[index].bubble.left,  top: translations[index].bubble.top }">
                       {{ translations[index].bubble.text }}
                     </div>
@@ -395,7 +395,7 @@ function clickOutsideSlide() {
                   <div
                       class="flex flex-col relative justify-center md:px-4 pl-4 pr-16 w-full h-full bg-cover bg-center before:block before:w-full before:h-full before:bg-[#05203C] before:absolute before:left-0 before:top-0 before:opacity-70 "
                       :style="{backgroundImage: `url(${points[0].image})` }">
-                    <h2 class="z-10 text-white font-normal text-sm md:text-md">{{ translations[0].subtitle }}</h2>
+                    <h2 class="z-10 text-white font-normal text-sm md:text-md larken">{{ translations[0].subtitle }}</h2>
                     <h1 class="z-10 text-white font-bold text-4xl md:text-[58px] leading-1">{{
                         translations[0].title
                       }}</h1>
@@ -416,7 +416,7 @@ function clickOutsideSlide() {
                   </div>
 
                   <div class="flex justify-between items-center text-[#0062E3] font-bold text-xs">
-                    <div class="flex items-center cursor-pointer mr-2">
+                    <a :href="gpx" target="_blank" class="flex items-center cursor-pointer mr-2">
                       <svg class="mr-1" width="14" viewBox="0 0 12 11" fill="none"
                            xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -428,7 +428,7 @@ function clickOutsideSlide() {
                       </svg>
 
                       {{ words[lang]["Download road trip"] }}
-                    </div>
+                    </a>
 
                     <div
                         class="md:absolute md:-bottom-12 md:left-0 md:text-white md:w-full md:text-center cursor-pointer"

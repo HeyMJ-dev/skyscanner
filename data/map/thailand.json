@@ -182,7 +182,7 @@
         }
       },
       {
-        "title": "Ayutthaya ",
+        "title": "Ayutthaya",
         "subtitle": "",
         "description": "North of Bangkok you’ll find Ayutthaya. Once the capital of the Kingdom of Siam, discover the ruins of the old city at the Ayutthaya Historical Park. This archaeological site is home to palaces, Buddhist temples, monasteries and statues, and is located on an island between three rivers. Once you’ve seen the historical marvels, feast on Kuay Teow Reua (traditional Thai boat noodles)."
       },
@@ -1184,5 +1184,7 @@
       "lat": 13.75632,
       "lng": 100.50176
     }
-  ]
+  ],
+  "gpx": "assets/gpx/thailand_route.gpx"
+
 }

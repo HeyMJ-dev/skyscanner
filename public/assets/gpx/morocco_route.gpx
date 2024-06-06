@@ -1,0 +1,52 @@
+<gpx version="1.1" creator="Sky Scanner">
+    <wpt lat="35.759407121683964" lon="-5.834463460033401">
+        <name>Tangier</name>
+        <cmt/>
+        <desc/>
+    </wpt>
+    <wpt lat="35.1687312267223" lon="-5.268340405461038">
+        <name>Chefchaouen</name>
+        <cmt>112km</cmt>
+        <desc>2hr 13m</desc>
+    </wpt>
+    <wpt lat="34.01782819340704" lon="-5.007068113446551">
+        <name>Fes</name>
+        <cmt>197km</cmt>
+        <desc>3hr 40m</desc>
+    </wpt>
+    <wpt lat="31.44974079640109" lon="-5.965347001392309">
+        <name>Dades Valley</name>
+        <cmt>537km</cmt>
+        <desc>8hr</desc>
+    </wpt>
+    <wpt lat="30.933542394892296" lon="-6.937018632888794">
+        <name>Ouarzazate</name>
+        <cmt>140km</cmt>
+        <desc>2hr</desc>
+    </wpt>
+    <wpt lat="31.622254035951208" lon="-7.990580930706265">
+        <name>Marrakech</name>
+        <cmt>193km</cmt>
+        <desc>3hr 19m</desc>
+    </wpt>
+    <wpt lat="32.98989332320715" lon="-7.614933301088593">
+        <name>Settat</name>
+        <cmt>170km</cmt>
+        <desc>1hr 57m</desc>
+    </wpt>
+    <wpt lat="33.573378344891154" lon="-7.590691399762846">
+        <name>Casablanca</name>
+        <cmt>84km</cmt>
+        <desc>1hr 6m</desc>
+    </wpt>
+    <wpt lat="34.008682978754535" lon="-6.854147779213943">
+        <name>Rabat</name>
+        <cmt>87km</cmt>
+        <desc>1hr 9m</desc>
+    </wpt>
+    <wpt lat="35.759407121683964" lon="-5.834463460033401">
+        <name>Tangier</name>
+        <cmt>245km</cmt>
+        <desc>2hr 51m</desc>
+    </wpt>
+</gpx>

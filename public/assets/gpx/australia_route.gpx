@@ -1,0 +1,52 @@
+<gpx version="1.1" creator="Sky Scanner">
+    <wpt lat="-37.81347126002954" lon="144.96322006926366">
+        <name>Melbourne</name>
+        <cmt/>
+        <desc/>
+    </wpt>
+    <wpt lat="-38.314776119903215" lon="144.3183508515358">
+        <name>Torquay</name>
+        <cmt>100km</cmt>
+        <desc>1hr 30m</desc>
+    </wpt>
+    <wpt lat="-38.53679820252299" lon="143.97315205990535">
+        <name>Lorne</name>
+        <cmt>40km</cmt>
+        <desc>45m</desc>
+    </wpt>
+    <wpt lat="-38.75519727657059" lon="143.66742681662814">
+        <name>Apollo Bay</name>
+        <cmt>30km</cmt>
+        <desc>30m</desc>
+    </wpt>
+    <wpt lat="-38.74817335067343" lon="143.25647406243175">
+        <name>Wattle Hill</name>
+        <cmt>50km</cmt>
+        <desc>1hr</desc>
+    </wpt>
+    <wpt lat="-38.3721332202156" lon="142.47802594152787">
+        <name>Warrmambool</name>
+        <cmt>80km</cmt>
+        <desc>1hr 30m</desc>
+    </wpt>
+    <wpt lat="-37.141417956798826" lon="142.5189185142517">
+        <name>Grampians National Park</name>
+        <cmt>250km</cmt>
+        <desc>3hr 30m</desc>
+    </wpt>
+    <wpt lat="-37.5631674129331" lon="143.8492164646172">
+        <name>Ballarat</name>
+        <cmt>100km</cmt>
+        <desc>1hr 30m</desc>
+    </wpt>
+    <wpt lat="-37.34081979734841" lon="144.14264278827812">
+        <name>Daylesford</name>
+        <cmt>50km</cmt>
+        <desc>1hr</desc>
+    </wpt>
+    <wpt lat="-37.81347126002954" lon="144.96322006926366">
+        <name>Melbourne</name>
+        <cmt>110km</cmt>
+        <desc>1hr 30m</desc>
+    </wpt>
+</gpx>

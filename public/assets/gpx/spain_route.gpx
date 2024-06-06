@@ -1,0 +1,52 @@
+<gpx version="1.1" creator="Sky Scanner">
+    <wpt lat="43.263031614151295" lon="-2.9339239812012807">
+        <name>Bilbao</name>
+        <cmt/>
+        <desc/>
+    </wpt>
+    <wpt lat="42.573072002123425" lon="-2.852729731900965">
+        <name>Haro</name>
+        <cmt>110km</cmt>
+        <desc>1hr 30m</desc>
+    </wpt>
+    <wpt lat="42.43983253304751" lon="-2.9577255249023438">
+        <name>Santo Domingo de la Calzada</name>
+        <cmt>50km</cmt>
+        <desc>45m</desc>
+    </wpt>
+    <wpt lat="42.346943583973946" lon="-3.687921892979069">
+        <name>Burgos</name>
+        <cmt>67.5km</cmt>
+        <desc>1hr</desc>
+    </wpt>
+    <wpt lat="40.942746049599926" lon="-4.108849380084281">
+        <name>Segovia</name>
+        <cmt>199km</cmt>
+        <desc>1hr 55m</desc>
+    </wpt>
+    <wpt lat="40.6625522764429" lon="-4.681300433607302">
+        <name>Ávila</name>
+        <cmt>60km</cmt>
+        <desc>45m</desc>
+    </wpt>
+    <wpt lat="40.969415287005056" lon="-5.663924485932636">
+        <name>Salamanca</name>
+        <cmt>120km</cmt>
+        <desc>1hr 30m</desc>
+    </wpt>
+    <wpt lat="41.642426375079566" lon="-4.755153945170127">
+        <name>Valladolid</name>
+        <cmt>119km</cmt>
+        <desc>1hr 15m</desc>
+    </wpt>
+    <wpt lat="42.79263006898168" lon="-4.259248398992859">
+        <name>Aguilar de Campoo</name>
+        <cmt>142km</cmt>
+        <desc>1hr 28m</desc>
+    </wpt>
+    <wpt lat="43.263031614151295" lon="-2.9339239812012807">
+        <name>Bilbao</name>
+        <cmt>189.2km</cmt>
+        <desc>2hr</desc>
+    </wpt>
+</gpx>

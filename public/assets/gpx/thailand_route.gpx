@@ -1,0 +1,52 @@
+<gpx version="1.1" creator="Sky Scanner">
+    <wpt lat="13.75555672915064" lon="100.50163740301785">
+        <name>Bangkok</name>
+        <cmt/>
+        <desc/>
+    </wpt>
+    <wpt lat="14.022708150674466" lon="99.531765044647">
+        <name>Kanchanaburi</name>
+        <cmt>130km</cmt>
+        <desc>2hr 30m</desc>
+    </wpt>
+    <wpt lat="14.330356649702205" lon="100.52870205647042">
+        <name>Ayutthaya</name>
+        <cmt>180km</cmt>
+        <desc>2hr 30m</desc>
+    </wpt>
+    <wpt lat="16.821124928814676" lon="100.26585191488266">
+        <name>Phitsanulok</name>
+        <cmt>380km</cmt>
+        <desc>5hr</desc>
+    </wpt>
+    <wpt lat="17.242999801668066" lon="99.72462015764627">
+        <name>Sukhothai</name>
+        <cmt>60km</cmt>
+        <desc>1hr</desc>
+    </wpt>
+    <wpt lat="16.48086860772478" lon="99.54949832177417">
+        <name>Kamphaeng Phet</name>
+        <cmt>70km</cmt>
+        <desc>1hr</desc>
+    </wpt>
+    <wpt lat="15.69873228736055" lon="100.12014589453105">
+        <name>Nakhon Sawan</name>
+        <cmt>180km</cmt>
+        <desc>2hr 30m</desc>
+    </wpt>
+    <wpt lat="15.050514318962502" lon="100.89301827187367">
+        <name>Lopburi</name>
+        <cmt>150km</cmt>
+        <desc>2hr</desc>
+    </wpt>
+    <wpt lat="14.527147330284805" lon="100.9134459684761">
+        <name>Saraburi</name>
+        <cmt>80km</cmt>
+        <desc>1hr</desc>
+    </wpt>
+    <wpt lat="13.75555672915064" lon="100.50163740301785">
+        <name>Bangkok</name>
+        <cmt>120km</cmt>
+        <desc>1hr 30m</desc>
+    </wpt>
+</gpx>
