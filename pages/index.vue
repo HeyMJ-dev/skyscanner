@@ -84,8 +84,8 @@ function drawMarkers() {
       return;
     const pin = new google.maps.marker.PinElement({
       scale: .90,
-      background: "#0062E3",
-      borderColor: "#0062E3",
+      background: "#05203C",
+      borderColor: "#05203C",
       glyphColor: "#fff",
     })
 

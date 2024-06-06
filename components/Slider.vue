@@ -207,14 +207,20 @@ function clickOutsideSlide() {
                      :class="{'hidden md:block' : index === 0}">
 
                   <template v-if="index !== 0">
-                    <div class="relative pr-6 md:mb-3 mb-2">
+                    <div class="relative   md:mb-3 mb-2">
                       <div class="text-[#05203C]">
                         <div class="md:text-xs text-[10px] mb-[0.5px]">
                           {{ translations[index].subtitle }}
                         </div>
-                        <div class="md:text-4xl texy-2xl font-black">
-                          {{ translations[index].title }}
+                        <div class="flex justify-between items-center w-full">
+                          <div class="md:text-3xl text-2xl font-black mr-4">
+                            {{ translations[index].title }}
+                          </div>
+
+                          <span v-if="index!==0"
+                           class="rounded-full border-2 text-[#0062E3] border-[#0062E3] w-7 h-7 text-xs shrink-0 flex justify-center items-center">{{index}}</span>
                         </div>
+
                       </div>
                     </div>
 
@@ -298,7 +304,7 @@ function clickOutsideSlide() {
                 @click="prevSlide()"
                 class="absolute left-[50%] -ml-[23px] -top-[34px] z-[99] md:block hidden rotate-180"
             >
-              <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect x="1.5" y="1.5" width="43" height="43" rx="21.5" fill="#05203C"/>
                 <rect x="1.5" y="1.5" width="43" height="43" rx="21.5" stroke="#05203C" stroke-width="3"/>
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -470,9 +476,12 @@ function clickOutsideSlide() {
 .swiper-slide {
   height: auto;
   z-index: 5;
+  opacity: .6;
+  transition: .5s;
 
   &.swiper-slide-active {
     @apply z-10;
+    opacity: 1;
   }
 }
 
