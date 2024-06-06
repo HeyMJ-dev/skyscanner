@@ -16,7 +16,7 @@
     {
       "image": "assets/image/turkey/0.jpg",
       "steps": 10,
-      "duration": "28hr"
+      "duration": "28"
     },
     {
       "lat": 41.00793537853425,
@@ -162,9 +162,9 @@
   "pointsWithTranslate": {
     "en": [
       {
-        "title": "Turkey",
-        "subtitle": "Tour of Turkey",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title": "Türkiye",
+        "subtitle": "Tour of Türkiye",
+        "description": "An expansive country brimming with rich history, cuisine, and culture, this two week, 2,365km Tour of Türkiye road-trip will give you a glimpse into all that the country has to offer. Begin in buzzing Istanbul – the meeting point of Europe and Asia – before exploring the beautiful beaches of Antalya and the cave hotels and soaring hot air balloons of Cappadocia."
       },
       {
         "title": "Istanbul",
@@ -224,10 +224,9 @@
     ],
     "es": [
       {
-        "title": "Turkey",
-        "subtitle": "Tour of Turkey",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "duration": "6hr 30m"
+        "title": "Turquía",
+        "subtitle": "Ruta por Turquía",
+        "description": "Un país extenso repleto de historia, gastronomía y cultura. Esta ruta por Turquía de dos semanas y 2365 km te permitirá conocer todo lo que el país tiene que ofrecer. Empezaremos la ruta en la bulliciosa Estambul, punto de encuentro entre Europa y Asia, para luego admirar las hermosas playas de Antalya o los hoteles cueva y los pintorescos globos aerostáticos de la Capadocia."
       },
       {
         "title": "Estambul",
@@ -282,10 +281,9 @@
     ],
     "it": [
       {
-        "title": "Turkey",
-        "subtitle": "Tour of Turkey",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "duration": "6hr 30m"
+        "title": "Türkiye",
+        "subtitle": "Tour della Türkiye",
+        "description": "Un paese vasto e ricco di storia, cucina e cultura; questo Tour on the road della Türkiye, di due settimane e 2.365 km, ti darà un’idea di tutto ciò che il Paese ha da offrire. Inizia nella vivace Istanbul, il punto in cui Europa e Asia s’incontrano, prima di esplorare le bellissime spiagge di Antalya, gli hotel nelle grotte e il volo delle mongolfiere in Cappadocia."
       },
       {
         "title": "Istanbul",
@@ -340,10 +338,9 @@
     ],
     "de": [
       {
-        "title": "Turkey",
-        "subtitle": "Tour of Turkey",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "duration": "6hr 30m"
+        "title": "Türkiye",
+        "subtitle": "Roadtrip durch die Türkei",
+        "description": "Dieser zweiwöchige, 2.365 km lange Roadtrip durch die Türkei gibt euch Einblicke in ein Land voller Geschichte, kulinarischer Schätze und kultureller Höhepunkte. Startet im pulsierenden Istanbul, der Brücke zwischen Europa und Asien, und entdeckt dann die traumhaften Strände von Antalya, Höhlenhotels und Heißluftballons in Kappadokien."
       },
       {
         "title": "Istanbul",

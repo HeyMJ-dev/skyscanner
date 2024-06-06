@@ -16,7 +16,7 @@
     {
       "image": "assets/image/morocco/0.jpg",
       "steps": 10,
-      "duration": "26hr"
+      "duration": "26"
     },
     {
       "lat": 35.759407121683964,
@@ -164,7 +164,7 @@
       {
         "title": "Morocoo",
         "subtitle": "Experience True Morocco Roadtrip",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "description": "With a landscape ranging from the rugged Atlas Mountains to the sweeping Sahara Desert, you’ll have plenty to experience on this two week, 1,616km road trip of Morocco. Starting in Tangier to the North, you’ll embark on a culinary odyssey through highlights like historic Marrakesh, romantic Casablanca, and royal Rabat – an adventure your tastebuds will never forget."
       },
       {
         "title": "Tangier",
@@ -229,9 +229,9 @@
     ],
     "fr": [
       {
-        "title": "Morocoo",
-        "subtitle": "Experience True Morocco Roadtrip",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title": "Le Maroc",
+        "subtitle": "Partez pour un road-trip sensationnel au Maroc Le Maroc",
+        "description": "Avec des paysages de toute beauté allant des reliefs escarpés de la chaîne de l’Atlas aux étendues désertiques du Sahara balayées par le vent, cette virée en voiture vous promet des moments forts et intenses sur cet itinéraire de 1 616 km à faire en deux semaines. Faisant une boucle depuis Tanger, au nord du pays, vous partirez pour une odyssée culinaire ponctuée de découvertes formidables, comme Marrakech et sa richesse historique, Casablanca et son caractère romantique ou encore la majestueuse Rabat. Une aventure dont vos papilles se souviendront longtemps."
       },
       {
         "title": "Tangier",
@@ -284,11 +284,11 @@
         "description": "Commencez votre virée dans cette ville portuaire donnant sur le détroit de Gibraltar. Allez découvrir sa médina, faites de maisons d’un blanc éclatant à flanc de colline, et visitez le musée Dar el Makhzen. Ce musée fut jadis le palais d’un sultan, sans oublier de faire aussi un tour au Musée de la légation américaine. Prélassez-vous sur la plage de Tanger et admirez la prestance de la Grande mosquée. En séjournant dans la ville, ne manquez pas de goûter au traditionnel pain marocain, un pain non levé."
       }
     ],
-    "de": [
+    "nl": [
       {
-        "title": "Morocoo",
-        "subtitle": "Experience True Morocco Roadtrip",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "title": "Marokko",
+        "subtitle": "Roadtrip ‘Ervaar het echte Marokko’",
+        "description": "Met een landschap dat varieert van het ruige Atlasgebergte tot de weidse Sahara, valt er tijdens deze twee weken durende roadtrip van 1616 km door Marokko meer dan genoeg te beleven. Je vertrekt in het noordelijke Tanger en begint aan een culinaire reis langs hoogtepunten als het historische Marrakesh, het romantische Casablanca en het koninklijke Rabat. Een avontuur dat je smaakpapillen nooit zullen vergeten."
       },
       {
         "title": "Tangier",

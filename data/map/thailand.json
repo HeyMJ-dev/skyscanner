@@ -16,7 +16,7 @@
     {
       "image": "assets/image/thailand/0.jpg",
       "steps": 10,
-      "duration": "18hr 15m"
+      "duration": "18"
     },
     {
       "lat": 13.75555672915064,
@@ -164,7 +164,74 @@
       {
         "title": "Thailand",
         "subtitle": "Sukhothai Historical Park from Bangkok",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "description": "Thailand is known for its outstanding beaches, friendly locals, and delicious delicacies, and you can experience it all on this 2-week long, 1,233km foodie road trip. Acclimatize first in the breathless, cosmopolitan bustle of Bangkok, before heading north on an adventure taking you through jungles and past temples as you track down some of the world’s tastiest cuisine."
+      },
+      {
+        "title": "Bangkok",
+        "subtitle": "",
+        "description": "Bangkok, what a city. Thailand’s capital is packed with ornate shrines, bustling backpacker streets and street food galore (Thai green curry yes please). Visit the Grand Palace, take in the sight of Wat Pho and hang out in eclectic Banglamphu. When it comes to food don’t miss Yaowarat Night Market in Chinatown. Half of Yaowarat Road is closed for street food stalls selling delights including Thai-style kway chap."
+      },
+      {
+        "title": "Kanchanaburi",
+        "subtitle": "",
+        "description": "This spot in west Thailand is famous for the River Khwae Bridge, built by Japanese prisoners of war in World War II, but there’s much more to see. Head to the Erawan National Park with its epic waterfalls and go deep underground to see nine separate Buddhas in caves at Wat Tham Khao Pun. Feast on Gaeng Som (sour curry with shrimp).",
+        "bubble": {
+          "text": "On cloud nine",
+          "left": "50%",
+          "top": "30%"
+        }
+      },
+      {
+        "title": "Ayutthaya ",
+        "subtitle": "",
+        "description": "North of Bangkok you’ll find Ayutthaya. Once the capital of the Kingdom of Siam, discover the ruins of the old city at the Ayutthaya Historical Park. This archaeological site is home to palaces, Buddhist temples, monasteries and statues, and is located on an island between three rivers. Once you’ve seen the historical marvels, feast on Kuay Teow Reua (traditional Thai boat noodles)."
+      },
+      {
+        "title": "Phitsanulok",
+        "subtitle": "",
+        "description": "This 600-year-old city is located by the Nan River in the lower part of Northern Thailand. Outside of Bangkok it’s one of the most authentic Thai cities to experience real life in the country. Top sites include Wat Phra Si Rattana Mahathat, Wat Aranyik and the old city walls. Sunset at Wat Ratchaburana is spectacular. Tuck into Khao Pad Sapparot (pineapple fried rice) at Nan River Night Market."
+      },
+      {
+        "title": "Sukhothai",
+        "subtitle": "",
+        "description": "Once the capital of the Sukhothai Kingdom in the 13th and 14th centuries, Sukhothai is a stunning spot. Visit the Sukhothai Historical Park to see the ruins of the kingdom (best explored by bike), watch the sunset at Wat Mahathat and discover the giant Buddha at Wat Si Chum. And dive into delicious Thai food with some traditional Sukhothai noodles at Jae Hae Sukhothai Noodles restaurant."
+      },
+      {
+        "title": "Kamphaeng Phet",
+        "subtitle": "",
+        "description": "Soak up history at the UNESCO World Heritage Site, Kamphaeng Phet Historical Park. Discover ruins dating back to the 14th century in Sukhothai style as well as Buddhist monuments from the Ayutthaya period, nearly 200 years later. It’s unlike anywhere else in Thailand. Enjoy the ancient Thai snack, Khao Kriap Wow – thin pancakes made with palm sugar, coconut, flour and sesame seed."
+      },
+      {
+        "title": "Nakhon Sawan",
+        "subtitle": "",
+        "description": "Translated to “heavenly city” Nakhon Sawan is a beautiful place to uncover the best of Thailand. Discover the impressive Wat Khiriwong, go underwater at the aquarium and enjoy a day out at Paradise Park. And treat your tastebuds to Khao Man Gai – this street food classic features soft and tender chicken with delicious rice. It’s a taste of heaven."
+      },
+      {
+        "title": "Lopburi",
+        "subtitle": "",
+        "description": "The capital city of the Lopburi province in central Thailand is diverse and beautiful. Famous for its resident monkeys and Khmer-era temples, it’s a uniquely Thai experience. Visit Phra Prang Sam Yot and King Narai’s Palace for ancient architecture and the scenic Sub Lek Reservoir. Once night falls head to the Lopburi Night Market for Paid Thai, papaya salad, and chicken and pork skewers.",
+        "bubble": {
+          "text": "Monkeying around optional",
+          "left": "35%",
+          "top": "75%"
+        }
+      },
+      {
+        "title": "Saraburi",
+        "subtitle": "",
+        "description": "Also called Pak Phriao, Saraburi City is around 120km north of Bangkok. Check out the stunning Buddhist temple, Wat Pa Sawang Bun. Hike up to the Krok E-Dok Waterfall. And take in the huge black Buddha statues at Wat Tham Krabok. Don’t leave town without trying the famous Saraburi ice cream."
+      },
+      {
+        "title": "Bangkok",
+        "subtitle": "",
+        "description": "Bangkok, what a city. Thailand’s capital is packed with ornate shrines, bustling backpacker streets and street food galore (Thai green curry yes please). Visit the Grand Palace, take in the sight of Wat Pho and hang out in eclectic Banglamphu. When it comes to food don’t miss Yaowarat Night Market in Chinatown. Half of Yaowarat Road is closed for street food stalls selling delights including Thai-style kway chap."
+      }
+    ],
+    "kr": [
+      {
+        "title": "태국",
+        "subtitle": "방콕에서 출발하는 수코타이 역사 공원 로드트립",
+        "description": "태국은 아름다운 해변, 친절한 현지인들, 맛있는 음식으로 잘 알려져 있습니다. 이 모든 걸 2주 간 1,233km의 미식 로드트립으로 경험하실 수 있어요. 먼저 쉴 틈 없이 바쁜 세계적인 도시 방콕에 적응한 후, 북쪽으로 향해 정글과 과거의 사원을 거쳐, 세계에서 손꼽히는 맛있는 음식들을 찾아 모험을 떠나세요."
       },
       {
         "title": "Bangkok",

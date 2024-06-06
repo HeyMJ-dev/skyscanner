@@ -16,6 +16,7 @@ const words = reactive({
     "Read more": "Read more",
     "stops": "stops",
     "travel": "travel",
+    "hours": "hrs",
     "Start roadtrip": "Start roadtrip",
     "Re-start road trip": "Re-start road trip",
     "Download road trip": "Download road trip"
@@ -24,14 +25,25 @@ const words = reactive({
     "Read more": "Mehr lesen",
     "stops": "Stopps",
     "travel": "Reise",
+    "hours": "Stunden",
     "Start roadtrip": "Roadtrip starten",
     "Re-start road trip": "Roadtrip neu starten",
     "Download road trip": "Roadtrip herunterladen"
+  },
+  nl: {
+    "Read more": "Lees meer",
+    "stops": "stops",
+    "travel": "reizen",
+    "hours": "uur",
+    "Start roadtrip": "Begin de roadtrip",
+    "Re-start road trip": "Herstart de roadtrip",
+    "Download road trip": "Download de roadtrip"
   },
   it: {
     "Read more": "Leggi di più",
     "stops": "fermate",
     "travel": "di viaggio",
+    "hours": "ore",
     "Start roadtrip": "Inizia il viaggio",
     "Re-start road trip": "Riavvia il viaggio",
     "Download road trip": "Scarica il viaggio"
@@ -40,6 +52,7 @@ const words = reactive({
     "Read more": "Leer más",
     "stops": "travel",
     "travel": "de viaje",
+    "hours": "horas",
     "Start roadtrip": "niciar viaje por carretera",
     "Re-start road trip": "Reiniciar viaje por carretera",
     "Download road trip": "Descargar viaje por carretera"
@@ -48,6 +61,7 @@ const words = reactive({
     "Read more": "Lire la suite",
     "stops": "arrêts",
     "travel": "de voyage",
+    "hours": "heures",
     "Start roadtrip": "Commencer le road trip",
     "Re-start road trip": "Recommencer le road trip",
     "Download road trip": "Télécharger le road trip"
@@ -56,6 +70,7 @@ const words = reactive({
     "Read more": "더 읽기",
     "stops": "번 정차",
     "travel": "여행",
+    "hours": "시간",
     "Start roadtrip": "로드트립 시작",
     "Re-start road trip": "로드트립 다시 시작",
     "Download road trip": "로드트립 다운로드"
@@ -281,7 +296,7 @@ function clickOutsideSlide() {
                     <div class="md:block hidden text-xs">
                       <div class="mb-6 font-bold">
                       <span>{{ item.steps }} {{ words[lang]["stops"] }} . {{ item.duration }}
-                        {{ words[lang]["travel"] }}</span>
+                        {{ words[lang]["hours"] }}</span>
                       </div>
 
                       <div class="md:flex gap-2 justify-center">

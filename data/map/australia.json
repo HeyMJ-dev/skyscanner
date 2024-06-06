@@ -16,7 +16,7 @@
     {
       "image": "assets/image/australia/0.jpg",
       "steps": 10,
-      "duration": "10hr"
+      "duration": "10"
     },
     {
       "lat": -37.81347126002954,
@@ -163,8 +163,8 @@
     "en": [
       {
         "title": "Australia",
-        "subtitle": "Southern Coastal Loop ",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "subtitle": "Southern Coastal Loop",
+        "description": "Australia is a vast country, with a landscape ranging from stunning beaches to wild outback and cosmopolitan coastal cities. This two week, 800km road trip will give you a starting snapshot of this country, but don’t worry - there will be plenty to see, experience, and of course, eat, on this roundtrip from Melbourne to Grampions National Park and back."
       },
       {
         "title": "Melbourne",

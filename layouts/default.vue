@@ -12,7 +12,7 @@ if (validMaps.includes(inputMapName)) {
 
 const validLangs = {
   spain: ['en'],
-  morocco: ['en', 'fr', 'de'],
+  morocco: ['en', 'fr', 'nl'],
   turkey: ['en', 'es', 'it', 'de'],
   thailand: ['en', 'kr'],
   australia: ['en'],

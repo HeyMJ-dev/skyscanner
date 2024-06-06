@@ -82,17 +82,23 @@ function drawMarkers() {
   mapData.value.points.forEach((point, index) => {
     if (index === 0 || index === mapData.value.points.length - 1)
       return;
-    const pin = new google.maps.marker.PinElement({
-      scale: .90,
-      background: "#05203C",
-      borderColor: "#05203C",
-      glyphColor: "#fff",
-    })
+
+    const parser = new DOMParser();
+    const pinSvgString =
+        '<svg class="marker active-marker" id="marker-' + index + '" width="35" height="35" viewBox="0 0 125 152" fill="none" xmlns="http://www.w3.org/2000/svg">\n' +
+        '<path fill-rule="evenodd" clip-rule="evenodd" d="M123.727 62.3636C123.727 110.091 62.3636 151 62.3636 151C62.3636 151 1 110.091 1 62.3636C1 28.4734 28.4734 1 62.3636 1C96.2538 1 123.727 28.4734 123.727 62.3636V62.3636Z" fill="#05203C" stroke="#05203C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+        '<path fill-rule="evenodd" clip-rule="evenodd" d="M62 92C77.464 92 90 79.464 90 64C90 48.536 77.464 36 62 36C46.536 36 34 48.536 34 64C34 79.464 46.536 92 62 92Z" fill="white" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>\n' +
+        '<text class="font-sans font-bold" font-size="40" x="50" y="80" fill="#0062E3">' + index + '</text>\n' +
+        '</svg>\n'
+    const pinSvg = parser.parseFromString(
+        pinSvgString,
+        "image/svg+xml",
+    ).documentElement;
 
     const marker = new google.maps.marker.AdvancedMarkerElement({
       map,
       position: {lat: point.lat, lng: point.lng},
-      content: pin.element,
+      content: pinSvg,
       gmpClickable: true,
       collisionBehavior: 'REQUIRED',
     })
@@ -100,6 +106,23 @@ function drawMarkers() {
     marker.addListener("click", (e) => {
       changeSlide(index);
       sliderRef.value.goToSlide(index);
+    });
+
+    map.addListener("bounds_changed", (e) => {
+      const markers = document.querySelectorAll(".marker");
+      let activeSlider = activeSlide.value === 10 ? 1: activeSlide.value % 11;
+
+      markers.forEach((marker) => {
+        if ( activeSlider === 0) {
+          marker.classList.add('active-marker')
+        } else {
+          if (marker.id === 'marker-' + activeSlider)
+            marker.classList.add('active-marker')
+          else
+            marker.classList.remove('active-marker')
+
+        }
+      })
     });
 
   })
@@ -147,7 +170,7 @@ function changeCamera(cameraOptions) {
     zoom: map.getZoom(),
   }
 
-  let threshold  = isMobile.value ? -.1 : 0;
+  let threshold = isMobile.value ? -.1 : 0;
   gsap.to(map, {
     duration: .8,
     ease: "power2.inOut",
@@ -246,21 +269,19 @@ html, body, #__nuxt {
   overflow: hidden;
 }
 
-.GMAMP-maps-pin-view {
-  svg {
-    transition: .3s;
+.marker {
+  opacity: .5;
+  transition: .3s;
 
+  &:hover {
+    transform: scale(1.3);
+  }
 
-    &:hover {
-      transform: scale(1.3);
-    }
+  &.active-marker {
+    opacity: 1;
   }
 }
 
-
-.active-marker {
-  transform: scale(1.3);
-}
 
 .bg-overlay {
   /* background: linear-gradient(90deg, rgba(30, 30, 30, .7) 20%, rgba(7, 7, 112, 0) 100%);*/
