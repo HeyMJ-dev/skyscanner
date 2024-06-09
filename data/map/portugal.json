@@ -7,9 +7,9 @@
       "zoom": 7.4
     },
     "mobile": {
-      "lat": 38.5,
+      "lat": 36.5,
       "lng": -8.5,
-      "zoom": 6.8
+      "zoom": 6
     }
   },
   "points": [
@@ -1103,5 +1103,4 @@
     }
   ],
   "gpx": "assets/gpx/portugal_route.gpx"
-
 }

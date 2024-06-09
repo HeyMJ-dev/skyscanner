@@ -7,9 +7,9 @@
       "zoom": 7.3
     },
     "mobile": {
-      "lat": 33,
+      "lat": 30.5,
       "lng": -6.31949694320042,
-      "zoom": 6.5
+      "zoom": 6
     }
   },
   "points": [
@@ -1208,5 +1208,10 @@
       "lng": -5.83398
     }
   ],
-  "gpx": "assets/gpx/morocco_route.gpx"
+  "gpx": "assets/gpx/morocco_route.gpx",
+  "intro" : {
+    "en": "Explore Morocco together.",
+    "fr": "Explore Morocco together.",
+    "nl": "Explore Morocco together."
+  }
 }

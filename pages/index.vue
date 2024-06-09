@@ -9,6 +9,7 @@ const config = useRuntimeConfig(),
     lang = inject('lang'),
     sliderRef = ref(null),
     activeSlide = ref(0),
+    prevSlide = ref(0),
     isFullScreen = ref(false),
     isMobile = ref(window.innerWidth <= 768),
     loading = ref(false);
@@ -64,6 +65,24 @@ function initMap() {
     var lng = e.latLng.lng();
     console.log("\"lat\": " + lat + ", \"lng\": " + lng + ',');
   });
+
+  map.addListener("bounds_changed", (e) => {
+    const markers = document.querySelectorAll(".marker");
+    let activeSlider = activeSlide.value - 1;
+    activeSlider = activeSlider === 10 ? 1 : activeSlider % 11;
+
+    markers.forEach((marker) => {
+      if (activeSlider === 0 || activeSlider === -1) {
+        marker.classList.add('active-marker')
+      } else {
+        if (marker.id === 'marker-' + activeSlider)
+          marker.classList.add('active-marker')
+        else
+          marker.classList.remove('active-marker')
+
+      }
+    })
+  });
 }
 
 function drawPath() {
@@ -104,25 +123,8 @@ function drawMarkers() {
     })
 
     marker.addListener("click", (e) => {
-      changeSlide(index);
-      sliderRef.value.goToSlide(index);
-    });
-
-    map.addListener("bounds_changed", (e) => {
-      const markers = document.querySelectorAll(".marker");
-      let activeSlider = activeSlide.value === 10 ? 1: activeSlide.value % 11;
-
-      markers.forEach((marker) => {
-        if ( activeSlider === 0) {
-          marker.classList.add('active-marker')
-        } else {
-          if (marker.id === 'marker-' + activeSlider)
-            marker.classList.add('active-marker')
-          else
-            marker.classList.remove('active-marker')
-
-        }
-      })
+      changeSlide(index + 1);
+      sliderRef.value.goToSlide(index + 1);
     });
 
   })
@@ -134,7 +136,9 @@ function changeSlide(index) {
     loading.value = false
   }, 300)
 
-  if (index === 0) { // First slide
+  if (index === 0) {
+    // nothing
+  } else if (index === 1 && prevSlide.value !== 0 && prevSlide.value !== 12) { // First slide
     changeCamera({
       center: {
         lat: mapData.value.center[deviceSize.value].lat,
@@ -142,7 +146,8 @@ function changeSlide(index) {
       },
       zoom: mapData.value.center[deviceSize.value].zoom
     })
-  } else if (index >= mapData.value.points.length) { // last Slide
+
+  } else if (index > mapData.value.points.length) { // last Slide
     changeCamera({
       center: {
         lat: mapData.value.center[deviceSize.value].lat,
@@ -150,13 +155,13 @@ function changeSlide(index) {
       },
       zoom: mapData.value.center[deviceSize.value].zoom
     })
-  } else {
+  } else if (index > 1) {
     changeCamera({
       center: {
-        lat: mapData.value.points[index].lat,
-        lng: mapData.value.points[index].lng + (deviceSize.value === "desktop" ? -.2 : 0),
+        lat: mapData.value.points[index - 1].lat,
+        lng: mapData.value.points[index - 1].lng + (deviceSize.value === "desktop" ? -.2 : 0),
       },
-      zoom: mapData.value.points[index].zoom
+      zoom: mapData.value.points[index - 1].zoom
     })
   }
 }
@@ -170,7 +175,7 @@ function changeCamera(cameraOptions) {
     zoom: map.getZoom(),
   }
 
-  let threshold = isMobile.value ? -.1 : 0;
+  let threshold = isMobile.value ? -.15 : 0;
   gsap.to(map, {
     duration: .8,
     ease: "power2.inOut",
@@ -220,10 +225,13 @@ function toggleFullScreen() {
 }
 
 
-watch(activeSlide, () => {
+watch(activeSlide, (newValue, oldValue) => {
+  prevSlide.value = oldValue;
   if (!loading.value) {
-    changeSlide(activeSlide.value)
+    changeSlide(newValue)
   }
+
+
 })
 
 </script>
@@ -254,7 +262,8 @@ watch(activeSlide, () => {
          :class="{'bg-overlay' : !isMobile || activeSlide !== 0}"
          v-if="mapData.value">
       <Slider v-model="activeSlide" :gpx="mapData.value.gpx" :points="mapData.value.points"
-              :translations="mapData.value.pointsWithTranslate[lang]" ref="sliderRef"/>
+              :translations="mapData.value.pointsWithTranslate[lang]"
+              ref="sliderRef"/>
     </div>
   </div>
 </template>

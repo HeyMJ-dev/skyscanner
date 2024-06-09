@@ -7,9 +7,9 @@
       "zoom": 7.8
     },
     "mobile": {
-      "lat": -38.3,
+      "lat": -38.95,
       "lng": 143.6,
-      "zoom": 7.5
+      "zoom": 7.4
     }
   },
   "points": [
@@ -24,7 +24,7 @@
       "zoom": 10,
       "image": "assets/image/australia/1.jpg",
       "restaurant": {
-        "name": "Queen Victoria Market",
+        "name": "Bell Street Fish & Chips",
         "url": "#"
       },
       "stats": {
@@ -38,7 +38,7 @@
       "zoom": 10,
       "image": "assets/image/australia/2.jpg",
       "restaurant": {
-        "name": "Fish and chips at Bell Street Fish and Chips",
+        "name": "IPSOS Calamari",
         "url": "#"
       },
       "stats": {
@@ -66,7 +66,7 @@
       "zoom": 10,
       "image": "assets/image/australia/4.jpg",
       "restaurant": {
-        "name": "",
+        "name": "Fresh Rock Lobster",
         "url": "#"
       },
       "stats": {
@@ -80,7 +80,7 @@
       "zoom": 10,
       "image": "assets/image/australia/5.jpg",
       "restaurant": {
-        "name": "",
+        "name": "Local Farmed Fruit",
         "url": "#"
       },
       "stats": {
@@ -94,7 +94,7 @@
       "zoom": 10,
       "image": "assets/image/australia/6.jpg",
       "restaurant": {
-        "name": "",
+        "name": "Crayfish",
         "url": "#"
       },
       "stats": {
@@ -108,7 +108,7 @@
       "zoom": 10,
       "image": "assets/image/australia/7.jpg",
       "restaurant": {
-        "name": "",
+        "name": "Local River Trout",
         "url": "#"
       },
       "stats": {
@@ -122,7 +122,7 @@
       "zoom": 10,
       "image": "assets/image/australia/8.jpg",
       "restaurant": {
-        "name": "",
+        "name": "Cobb’s Coffee",
         "url": "#"
       },
       "stats": {
@@ -136,7 +136,7 @@
       "zoom": 10,
       "image": "assets/image/australia/9.jpg",
       "restaurant": {
-        "name": "",
+        "name": "Daylesford Farm",
         "url": "#"
       },
       "stats": {
@@ -197,7 +197,7 @@
         "description": "Head down the coast to Wattle Hill, a rural coastal city with much to offer. Stroll to Wreck Beach for epic views and decent surf and out into the countryside for hikes. And to treat your stomach too? Feast on fresh strawberries, blueberries and raspberries grown at local farms."
       },
       {
-        "title": "Warrmambool",
+        "title": "Warrnambool",
         "subtitle": "",
         "description": "On the drive from Wattle Hill to Warrnambool, you’ll pass the Twelve Apostles National Marine Park. Make sure you get out and snap pictures of the incredible limestone stacks jutting up out of the sea. In your time in the city, check out Thunder Point Coastal Reserve, Warrnambool Wildlife Encounters wildlife park and the botanical gardens. And don’t miss the fresh crayfish.",
         "bubble": {
@@ -224,7 +224,7 @@
       {
         "title": "Melbourne",
         "subtitle": "",
-        "description": "The coastal capital of Victoria, Melbourne is hipster paradise. Hit the beach, stroll around the Royal Botanic Gardens and catch a game at the Melbourne Cricket Ground. Meander down Brunswick Street for super cool cafes, live music spots and alternative fashion shops. Coffee is life in Melbourne, so test the skills of the local baristas. And when it comes time to eat, hit up the city’s iconic Queen Victoria Market."
+        "description": "And so, you reach the end of the Southern Coastal Loop, returning to Melbourne where you began your epic foodie journey. Spend some time in the city you started in but before you head to the airport to return home, there’s one more tasty experience to tick off your list. End on a high by visiting the South Melbourne Market."
       }
     ]
   },

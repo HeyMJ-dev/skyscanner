@@ -1,0 +1,8 @@
+# Ensure the headers module is enabled
+<IfModule mod_headers.c>
+    # Force .gpx files to be downloaded
+    <FilesMatch "\.gpx$">
+        ForceType application/octet-stream
+        Header set Content-Disposition attachment
+    </FilesMatch>
+</IfModule>
