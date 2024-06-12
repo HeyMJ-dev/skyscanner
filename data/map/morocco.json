@@ -24,7 +24,7 @@
       "zoom": 10,
       "image": "assets/image/morocco/1.jpg",
       "restaurant": {
-        "name": "Calentita",
+        "name": "Calentita, Bread",
         "url": "#"
       },
       "stats": {
@@ -38,7 +38,7 @@
       "zoom": 10,
       "image": "assets/image/morocco/2.jpg",
       "restaurant": {
-        "name": "tagine djaj mqualli",
+        "name": "Djaj Mqualli, Tagine",
         "url": "#"
       },
       "stats": {
@@ -66,7 +66,7 @@
       "zoom": 10,
       "image": "assets/image/morocco/4.jpg",
       "restaurant": {
-        "name": "Tagine Kefta, Chebakia",
+        "name": "Kefta Mkawra Tagine",
         "url": "#"
       },
       "stats": {
@@ -80,7 +80,7 @@
       "zoom": 10,
       "image": "assets/image/morocco/5.jpg",
       "restaurant": {
-        "name": "mrouzia, briouats",
+        "name": "Mrouzia, Lamb",
         "url": "#"
       },
       "stats": {
@@ -94,7 +94,7 @@
       "zoom": 10,
       "image": "assets/image/morocco/6.jpg",
       "restaurant": {
-        "name": "Rfissa, khobz",
+        "name": "Khobz, Flatbread",
         "url": "#"
       },
       "stats": {
@@ -108,7 +108,7 @@
       "zoom": 10,
       "image": "assets/image/morocco/7.jpg",
       "restaurant": {
-        "name": "Brochettes",
+        "name": "Brochettes, Meat Skewers",
         "url": "#"
       },
       "stats": {
@@ -122,7 +122,7 @@
       "zoom": 10,
       "image": "assets/image/morocco/8.jpg",
       "restaurant": {
-        "name": "tagine de poisson, harira",
+        "name": "Harira, Tomato Soup",
         "url": "#"
       },
       "stats": {
@@ -136,7 +136,7 @@
       "zoom": 10,
       "image": "assets/image/morocco/9.jpg",
       "restaurant": {
-        "name": "Zaalouk",
+        "name": "Zaalouk, Salad",
         "url": "#"
       },
       "stats": {
@@ -162,8 +162,8 @@
   "pointsWithTranslate": {
     "en": [
       {
-        "title": "Morocoo",
-        "subtitle": "Experience True Morocco Roadtrip",
+        "title": "Morocco",
+        "subtitle": "Experience True Morocco",
         "description": "With a landscape ranging from the rugged Atlas Mountains to the sweeping Sahara Desert, you’ll have plenty to experience on this two week, 1,616km road trip of Morocco. Starting in Tangier to the North, you’ll embark on a culinary odyssey through highlights like historic Marrakesh, romantic Casablanca, and royal Rabat – an adventure your tastebuds will never forget."
       },
       {
@@ -202,7 +202,7 @@
         "description": "Known as the gateway to the Sahara Desert, Ouarzazate is the capital of the Ouarzazate Province. It’s famous for its hilltop location and sprawling Taourirt Kasbah, and has been in many movies including Gladiator. Snap pics from the movie scenes and treat your stomach to Mrouzia (a sweet and savoury lamb tagine) and Briouats (sweet or savoury puff pastry)."
       },
       {
-        "title": "Marrakech",
+        "title": "Marrakesh",
         "subtitle": "",
         "description": "You’re out of the desert and in bustling Marrakech. Beeline to Djemaa El Fna – the vibrant square that’s the beating heart of the city. Trawl round the souks looking for a bargain and take in the views over the Medina at sunset. Don’t miss Bahia Palace and the Secret Garden. Indulge in traditional Rfissa (stewed meat, lentils, and onions on a bed of pastry or bread) and khobz (Moroccan flatbread)."
       },

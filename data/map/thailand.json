@@ -25,7 +25,8 @@
       "image": "assets/image/thailand/1.jpg",
       "restaurant": {
         "name": "Yaowarat Chinatown Market",
-        "url": "#"
+        "url": "#",
+        "location": true
       },
       "stats": {
         "distance": "",
@@ -38,7 +39,7 @@
       "zoom": 10,
       "image": "assets/image/thailand/2.jpg",
       "restaurant": {
-        "name": "Geang Som",
+        "name": "Geang Som, Sour Curry",
         "url": "#"
       },
       "stats": {
@@ -52,7 +53,7 @@
       "zoom": 10,
       "image": "assets/image/thailand/3.jpg",
       "restaurant": {
-        "name": "Kuay Teow Ruea ",
+        "name": "Kuay Teow Reua, Soup",
         "url": "#"
       },
       "stats": {
@@ -66,8 +67,9 @@
       "zoom": 10,
       "image": "assets/image/thailand/4.jpg",
       "restaurant": {
-        "name": "Khao Pad Sapparot at Nan River Night Market",
-        "url": "#"
+        "name": "Night Bazaar",
+        "url": "#",
+        "location": true
       },
       "stats": {
         "distance": "380km",
@@ -94,7 +96,7 @@
       "zoom": 10,
       "image": "assets/image/thailand/6.jpg",
       "restaurant": {
-        "name": "Khao kriap waan",
+        "name": "Khao Kriap Wow, Pancake",
         "url": "#"
       },
       "stats": {
@@ -108,7 +110,7 @@
       "zoom": 10,
       "image": "assets/image/thailand/7.jpg",
       "restaurant": {
-        "name": "Khao Man Gai",
+        "name": "Khao Man Gai, Rice",
         "url": "#"
       },
       "stats": {
@@ -122,7 +124,7 @@
       "zoom": 10,
       "image": "assets/image/thailand/8.jpg",
       "restaurant": {
-        "name": "Khao Chae",
+        "name": "Khao Chae, Rice",
         "url": "#"
       },
       "stats": {
@@ -150,7 +152,7 @@
       "zoom": 10,
       "image": "assets/image/thailand/10.jpg",
       "restaurant": {
-        "name": "Khanom bueang",
+        "name": "Khanom bueang, Crepe",
         "url": "#"
       },
       "stats": {

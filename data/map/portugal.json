@@ -24,7 +24,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/1.jpg",
       "restaurant": {
-        "name": "Pasteis De Nata",
+        "name": "Pasteis De Nata, Tart",
         "url": "#"
       },
       "stats": {
@@ -38,7 +38,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/2.jpg",
       "restaurant": {
-        "name": "Travesseiros",
+        "name": "Travesseiros, Pastry",
         "url": "#"
       },
       "stats": {
@@ -52,7 +52,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/3.jpg",
       "restaurant": {
-        "name": "Arroz De Marisco",
+        "name": "Arroz De Marisco, Rice",
         "url": "#"
       },
       "stats": {
@@ -66,7 +66,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/4.jpg",
       "restaurant": {
-        "name": "Acorda",
+        "name": "Açorda, Bread Soup",
         "url": "#"
       },
       "stats": {
@@ -80,7 +80,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/5.jpg",
       "restaurant": {
-        "name": "Migas",
+        "name": "Migas, Bread Stuffing",
         "url": "#"
       },
       "stats": {
@@ -94,7 +94,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/6.jpg",
       "restaurant": {
-        "name": "Cataplana",
+        "name": "Cataplana, Fish Stew",
         "url": "#"
       },
       "stats": {
@@ -108,7 +108,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/7.jpg",
       "restaurant": {
-        "name": "Figos Cheios",
+        "name": "Figos Cheios, Figs",
         "url": "#"
       },
       "stats": {
@@ -122,7 +122,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/8.jpg",
       "restaurant": {
-        "name": "Arroz Doce",
+        "name": "Arroz Doce, Pudding",
         "url": "#"
       },
       "stats": {
@@ -136,7 +136,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/9.jpg",
       "restaurant": {
-        "name": "Francesinha",
+        "name": "Francesinha, Sandwich",
         "url": "#"
       },
       "stats": {
@@ -150,7 +150,7 @@
       "zoom": 10,
       "image": "assets/image/portugal/10.jpg",
       "restaurant": {
-        "name": "Queijo",
+        "name": "Queijo, Cheese",
         "url": "#"
       },
       "stats": {

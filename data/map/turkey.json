@@ -24,7 +24,7 @@
       "zoom": 10,
       "image": "assets/image/turkey/1.jpg",
       "restaurant": {
-        "name": "Simit",
+        "name": "Simit, Circular Bread",
         "url": "#"
       },
       "stats": {
@@ -52,7 +52,7 @@
       "zoom": 10,
       "image": "assets/image/turkey/3.jpg",
       "restaurant": {
-        "name": "Boyoz",
+        "name": "Boyoz, Pastry",
         "url": "#"
       },
       "stats": {
@@ -66,7 +66,7 @@
       "zoom": 10,
       "image": "assets/image/turkey/4.jpg",
       "restaurant": {
-        "name": "Gozleme",
+        "name": "Gözleme flatbread",
         "url": "#"
       },
       "stats": {
@@ -80,7 +80,7 @@
       "zoom": 10,
       "image": "assets/image/turkey/5.jpg",
       "restaurant": {
-        "name": "Pide",
+        "name": "Pide, Pizza",
         "url": "#"
       },
       "stats": {
@@ -94,7 +94,7 @@
       "zoom": 10,
       "image": "assets/image/turkey/6.jpg",
       "restaurant": {
-        "name": "Piyaz",
+        "name": "Piyaz, Bean Salad",
         "url": "#"
       },
       "stats": {
@@ -108,7 +108,7 @@
       "zoom": 10,
       "image": "assets/image/turkey/7.jpg",
       "restaurant": {
-        "name": "Etli Ekmek",
+        "name": "Etli Ekmek, Pizza",
         "url": "#"
       },
       "stats": {
@@ -136,7 +136,7 @@
       "zoom": 10,
       "image": "assets/image/turkey/9.jpg",
       "restaurant": {
-        "name": "Kuzu Tandir",
+        "name": "Kuzu Tandir, Lamb",
         "url": "#"
       },
       "stats": {
@@ -184,7 +184,7 @@
       {
         "title": "Pamukkale",
         "subtitle": "",
-        "description": "Camera at the ready you’ve landed in Pamukkale. This town in western Turkey is known for its mineral-rich thermal waters which flow down white travertine terraces on a nearby hillside. It’s a sight to behold. Stomach at the ready for Gozleme – a savoury Turkish pancake stuffed with a choice of fillings. Spinach, herbs and cheese is always a favourite."
+        "description": "Camera at the ready you’ve landed in Pamukkale. This town in western Turkey is known for its mineral-rich thermal waters which flow down white travertine terraces on a nearby hillside. It’s a sight to behold. Stomach at the ready for Gozleme – a savoury Turkish flatbread stuffed with a choice of fillings. Spinach, herbs and cheese is always a favourite."
       },
       {
         "title": "Fethiye",
@@ -1241,5 +1241,4 @@
     }
   ],
   "gpx": "assets/gpx/turkey_route.gpx"
-
 }

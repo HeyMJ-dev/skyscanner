@@ -24,7 +24,7 @@
       "zoom": 10,
       "image": "assets/image/spain/1.jpg",
       "restaurant": {
-        "name": "Pintxos (Basque Tapas)",
+        "name": "Pintxos, Tapas",
         "url": "#"
       },
       "stats": {
@@ -38,7 +38,7 @@
       "zoom": 10,
       "image": "assets/image/spain/2.jpg",
       "restaurant": {
-        "name": "Lamb chops roasted over vine cuttings",
+        "name": "Roija-style cod",
         "url": "#"
       },
       "stats": {
@@ -66,7 +66,7 @@
       "zoom": 10,
       "image": "assets/image/spain/4.jpg",
       "restaurant": {
-        "name": "Morcilla de Burgos",
+        "name": "Spanish Black Pudding",
         "url": "#"
       },
       "stats": {
@@ -80,7 +80,7 @@
       "zoom": 10,
       "image": "assets/image/spain/5.jpg",
       "restaurant": {
-        "name": "Cochinillo Asado",
+        "name": "Cochinillo Asado, Pork",
         "url": "#"
       },
       "stats": {
@@ -108,7 +108,7 @@
       "zoom": 10,
       "image": "assets/image/spain/7.jpg",
       "restaurant": {
-        "name": "Hornazo",
+        "name": "Hornazo, Meat Pie",
         "url": "#"
       },
       "stats": {
@@ -122,7 +122,7 @@
       "zoom": 10,
       "image": "assets/image/spain/8.jpg",
       "restaurant": {
-        "name": "Ensalada de Escarola ",
+        "name": "Escarole Salad",
         "url": "#"
       },
       "stats": {
@@ -136,7 +136,7 @@
       "zoom": 10,
       "image": "assets/image/spain/9.jpg",
       "restaurant": {
-        "name": "Chuletón de Ávila",
+        "name": "Chuletón de Ávila, Steak",
         "url": "#"
       },
       "stats": {
@@ -150,7 +150,7 @@
       "zoom": 10,
       "image": "assets/image/spain/10.jpg",
       "restaurant": {
-        "name": "Bacalao",
+        "name": "Bacalao, Cod Stew",
         "url": "#"
       },
       "stats": {
