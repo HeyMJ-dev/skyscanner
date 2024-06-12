@@ -136,6 +136,7 @@ function goToSlide(index) {
 function readMore(event) {
   const parentEl = event.target.parentNode.parentNode;
   parentEl.classList.add("expand")
+  //parentEl.parentNode.classList.remove('white-overlay-2')
 }
 
 
@@ -564,7 +565,7 @@ function readMore(event) {
 .card-location {
 
   .location-description {
-    @apply md:h-[125px] md:max-h-[125px] h-[80px] md:overflow-hidden overflow-auto mb-3 duration-300 relative pb-4 md:pb-0;
+    @apply md:h-[125px] md:max-h-[125px] h-[80px] md:overflow-hidden overflow-auto mb-3 duration-300 relative pb-7;
 
     &.expand {
       @apply overflow-auto;
@@ -586,6 +587,7 @@ function readMore(event) {
     height: 50px;
     background: linear-gradient(180deg, transparent -20%, white 80%);
     z-index: 0;
+    pointer-events: none;
   }
 
   .white-overlay-2::after {
@@ -598,6 +600,7 @@ function readMore(event) {
     height: 40px;
     background: linear-gradient(180deg, transparent -20%, white 80%);
     z-index: 0;
+    pointer-events: none;
   }
 
   @media screen and (max-width: 768px) {

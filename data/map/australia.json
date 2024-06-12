@@ -16,7 +16,7 @@
     {
       "image": "assets/image/australia/0.jpg",
       "steps": 10,
-      "duration": "10"
+      "duration": "12.75"
     },
     {
       "lat": -37.81347126002954,
@@ -24,7 +24,7 @@
       "zoom": 10,
       "image": "assets/image/australia/1.jpg",
       "restaurant": {
-        "name": "Bell Street Fish & Chips",
+        "name": "Queen Victoria Market",
         "url": "#"
       },
       "stats": {
@@ -38,7 +38,7 @@
       "zoom": 10,
       "image": "assets/image/australia/2.jpg",
       "restaurant": {
-        "name": "IPSOS Calamari",
+        "name": "Bell Street Fish & Chips",
         "url": "#"
       },
       "stats": {
@@ -52,7 +52,7 @@
       "zoom": 10,
       "image": "assets/image/australia/3.jpg",
       "restaurant": {
-        "name": "Calamari at IPOS Restaurant and Bar",
+        "name": "IPSOS Calamari",
         "url": "#"
       },
       "stats": {
@@ -224,7 +224,7 @@
       {
         "title": "Melbourne",
         "subtitle": "",
-        "description": "And so, you reach the end of the Southern Coastal Loop, returning to Melbourne where you began your epic foodie journey. Spend some time in the city you started in but before you head to the airport to return home, there’s one more tasty experience to tick off your list. End on a high by visiting the South Melbourne Market."
+        "description": "And so you reach the end of the Southern Coastal Loop, returning to Melbourne where you began your epic foodie journey. Spend some time in the city you started in but before you head to the airport to return home, there’s one more tasty experience to tick off your list. End on a high by visiting the South Melbourne Market."
       }
     ]
   },
