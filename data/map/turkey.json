@@ -24,8 +24,11 @@
       "zoom": 10,
       "image": "assets/image/turkey/1.jpg",
       "restaurant": {
-        "name": "Simit, Circular Bread",
-        "url": "#"
+        "name": "Simit",
+        "url": "#",
+        "addition": {
+          "en" : "Circular Bread"
+        }
       },
       "stats": {
         "distance": "",
@@ -39,7 +42,10 @@
       "image": "assets/image/turkey/2.jpg",
       "restaurant": {
         "name": "Iskender kebab",
-        "url": "#"
+        "url": "#",
+        "addition": {
+          "en" : ""
+        }
       },
       "stats": {
         "distance": "150km",
@@ -52,8 +58,11 @@
       "zoom": 10,
       "image": "assets/image/turkey/3.jpg",
       "restaurant": {
-        "name": "Boyoz, Pastry",
-        "url": "#"
+        "name": "Boyoz",
+        "url": "#",
+        "addition": {
+          "en" : "Pastry"
+        }
       },
       "stats": {
         "distance": "330km",
@@ -66,8 +75,11 @@
       "zoom": 10,
       "image": "assets/image/turkey/4.jpg",
       "restaurant": {
-        "name": "Gözleme flatbread",
-        "url": "#"
+        "name": "Gözleme",
+        "url": "#",
+        "addition": {
+          "en" : "flatbread"
+        }
       },
       "stats": {
         "distance": "200km",
@@ -80,8 +92,11 @@
       "zoom": 10,
       "image": "assets/image/turkey/5.jpg",
       "restaurant": {
-        "name": "Pide, Pizza",
-        "url": "#"
+        "name": "Pide",
+        "url": "#",
+        "addition": {
+          "en" : "Pizza"
+        }
       },
       "stats": {
         "distance": "150km",
@@ -94,8 +109,11 @@
       "zoom": 10,
       "image": "assets/image/turkey/6.jpg",
       "restaurant": {
-        "name": "Piyaz, Bean Salad",
-        "url": "#"
+        "name": "Piyaz",
+        "url": "#",
+        "addition": {
+          "en" : "Bean Salad"
+        }
       },
       "stats": {
         "distance": "200km",
@@ -108,8 +126,11 @@
       "zoom": 10,
       "image": "assets/image/turkey/7.jpg",
       "restaurant": {
-        "name": "Etli Ekmek, Pizza",
-        "url": "#"
+        "name": "Etli Ekmek",
+        "url": "#",
+        "addition": {
+          "en" : "Pizza"
+        }
       },
       "stats": {
         "distance": "250km",
@@ -123,7 +144,10 @@
       "image": "assets/image/turkey/8.jpg",
       "restaurant": {
         "name": "Testi Kebab",
-        "url": "#"
+        "url": "#",
+        "addition": {
+          "en" : ""
+        }
       },
       "stats": {
         "distance": "280km",
@@ -136,8 +160,11 @@
       "zoom": 10,
       "image": "assets/image/turkey/9.jpg",
       "restaurant": {
-        "name": "Kuzu Tandir, Lamb",
-        "url": "#"
+        "name": "Kuzu Tandir",
+        "url": "#",
+        "addition": {
+          "en" : "Lamb"
+        }
       },
       "stats": {
         "distance": "250km",
@@ -151,7 +178,10 @@
       "image": "assets/image/turkey/10.jpg",
       "restaurant": {
         "name": "Doner Kebab",
-        "url": "#"
+        "url": "#",
+        "addition": {
+          "en" : ""
+        }
       },
       "stats": {
         "distance": "450km",

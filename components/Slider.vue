@@ -206,7 +206,7 @@ function readMore(event) {
               </svg>
 
               <div
-                  class="w-full z-10 text-white font-bold flex-1 flex flex-col h-full justify-center pr-14 md:pt-24 pt-8">
+                  class="w-full z-10 text-white font-bold flex-1 flex flex-col h-full justify-center pr-14 md:pr-0 md:pt-24 pt-8">
                 <h2 class="z-10 text-white font-normal text-[30px] leading-[30px] larken">{{ translations[0].subtitle }}</h2>
                 <h1 class="z-10 text-white font-bold text-[60px] leading-[60px]">{{ translations[0].title }} </h1>
 
@@ -321,7 +321,7 @@ function readMore(event) {
                                   fill="#05203C"/>
                             </svg>
                             <span class="text-[#05203C] ml-1">
-                      {{ item.restaurant.name }}
+                      {{ item.restaurant.name }}{{ item.restaurant.addition && item.restaurant.addition[lang] ? ', ' +item.restaurant.addition[lang] : '' }}
                     </span>
                           </template>
                         </div>

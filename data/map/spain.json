@@ -24,8 +24,11 @@
       "zoom": 10,
       "image": "assets/image/spain/1.jpg",
       "restaurant": {
-        "name": "Pintxos, Tapas",
-        "url": "#"
+        "name": "Pintxos",
+        "url": "#",
+        "addition": {
+          "en" : "Tapas"
+        }
       },
       "stats": {
         "distance": "",
@@ -38,8 +41,11 @@
       "zoom": 10,
       "image": "assets/image/spain/2.jpg",
       "restaurant": {
-        "name": "Roija-style cod",
-        "url": "#"
+        "name": "Roija-style",
+        "url": "#",
+        "addition": {
+          "en" : "cod"
+        }
       },
       "stats": {
         "distance": "110km",
@@ -80,8 +86,11 @@
       "zoom": 10,
       "image": "assets/image/spain/5.jpg",
       "restaurant": {
-        "name": "Cochinillo Asado, Pork",
-        "url": "#"
+        "name": "Cochinillo Asado",
+        "url": "#",
+        "addition": {
+          "en" : "Pork"
+        }
       },
       "stats": {
         "distance": "199km",
@@ -108,8 +117,11 @@
       "zoom": 10,
       "image": "assets/image/spain/7.jpg",
       "restaurant": {
-        "name": "Hornazo, Meat Pie",
-        "url": "#"
+        "name": "Hornazo",
+        "url": "#",
+        "addition": {
+          "en" : "Meat Pie"
+        }
       },
       "stats": {
         "distance": "120km",
@@ -122,8 +134,11 @@
       "zoom": 10,
       "image": "assets/image/spain/8.jpg",
       "restaurant": {
-        "name": "Escarole Salad",
-        "url": "#"
+        "name": "Escarole",
+        "url": "#",
+        "addition": {
+          "en" : "Salad"
+        }
       },
       "stats": {
         "distance": "119km",
@@ -136,8 +151,11 @@
       "zoom": 10,
       "image": "assets/image/spain/9.jpg",
       "restaurant": {
-        "name": "Chuletón de Ávila, Steak",
-        "url": "#"
+        "name": "Chuletón de Ávila",
+        "url": "#",
+        "addition": {
+          "en" : "Steak"
+        }
       },
       "stats": {
         "distance": "142km",
@@ -150,8 +168,11 @@
       "zoom": 10,
       "image": "assets/image/spain/10.jpg",
       "restaurant": {
-        "name": "Bacalao, Cod Stew",
-        "url": "#"
+        "name": "Bacalao",
+        "url": "#",
+        "addition": {
+          "en" : "Cod Stew"
+        }
       },
       "stats": {
         "distance": "189.2km",

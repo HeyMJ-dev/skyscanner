@@ -24,8 +24,11 @@
       "zoom": 10,
       "image": "assets/image/morocco/1.jpg",
       "restaurant": {
-        "name": "Calentita, Bread",
-        "url": "#"
+        "name": "Calentita",
+        "url": "#",
+        "addition": {
+          "en" : "Bread"
+        }
       },
       "stats": {
         "distance": "",
@@ -39,7 +42,10 @@
       "image": "assets/image/morocco/2.jpg",
       "restaurant": {
         "name": "Djaj Mqualli, Tagine",
-        "url": "#"
+        "url": "#",
+        "addition": {
+          "en" : ""
+        }
       },
       "stats": {
         "distance": "112km",
@@ -52,8 +58,11 @@
       "zoom": 10,
       "image": "assets/image/morocco/3.jpg",
       "restaurant": {
-        "name": "Pastilla, Snail Soup",
-        "url": "#"
+        "name": "Pastilla",
+        "url": "#",
+        "addition": {
+          "en" : "Snail Soup"
+        }
       },
       "stats": {
         "distance": "197km",
@@ -67,7 +76,10 @@
       "image": "assets/image/morocco/4.jpg",
       "restaurant": {
         "name": "Kefta Mkawra Tagine",
-        "url": "#"
+        "url": "#",
+        "addition": {
+          "en" : ""
+        }
       },
       "stats": {
         "distance": "537km",
@@ -80,8 +92,11 @@
       "zoom": 10,
       "image": "assets/image/morocco/5.jpg",
       "restaurant": {
-        "name": "Mrouzia, Lamb",
-        "url": "#"
+        "name": "Mrouzia",
+        "url": "#",
+        "addition": {
+          "en" : "Lamb"
+        }
       },
       "stats": {
         "distance": "140km",
@@ -94,8 +109,11 @@
       "zoom": 10,
       "image": "assets/image/morocco/6.jpg",
       "restaurant": {
-        "name": "Khobz, Flatbread",
-        "url": "#"
+        "name": "Khobz",
+        "url": "#",
+        "addition": {
+          "en" : "Flatbread"
+        }
       },
       "stats": {
         "distance": "193km",
@@ -108,8 +126,11 @@
       "zoom": 10,
       "image": "assets/image/morocco/7.jpg",
       "restaurant": {
-        "name": "Brochettes, Meat Skewers",
-        "url": "#"
+        "name": "Brochettes",
+        "url": "#",
+        "addition": {
+          "en" : "Meat Skewers"
+        }
       },
       "stats": {
         "distance": "170km",
@@ -122,8 +143,11 @@
       "zoom": 10,
       "image": "assets/image/morocco/8.jpg",
       "restaurant": {
-        "name": "Harira, Tomato Soup",
-        "url": "#"
+        "name": "Harira",
+        "url": "#",
+        "addition": {
+          "en" : "Tomato Soup"
+        }
       },
       "stats": {
         "distance": "84km",
@@ -136,8 +160,11 @@
       "zoom": 10,
       "image": "assets/image/morocco/9.jpg",
       "restaurant": {
-        "name": "Zaalouk, Salad",
-        "url": "#"
+        "name": "Zaalouk",
+        "url": "#",
+        "addition": {
+          "en" : "Salad"
+        }
       },
       "stats": {
         "distance": "87km",
@@ -151,7 +178,10 @@
       "image": "assets/image/morocco/10.jpg",
       "restaurant": {
         "name": "Briouats",
-        "url": "#"
+        "url": "#",
+        "addition": {
+          "en" : ""
+        }
       },
       "stats": {
         "distance": "245km",

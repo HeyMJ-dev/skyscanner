@@ -26,7 +26,10 @@
       "restaurant": {
         "name": "Yaowarat Chinatown Market",
         "url": "#",
-        "location": true
+        "location": true,
+        "addition": {
+          "en" : ""
+        }
       },
       "stats": {
         "distance": "",
@@ -39,8 +42,11 @@
       "zoom": 10,
       "image": "assets/image/thailand/2.jpg",
       "restaurant": {
-        "name": "Geang Som, Sour Curry",
-        "url": "#"
+        "name": "Geang Som",
+        "url": "#",
+        "addition": {
+          "en" : "Sour Curry"
+        }
       },
       "stats": {
         "distance": "130km",
@@ -53,8 +59,11 @@
       "zoom": 10,
       "image": "assets/image/thailand/3.jpg",
       "restaurant": {
-        "name": "Kuay Teow Reua, Soup",
-        "url": "#"
+        "name": "Kuay Teow Reua",
+        "url": "#",
+        "addition": {
+          "en" : "Soup"
+        }
       },
       "stats": {
         "distance": "180km",
@@ -69,6 +78,9 @@
       "restaurant": {
         "name": "Night Bazaar",
         "url": "#",
+        "addition": {
+          "en" : ""
+        },
         "location": true
       },
       "stats": {
@@ -82,8 +94,11 @@
       "zoom": 10,
       "image": "assets/image/thailand/5.jpg",
       "restaurant": {
-        "name": "Sukhothai noodles",
-        "url": "#"
+        "name": "Sukhothai",
+        "url": "#",
+        "addition": {
+          "en" : "noodles"
+        }
       },
       "stats": {
         "distance": "60km",
@@ -96,8 +111,11 @@
       "zoom": 10,
       "image": "assets/image/thailand/6.jpg",
       "restaurant": {
-        "name": "Khao Kriap Wow, Pancake",
-        "url": "#"
+        "name": "Khao Kriap Wow",
+        "url": "#",
+        "addition": {
+          "en" : "Pancake"
+        }
       },
       "stats": {
         "distance": "70km",
@@ -110,8 +128,11 @@
       "zoom": 10,
       "image": "assets/image/thailand/7.jpg",
       "restaurant": {
-        "name": "Khao Man Gai, Rice",
-        "url": "#"
+        "name": "Khao Man Gai",
+        "url": "#",
+        "addition": {
+          "en" : "Rice"
+        }
       },
       "stats": {
         "distance": "180km",
@@ -124,8 +145,11 @@
       "zoom": 10,
       "image": "assets/image/thailand/8.jpg",
       "restaurant": {
-        "name": "Khao Chae, Rice",
-        "url": "#"
+        "name": "Khao Chae",
+        "url": "#",
+        "addition": {
+          "en" : "Rice"
+        }
       },
       "stats": {
         "distance": "150km",
@@ -138,8 +162,11 @@
       "zoom": 10,
       "image": "assets/image/thailand/9.jpg",
       "restaurant": {
-        "name": "Saraburi ice cream",
-        "url": "#"
+        "name": "Saraburi",
+        "url": "#",
+        "addition": {
+          "en" : "ice cream"
+        }
       },
       "stats": {
         "distance": "80km",
@@ -152,8 +179,11 @@
       "zoom": 10,
       "image": "assets/image/thailand/10.jpg",
       "restaurant": {
-        "name": "Khanom bueang, Crepe",
-        "url": "#"
+        "name": "Khanom bueang",
+        "url": "#",
+        "addition": {
+          "en" : "Crepe"
+        }
       },
       "stats": {
         "distance": "120km",

@@ -24,8 +24,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/1.jpg",
       "restaurant": {
-        "name": "Pasteis De Nata, Tart",
-        "url": "#"
+        "name": "Pasteis De Nata",
+        "url": "#",
+        "addition": {
+          "en" : "Tart"
+        }
       },
       "stats": {
         "distance": "",
@@ -38,8 +41,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/2.jpg",
       "restaurant": {
-        "name": "Travesseiros, Pastry",
-        "url": "#"
+        "name": "Travesseiros",
+        "url": "#",
+        "addition": {
+          "en" : "Pastry"
+        }
       },
       "stats": {
         "distance": "30km",
@@ -52,8 +58,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/3.jpg",
       "restaurant": {
-        "name": "Arroz De Marisco, Rice",
-        "url": "#"
+        "name": "Arroz De Marisco",
+        "url": "#",
+        "addition": {
+          "en" : "Rice"
+        }
       },
       "stats": {
         "distance": "20km",
@@ -66,8 +75,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/4.jpg",
       "restaurant": {
-        "name": "Açorda, Bread Soup",
-        "url": "#"
+        "name": "Açorda",
+        "url": "#",
+        "addition": {
+          "en" : "Bread Soup"
+        }
       },
       "stats": {
         "distance": "130km",
@@ -80,8 +92,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/5.jpg",
       "restaurant": {
-        "name": "Migas, Bread Stuffing",
-        "url": "#"
+        "name": "Migas",
+        "url": "#",
+        "addition": {
+          "en" : "Bread Stuffing"
+        }
       },
       "stats": {
         "distance": "140km",
@@ -94,8 +109,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/6.jpg",
       "restaurant": {
-        "name": "Cataplana, Fish Stew",
-        "url": "#"
+        "name": "Cataplana",
+        "url": "#",
+        "addition": {
+          "en" : "Fish Stew"
+        }
       },
       "stats": {
         "distance": "200km",
@@ -108,8 +126,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/7.jpg",
       "restaurant": {
-        "name": "Figos Cheios, Figs",
-        "url": "#"
+        "name": "Figos Cheios",
+        "url": "#",
+        "addition": {
+          "en" : "Figs"
+        }
       },
       "stats": {
         "distance": "50km",
@@ -122,8 +143,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/8.jpg",
       "restaurant": {
-        "name": "Arroz Doce, Pudding",
-        "url": "#"
+        "name": "Arroz Doce",
+        "url": "#",
+        "addition": {
+          "en" : "Pudding"
+        }
       },
       "stats": {
         "distance": "280km",
@@ -136,8 +160,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/9.jpg",
       "restaurant": {
-        "name": "Francesinha, Sandwich",
-        "url": "#"
+        "name": "Francesinha",
+        "url": "#",
+        "addition": {
+          "en" : "Sandwich"
+        }
       },
       "stats": {
         "distance": "120km",
@@ -150,8 +177,11 @@
       "zoom": 10,
       "image": "assets/image/portugal/10.jpg",
       "restaurant": {
-        "name": "Queijo, Cheese",
-        "url": "#"
+        "name": "Queijo",
+        "url": "#",
+        "addition": {
+          "en" : "Cheese"
+        }
       },
       "stats": {
         "distance": "310km",
